@@ -1,0 +1,15 @@
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+ & \multicolumn{2}{c}{VL-4B} & \multicolumn{2}{c}{VL-8B} & \multicolumn{2}{c}{3.5-4B} & \multicolumn{2}{c}{3.5-9B} & \multicolumn{2}{c}{3.5-27B} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}
+Condition & acc & cos & acc & cos & acc & cos & acc & cos & acc & cos \\
+\midrule
+forward wording & 97 & 1.00 & 98 & 1.00 & 98 & 1.00 & 100 & 1.00 & 100 & 1.00 \\
+end-relative, unedited & 5 & 0.85 & 8 & 0.84 & 12 & 0.85 & 15 & 0.91 & 39 & 0.77 \\
+address write only & 67 & 0.95 & 73 & 0.96 & 70 & 0.89 & 63 & 0.93 & 100 & 0.99 \\
+frame write only & 1 & 0.82 & 0 & 0.81 & 0 & 0.82 & 0 & 0.89 & 39 & 0.77 \\
+\rthree{} (both writes) & 98 & 1.00 & 98 & 1.00 & 98 & 0.98 & 100 & 0.99 & 100 & 0.99 \\
+\midrule
+matcher heads & \multicolumn{2}{c}{42} & \multicolumn{2}{c}{122} & \multicolumn{2}{c}{31} & \multicolumn{2}{c}{16} & \multicolumn{2}{c}{73} \\
+\bottomrule
+\end{tabular}

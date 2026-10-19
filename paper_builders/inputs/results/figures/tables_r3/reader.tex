@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+& \multicolumn{2}{c}{image count, held-out (\%)} & \multicolumn{3}{c}{fresh synthetic draw, end-relative (\%)} & \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-6}
+Model / reader & low resolution & $N\geq9$ & failing $N$ & other sets & R³-v1 & MMIU \\
+\midrule
+Qwen3-VL-4B procedural reader & 93 & 88 & 33 & 80 &  & 75 \\
+Qwen3-VL-4B re-calibrated & 100 & 100 & 92 & 84 & 70 & 74 \\
+Qwen3.5-9B procedural reader & 93 & 92 & 18 & 72 &  & 77 \\
+Qwen3.5-9B re-calibrated & 100 & 100 & 73 & 75 & 75 & 77 \\
+\bottomrule
+\end{tabular}

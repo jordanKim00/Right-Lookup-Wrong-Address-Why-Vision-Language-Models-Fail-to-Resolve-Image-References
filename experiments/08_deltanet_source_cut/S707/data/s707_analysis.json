@@ -1,0 +1,28 @@
+{
+ "er_27b": {
+  "pooled": {
+   "ALL_4347": {
+    "Tm": 0.456,
+    "T0": 0.287
+   },
+   "MAT_4347": {
+    "Tm": 0.138,
+    "T0": 0.444
+   },
+   "NONMAT_4347": {
+    "Tm": 0.119,
+    "T0": 0.325
+   },
+   "MAT_ALL": {
+    "Tm": 0.156,
+    "T0": 0.444
+   },
+   "NONMAT_ALL": {
+    "Tm": 0.275,
+    "T0": 0.338
+   }
+  },
+  "END_IN_MATCHERS": false,
+  "END_OUTSIDE_MATCHERS": false
+ }
+}

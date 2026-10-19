@@ -1,0 +1,122 @@
+[
+ {
+  "file": "s709_lm_35_4b_cal.json",
+  "source": "results/r3/s709_lm_35_4b_cal.pt",
+  "bytes": 1103582
+ },
+ {
+  "file": "s709_lm_35_4bw1_cal.json",
+  "source": "results/r3/s709_lm_35_4bw1_cal.pt",
+  "bytes": 1557320
+ },
+ {
+  "file": "s709_lm_35_9b4_cal.json",
+  "source": "results/r3/s709_lm_35_9b4_cal.pt",
+  "bytes": 1915989
+ },
+ {
+  "file": "s709_lm_35_9b_cal.json",
+  "source": "results/r3/s709_lm_35_9b_cal.pt",
+  "bytes": 1753348
+ },
+ {
+  "file": "s709_lm_35_9bw1_cal.json",
+  "source": "results/r3/s709_lm_35_9bw1_cal.pt",
+  "bytes": 2476852
+ },
+ {
+  "file": "s709_lm_4b_cal.json",
+  "source": "results/r3/s709_lm_4b_cal.pt",
+  "bytes": 1072170
+ },
+ {
+  "file": "s709_lm_8b4_cal.json",
+  "source": "results/r3/s709_lm_8b4_cal.pt",
+  "bytes": 1862194
+ },
+ {
+  "file": "s709_lm_8b_cal.json",
+  "source": "results/r3/s709_lm_8b_cal.pt",
+  "bytes": 1706296
+ },
+ {
+  "file": "s709_lm_8bw1_cal.json",
+  "source": "results/r3/s709_lm_8bw1_cal.pt",
+  "bytes": 2394730
+ },
+ {
+  "file": "s709_lm_ivl3_8b_cal.json",
+  "source": "results/r3/s709_lm_ivl3_8b_cal.pt",
+  "bytes": 1496744
+ },
+ {
+  "file": "s709_lm_llov_7b_cal.json",
+  "source": "results/r3/s709_lm_llov_7b_cal.pt",
+  "bytes": 1492760
+ },
+ {
+  "file": "s709_lm_llov_7bw1_cal.json",
+  "source": "results/r3/s709_lm_llov_7bw1_cal.pt",
+  "bytes": 2088730
+ },
+ {
+  "file": "s709_lm_q25_7b_cal.json",
+  "source": "results/r3/s709_lm_q25_7b_cal.pt",
+  "bytes": 1485915
+ },
+ {
+  "file": "s709_r327b_cal.json",
+  "source": "results/r3/s709_r327b_cal.pt",
+  "bytes": 2228693
+ },
+ {
+  "file": "s709_r327bw7_cal.json",
+  "source": "results/r3/s709_r327bw7_cal.pt",
+  "bytes": 3100392
+ },
+ {
+  "file": "s588c_reader_s709_r327b.json",
+  "source": "results/s588c_reader_s709_r327b.pt",
+  "bytes": 4723407
+ },
+ {
+  "file": "s588c_reader_s729_35_4b.json",
+  "source": "results/s588c_reader_s729_35_4b.pt",
+  "bytes": 2342067
+ },
+ {
+  "file": "s588c_reader_s729_35_9b.json",
+  "source": "results/s588c_reader_s729_35_9b.pt",
+  "bytes": 3763429
+ },
+ {
+  "file": "s588c_reader_s729_4b.json",
+  "source": "results/s588c_reader_s729_4b.pt",
+  "bytes": 2339367
+ },
+ {
+  "file": "s588c_reader_s729_8b.json",
+  "source": "results/s588c_reader_s729_8b.pt",
+  "bytes": 3760845
+ },
+ {
+  "file": "s588c_reader_s729_ivl3_8b.json",
+  "source": "results/s588c_reader_s729_ivl3_8b.pt",
+  "bytes": 3279015
+ },
+ {
+  "file": "s588c_reader_s729_llov_7b.json",
+  "source": "results/s588c_reader_s729_llov_7b.pt",
+  "bytes": 3290647
+ },
+ {
+  "file": "s588c_reader_s729_q25_7b.json",
+  "source": "results/s588c_reader_s729_q25_7b.pt",
+  "bytes": 3281552
+ },
+ {
+  "file": "s588c_reader_s729_r327b.json",
+  "source": "results/s588c_reader_s729_r327b.pt",
+  "bytes": 4718498
+ }
+]

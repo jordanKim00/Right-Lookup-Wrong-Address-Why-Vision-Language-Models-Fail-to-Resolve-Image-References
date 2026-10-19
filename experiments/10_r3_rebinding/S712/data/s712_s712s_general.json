@@ -1,0 +1,1605 @@
+{
+ "tag": "s712s",
+ "model": "/models/Qwen3.5-27B",
+ "base": "r327b",
+ "Lb": 3,
+ "stats": {
+  "inputs": 0,
+  "sources": 60,
+  "rebound": 28,
+  "frame": 30,
+  "frame_only": 2
+ },
+ "rows": [
+  {
+   "kind": "END",
+   "N": 3,
+   "si": 0,
+   "k": 1,
+   "j": 3,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 3,
+    "R3V2": 3,
+    "O_ORD_FR": 3
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 1,
+     "t": 3,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 3,
+     "pos": 217
+    }
+   ],
+   "ord_pos": 217,
+   "fw_pos": 221
+  },
+  {
+   "kind": "START",
+   "N": 3,
+   "si": 0,
+   "k": 1,
+   "j": 1,
+   "layout": "first",
+   "word": "from the start",
+   "land": {
+    "NATIVE": 1,
+    "R3V2": 1
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 1,
+     "t": 1,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 3,
+     "pos": 217
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 3,
+   "si": 0,
+   "k": 2,
+   "j": 2,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 3,
+    "R3V2": 2,
+    "O_ORD_FR": 2
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 2,
+     "t": 2,
+     "act": false,
+     "fonly": true,
+     "anchor": "last",
+     "N_hat": 3,
+     "pos": 217
+    }
+   ],
+   "ord_pos": 217,
+   "fw_pos": 221
+  },
+  {
+   "kind": "START",
+   "N": 3,
+   "si": 0,
+   "k": 2,
+   "j": 2,
+   "layout": "first",
+   "word": "from the beginning",
+   "land": {
+    "NATIVE": 2,
+    "R3V2": 2
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 2,
+     "t": 2,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 3,
+     "pos": 217
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 3,
+   "si": 0,
+   "k": 3,
+   "j": 1,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 3,
+    "R3V2": 1,
+    "O_ORD_FR": 1
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 3,
+     "t": 1,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 3,
+     "pos": 217
+    }
+   ],
+   "ord_pos": 217,
+   "fw_pos": 221
+  },
+  {
+   "kind": "START",
+   "N": 3,
+   "si": 0,
+   "k": 3,
+   "j": 3,
+   "layout": "first",
+   "word": "none",
+   "land": {
+    "NATIVE": 3,
+    "R3V2": 3
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 3,
+     "t": 3,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 3,
+     "pos": 217
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 4,
+   "si": 0,
+   "k": 1,
+   "j": 4,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 4,
+    "R3V2": 4,
+    "O_ORD_FR": 4
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 1,
+     "t": 4,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 4,
+     "pos": 283
+    }
+   ],
+   "ord_pos": 283,
+   "fw_pos": 287
+  },
+  {
+   "kind": "START",
+   "N": 4,
+   "si": 0,
+   "k": 1,
+   "j": 1,
+   "layout": "first",
+   "word": "from the start",
+   "land": {
+    "NATIVE": 1,
+    "R3V2": 1
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 1,
+     "t": 1,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 4,
+     "pos": 283
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 4,
+   "si": 0,
+   "k": 2,
+   "j": 3,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 3,
+    "R3V2": 3,
+    "O_ORD_FR": 3
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 2,
+     "t": 3,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 4,
+     "pos": 283
+    }
+   ],
+   "ord_pos": 283,
+   "fw_pos": 287
+  },
+  {
+   "kind": "START",
+   "N": 4,
+   "si": 0,
+   "k": 2,
+   "j": 2,
+   "layout": "first",
+   "word": "from the beginning",
+   "land": {
+    "NATIVE": 2,
+    "R3V2": 2
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 2,
+     "t": 2,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 4,
+     "pos": 283
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 4,
+   "si": 0,
+   "k": 3,
+   "j": 2,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 3,
+    "R3V2": 2,
+    "O_ORD_FR": 2
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 3,
+     "t": 2,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 4,
+     "pos": 283
+    }
+   ],
+   "ord_pos": 283,
+   "fw_pos": 287
+  },
+  {
+   "kind": "START",
+   "N": 4,
+   "si": 0,
+   "k": 3,
+   "j": 3,
+   "layout": "first",
+   "word": "none",
+   "land": {
+    "NATIVE": 3,
+    "R3V2": 3
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 3,
+     "t": 3,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 4,
+     "pos": 283
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 4,
+   "si": 0,
+   "k": 4,
+   "j": 1,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 1,
+    "R3V2": 1,
+    "O_ORD_FR": 1
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 4,
+     "t": 1,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 4,
+     "pos": 283
+    }
+   ],
+   "ord_pos": 283,
+   "fw_pos": 287
+  },
+  {
+   "kind": "START",
+   "N": 4,
+   "si": 0,
+   "k": 4,
+   "j": 4,
+   "layout": "first",
+   "word": "from the start",
+   "land": {
+    "NATIVE": 4,
+    "R3V2": 4
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 4,
+     "t": 4,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 4,
+     "pos": 283
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 6,
+   "si": 0,
+   "k": 1,
+   "j": 6,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 6,
+    "R3V2": 6,
+    "O_ORD_FR": 6
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 1,
+     "t": 6,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 6,
+     "pos": 415
+    }
+   ],
+   "ord_pos": 415,
+   "fw_pos": 419
+  },
+  {
+   "kind": "START",
+   "N": 6,
+   "si": 0,
+   "k": 1,
+   "j": 1,
+   "layout": "first",
+   "word": "from the start",
+   "land": {
+    "NATIVE": 1,
+    "R3V2": 1
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 1,
+     "t": 1,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 6,
+     "pos": 415
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 6,
+   "si": 0,
+   "k": 2,
+   "j": 5,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 5,
+    "R3V2": 5,
+    "O_ORD_FR": 5
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 2,
+     "t": 5,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 6,
+     "pos": 415
+    }
+   ],
+   "ord_pos": 415,
+   "fw_pos": 419
+  },
+  {
+   "kind": "START",
+   "N": 6,
+   "si": 0,
+   "k": 2,
+   "j": 2,
+   "layout": "first",
+   "word": "from the beginning",
+   "land": {
+    "NATIVE": 2,
+    "R3V2": 2
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 2,
+     "t": 2,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 6,
+     "pos": 415
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 6,
+   "si": 0,
+   "k": 3,
+   "j": 4,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 4,
+    "R3V2": 4,
+    "O_ORD_FR": 4
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 3,
+     "t": 4,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 6,
+     "pos": 415
+    }
+   ],
+   "ord_pos": 415,
+   "fw_pos": 419
+  },
+  {
+   "kind": "START",
+   "N": 6,
+   "si": 0,
+   "k": 3,
+   "j": 3,
+   "layout": "first",
+   "word": "none",
+   "land": {
+    "NATIVE": 3,
+    "R3V2": 3
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 3,
+     "t": 3,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 6,
+     "pos": 415
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 6,
+   "si": 0,
+   "k": 4,
+   "j": 3,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 4,
+    "R3V2": 3,
+    "O_ORD_FR": 3
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 4,
+     "t": 3,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 6,
+     "pos": 415
+    }
+   ],
+   "ord_pos": 415,
+   "fw_pos": 419
+  },
+  {
+   "kind": "START",
+   "N": 6,
+   "si": 0,
+   "k": 4,
+   "j": 4,
+   "layout": "first",
+   "word": "from the start",
+   "land": {
+    "NATIVE": 4,
+    "R3V2": 4
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 4,
+     "t": 4,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 6,
+     "pos": 415
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 6,
+   "si": 0,
+   "k": 5,
+   "j": 2,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 2,
+    "R3V2": 2,
+    "O_ORD_FR": 2
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 5,
+     "t": 2,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 6,
+     "pos": 415
+    }
+   ],
+   "ord_pos": 415,
+   "fw_pos": 419
+  },
+  {
+   "kind": "START",
+   "N": 6,
+   "si": 0,
+   "k": 5,
+   "j": 5,
+   "layout": "first",
+   "word": "from the beginning",
+   "land": {
+    "NATIVE": 5,
+    "R3V2": 5
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 5,
+     "t": 5,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 6,
+     "pos": 415
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 6,
+   "si": 0,
+   "k": 6,
+   "j": 1,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 0,
+    "R3V2": 1,
+    "O_ORD_FR": 1
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 6,
+     "t": 1,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 6,
+     "pos": 415
+    }
+   ],
+   "ord_pos": 415,
+   "fw_pos": 419
+  },
+  {
+   "kind": "START",
+   "N": 6,
+   "si": 0,
+   "k": 6,
+   "j": 6,
+   "layout": "first",
+   "word": "none",
+   "land": {
+    "NATIVE": 6,
+    "R3V2": 6
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 6,
+     "t": 6,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 6,
+     "pos": 415
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 8,
+   "si": 0,
+   "k": 1,
+   "j": 8,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 8,
+    "R3V2": 8,
+    "O_ORD_FR": 8
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 1,
+     "t": 8,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 8,
+     "pos": 547
+    }
+   ],
+   "ord_pos": 547,
+   "fw_pos": 551
+  },
+  {
+   "kind": "START",
+   "N": 8,
+   "si": 0,
+   "k": 1,
+   "j": 1,
+   "layout": "first",
+   "word": "from the start",
+   "land": {
+    "NATIVE": 1,
+    "R3V2": 1
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 1,
+     "t": 1,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 8,
+     "pos": 547
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 8,
+   "si": 0,
+   "k": 2,
+   "j": 7,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 6,
+    "R3V2": 7,
+    "O_ORD_FR": 7
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 2,
+     "t": 7,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 8,
+     "pos": 547
+    }
+   ],
+   "ord_pos": 547,
+   "fw_pos": 551
+  },
+  {
+   "kind": "START",
+   "N": 8,
+   "si": 0,
+   "k": 2,
+   "j": 2,
+   "layout": "first",
+   "word": "from the beginning",
+   "land": {
+    "NATIVE": 2,
+    "R3V2": 2
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 2,
+     "t": 2,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 8,
+     "pos": 547
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 8,
+   "si": 0,
+   "k": 3,
+   "j": 6,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 5,
+    "R3V2": 6,
+    "O_ORD_FR": 6
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 3,
+     "t": 6,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 8,
+     "pos": 547
+    }
+   ],
+   "ord_pos": 547,
+   "fw_pos": 551
+  },
+  {
+   "kind": "START",
+   "N": 8,
+   "si": 0,
+   "k": 3,
+   "j": 3,
+   "layout": "first",
+   "word": "none",
+   "land": {
+    "NATIVE": 3,
+    "R3V2": 3
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 3,
+     "t": 3,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 8,
+     "pos": 547
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 8,
+   "si": 0,
+   "k": 4,
+   "j": 5,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 4,
+    "R3V2": 5,
+    "O_ORD_FR": 5
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 4,
+     "t": 5,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 8,
+     "pos": 547
+    }
+   ],
+   "ord_pos": 547,
+   "fw_pos": 551
+  },
+  {
+   "kind": "START",
+   "N": 8,
+   "si": 0,
+   "k": 4,
+   "j": 4,
+   "layout": "first",
+   "word": "from the start",
+   "land": {
+    "NATIVE": 4,
+    "R3V2": 4
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 4,
+     "t": 4,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 8,
+     "pos": 547
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 8,
+   "si": 0,
+   "k": 5,
+   "j": 4,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 4,
+    "R3V2": 4,
+    "O_ORD_FR": 4
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 5,
+     "t": 4,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 8,
+     "pos": 547
+    }
+   ],
+   "ord_pos": 547,
+   "fw_pos": 551
+  },
+  {
+   "kind": "START",
+   "N": 8,
+   "si": 0,
+   "k": 5,
+   "j": 5,
+   "layout": "first",
+   "word": "from the beginning",
+   "land": {
+    "NATIVE": 5,
+    "R3V2": 5
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 5,
+     "t": 5,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 8,
+     "pos": 547
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 8,
+   "si": 0,
+   "k": 6,
+   "j": 3,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 4,
+    "R3V2": 3,
+    "O_ORD_FR": 3
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 6,
+     "t": 3,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 8,
+     "pos": 547
+    }
+   ],
+   "ord_pos": 547,
+   "fw_pos": 551
+  },
+  {
+   "kind": "START",
+   "N": 8,
+   "si": 0,
+   "k": 6,
+   "j": 6,
+   "layout": "first",
+   "word": "none",
+   "land": {
+    "NATIVE": 6,
+    "R3V2": 6
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 6,
+     "t": 6,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 8,
+     "pos": 547
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 8,
+   "si": 0,
+   "k": 7,
+   "j": 2,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 2,
+    "R3V2": 2,
+    "O_ORD_FR": 2
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 7,
+     "t": 2,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 8,
+     "pos": 547
+    }
+   ],
+   "ord_pos": 547,
+   "fw_pos": 551
+  },
+  {
+   "kind": "START",
+   "N": 8,
+   "si": 0,
+   "k": 7,
+   "j": 7,
+   "layout": "first",
+   "word": "from the start",
+   "land": {
+    "NATIVE": 7,
+    "R3V2": 7
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 7,
+     "t": 7,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 8,
+     "pos": 547
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 8,
+   "si": 0,
+   "k": 8,
+   "j": 1,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 1,
+    "R3V2": 1,
+    "O_ORD_FR": 1
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 8,
+     "t": 1,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 8,
+     "pos": 547
+    }
+   ],
+   "ord_pos": 547,
+   "fw_pos": 551
+  },
+  {
+   "kind": "START",
+   "N": 8,
+   "si": 0,
+   "k": 8,
+   "j": 8,
+   "layout": "first",
+   "word": "from the beginning",
+   "land": {
+    "NATIVE": 8,
+    "R3V2": 8
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 8,
+     "t": 8,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 8,
+     "pos": 547
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 9,
+   "si": 0,
+   "k": 1,
+   "j": 9,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 9,
+    "R3V2": 9,
+    "O_ORD_FR": 9
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 1,
+     "t": 9,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 9,
+     "pos": 613
+    }
+   ],
+   "ord_pos": 613,
+   "fw_pos": 617
+  },
+  {
+   "kind": "START",
+   "N": 9,
+   "si": 0,
+   "k": 1,
+   "j": 1,
+   "layout": "first",
+   "word": "from the start",
+   "land": {
+    "NATIVE": 1,
+    "R3V2": 1
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 1,
+     "t": 1,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 9,
+     "pos": 613
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 9,
+   "si": 0,
+   "k": 2,
+   "j": 8,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 8,
+    "R3V2": 8,
+    "O_ORD_FR": 8
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 2,
+     "t": 8,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 9,
+     "pos": 613
+    }
+   ],
+   "ord_pos": 613,
+   "fw_pos": 617
+  },
+  {
+   "kind": "START",
+   "N": 9,
+   "si": 0,
+   "k": 2,
+   "j": 2,
+   "layout": "first",
+   "word": "from the beginning",
+   "land": {
+    "NATIVE": 2,
+    "R3V2": 2
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 2,
+     "t": 2,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 9,
+     "pos": 613
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 9,
+   "si": 0,
+   "k": 3,
+   "j": 7,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 6,
+    "R3V2": 7,
+    "O_ORD_FR": 7
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 3,
+     "t": 7,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 9,
+     "pos": 613
+    }
+   ],
+   "ord_pos": 613,
+   "fw_pos": 617
+  },
+  {
+   "kind": "START",
+   "N": 9,
+   "si": 0,
+   "k": 3,
+   "j": 3,
+   "layout": "first",
+   "word": "none",
+   "land": {
+    "NATIVE": 3,
+    "R3V2": 3
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 3,
+     "t": 3,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 9,
+     "pos": 613
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 9,
+   "si": 0,
+   "k": 4,
+   "j": 6,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 6,
+    "R3V2": 6,
+    "O_ORD_FR": 6
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 4,
+     "t": 6,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 9,
+     "pos": 613
+    }
+   ],
+   "ord_pos": 613,
+   "fw_pos": 617
+  },
+  {
+   "kind": "START",
+   "N": 9,
+   "si": 0,
+   "k": 4,
+   "j": 4,
+   "layout": "first",
+   "word": "from the start",
+   "land": {
+    "NATIVE": 4,
+    "R3V2": 4
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 4,
+     "t": 4,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 9,
+     "pos": 613
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 9,
+   "si": 0,
+   "k": 5,
+   "j": 5,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 6,
+    "R3V2": 1,
+    "O_ORD_FR": 1
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 5,
+     "t": 5,
+     "act": false,
+     "fonly": true,
+     "anchor": "last",
+     "N_hat": 9,
+     "pos": 613
+    }
+   ],
+   "ord_pos": 613,
+   "fw_pos": 617
+  },
+  {
+   "kind": "START",
+   "N": 9,
+   "si": 0,
+   "k": 5,
+   "j": 5,
+   "layout": "first",
+   "word": "from the beginning",
+   "land": {
+    "NATIVE": 1,
+    "R3V2": 1
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 5,
+     "t": 5,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 9,
+     "pos": 613
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 9,
+   "si": 0,
+   "k": 6,
+   "j": 4,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 6,
+    "R3V2": 4,
+    "O_ORD_FR": 4
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 6,
+     "t": 4,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 9,
+     "pos": 613
+    }
+   ],
+   "ord_pos": 613,
+   "fw_pos": 617
+  },
+  {
+   "kind": "START",
+   "N": 9,
+   "si": 0,
+   "k": 6,
+   "j": 6,
+   "layout": "first",
+   "word": "none",
+   "land": {
+    "NATIVE": 6,
+    "R3V2": 6
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 6,
+     "t": 6,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 9,
+     "pos": 613
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 9,
+   "si": 0,
+   "k": 7,
+   "j": 3,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 2,
+    "R3V2": 3,
+    "O_ORD_FR": 3
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 7,
+     "t": 3,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 9,
+     "pos": 613
+    }
+   ],
+   "ord_pos": 613,
+   "fw_pos": 617
+  },
+  {
+   "kind": "START",
+   "N": 9,
+   "si": 0,
+   "k": 7,
+   "j": 7,
+   "layout": "first",
+   "word": "from the start",
+   "land": {
+    "NATIVE": 7,
+    "R3V2": 7
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 7,
+     "t": 7,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 9,
+     "pos": 613
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 9,
+   "si": 0,
+   "k": 8,
+   "j": 2,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 1,
+    "R3V2": 2,
+    "O_ORD_FR": 2
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 8,
+     "t": 2,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 9,
+     "pos": 613
+    }
+   ],
+   "ord_pos": 613,
+   "fw_pos": 617
+  },
+  {
+   "kind": "START",
+   "N": 9,
+   "si": 0,
+   "k": 8,
+   "j": 8,
+   "layout": "first",
+   "word": "from the beginning",
+   "land": {
+    "NATIVE": 8,
+    "R3V2": 8
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 8,
+     "t": 8,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 9,
+     "pos": 613
+    }
+   ]
+  },
+  {
+   "kind": "END",
+   "N": 9,
+   "si": 0,
+   "k": 9,
+   "j": 1,
+   "layout": "first",
+   "word": "last",
+   "land": {
+    "NATIVE": 1,
+    "R3V2": 1,
+    "O_ORD_FR": 1
+   },
+   "wrote": true,
+   "ledger": [
+    {
+     "kh": 9,
+     "t": 1,
+     "act": true,
+     "fonly": false,
+     "anchor": "last",
+     "N_hat": 9,
+     "pos": 613
+    }
+   ],
+   "ord_pos": 613,
+   "fw_pos": 617
+  },
+  {
+   "kind": "START",
+   "N": 9,
+   "si": 0,
+   "k": 9,
+   "j": 9,
+   "layout": "first",
+   "word": "none",
+   "land": {
+    "NATIVE": 9,
+    "R3V2": 9
+   },
+   "wrote": false,
+   "ledger": [
+    {
+     "kh": 9,
+     "t": 9,
+     "act": false,
+     "fonly": false,
+     "anchor": null,
+     "N_hat": 9,
+     "pos": 613
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "s782_27b7": {
+  "tag": "s782_27b7",
+  "N": 7,
+  "n": 80,
+  "agree": {
+   "E5": 0.275,
+   "S": 0.988,
+   "E2": 0.875,
+   "R3": 0.988
+  },
+  "in_menu": {
+   "E5": 1.0,
+   "S": 1.0,
+   "E2": 1.0,
+   "R3": 1.0
+  },
+  "acc": {
+   "E5": {
+    "restricted": 0.2,
+    "free": 0.25
+   },
+   "S": {
+    "restricted": 0.988,
+    "free": 0.975
+   },
+   "E2": {
+    "restricted": 0.875,
+    "free": 0.887
+   },
+   "R3": {
+    "restricted": 0.988,
+    "free": 0.975
+   }
+  },
+  "checks": {
+   "AGREE_E5": false,
+   "AGREE_S": true,
+   "AGREE_E2": false,
+   "AGREE_R3": true,
+   "AGREE_POOLED": false,
+   "IN_MENU": true
+  },
+  "examples": [
+   {
+    "q": "E5",
+    "restricted": "ellipse",
+    "text": "diamond"
+   },
+   {
+    "q": "E5",
+    "restricted": "ellipse",
+    "text": "triangle"
+   },
+   {
+    "q": "E5",
+    "restricted": "ellipse",
+    "text": "star"
+   },
+   {
+    "q": "S",
+    "restricted": "diamond",
+    "text": "square"
+   },
+   {
+    "q": "E2",
+    "restricted": "ellipse",
+    "text": "circle"
+   },
+   {
+    "q": "E2",
+    "restricted": "ellipse",
+    "text": "ring"
+   },
+   {
+    "q": "E2",
+    "restricted": "circle",
+    "text": "star"
+   },
+   {
+    "q": "R3",
+    "restricted": "diamond",
+    "text": "square"
+   }
+  ],
+  "agree_pooled": 0.781
+ },
+ "s782_27b8": {
+  "tag": "s782_27b8",
+  "N": 8,
+  "n": 80,
+  "agree": {
+   "E5": 0.35,
+   "S": 0.975,
+   "E2": 0.738,
+   "R3": 0.975
+  },
+  "in_menu": {
+   "E5": 1.0,
+   "S": 1.0,
+   "E2": 1.0,
+   "R3": 1.0
+  },
+  "acc": {
+   "E5": {
+    "restricted": 0.35,
+    "free": 0.588
+   },
+   "S": {
+    "restricted": 0.988,
+    "free": 0.988
+   },
+   "E2": {
+    "restricted": 0.637,
+    "free": 0.637
+   },
+   "R3": {
+    "restricted": 0.988,
+    "free": 0.988
+   }
+  },
+  "checks": {
+   "AGREE_E5": false,
+   "AGREE_S": true,
+   "AGREE_E2": false,
+   "AGREE_R3": true,
+   "AGREE_POOLED": false,
+   "IN_MENU": true
+  },
+  "examples": [
+   {
+    "q": "E5",
+    "restricted": "diamond",
+    "text": "cross"
+   },
+   {
+    "q": "E5",
+    "restricted": "diamond",
+    "text": "square"
+   },
+   {
+    "q": "E5",
+    "restricted": "diamond",
+    "text": "star"
+   },
+   {
+    "q": "S",
+    "restricted": "diamond",
+    "text": "square"
+   },
+   {
+    "q": "S",
+    "restricted": "diamond",
+    "text": "square"
+   },
+   {
+    "q": "E2",
+    "restricted": "triangle",
+    "text": "ring"
+   },
+   {
+    "q": "E2",
+    "restricted": "triangle",
+    "text": "star"
+   },
+   {
+    "q": "E2",
+    "restricted": "square",
+    "text": "cross"
+   },
+   {
+    "q": "R3",
+    "restricted": "diamond",
+    "text": "square"
+   },
+   {
+    "q": "R3",
+    "restricted": "diamond",
+    "text": "square"
+   }
+  ],
+  "agree_pooled": 0.759
+ }
+}

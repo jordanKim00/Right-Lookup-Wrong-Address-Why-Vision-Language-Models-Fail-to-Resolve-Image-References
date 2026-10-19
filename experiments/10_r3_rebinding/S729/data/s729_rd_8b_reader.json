@@ -1,0 +1,47 @@
+{
+ "tag": "rd_8b",
+ "base": "8b",
+ "old": "s609_8b",
+ "layer": 24,
+ "site": "vend",
+ "res": {
+  "new": {
+   "proc": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "nat": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "low": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "all": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "N10": 1.0
+  },
+  "old": {
+   "proc": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "nat": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "low": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "all": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "N10": 1.0
+  }
+ }
+}

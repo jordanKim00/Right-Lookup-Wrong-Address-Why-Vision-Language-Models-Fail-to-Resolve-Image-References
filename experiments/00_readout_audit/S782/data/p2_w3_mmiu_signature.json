@@ -1,0 +1,44 @@
+{
+ "results/s489_mmiu_fix_489a27b.json": {
+  "items": 458,
+  "errors": 337,
+  "accuracy": 0.26419213973799127,
+  "literal": 0.599406528189911,
+  "literal_chance": 0.25618199802176017,
+  "step": 0.142433234421365,
+  "step_chance": 0.24332344213649826,
+  "literal_by_task": {
+   "face_retrieval": 0.5172413793103449,
+   "handwritten_retrieval": 0.3055555555555556,
+   "image2image_retrieval": 0.42424242424242425,
+   "person_reid": 0.4666666666666667,
+   "vehicle_retrieval": 0.34375,
+   "text2image_retrieval": 0.7555555555555555,
+   "forensic_detection_blink": 0.8297872340425532,
+   "forensic_detection_forgerynet": 0.8936170212765957,
+   "visual_coherence": 0.6129032258064516,
+   "Icon_Question_Answering_with_Spatial_Context": 0.42857142857142855
+  }
+ },
+ "results/s509_mmiu27_509a27b.json": {
+  "items": 458,
+  "errors": 337,
+  "accuracy": 0.26419213973799127,
+  "literal": 0.599406528189911,
+  "literal_chance": 0.25618199802176017,
+  "step": 0.142433234421365,
+  "step_chance": 0.24332344213649826,
+  "literal_by_task": {
+   "face_retrieval": 0.5172413793103449,
+   "handwritten_retrieval": 0.3055555555555556,
+   "image2image_retrieval": 0.42424242424242425,
+   "person_reid": 0.4666666666666667,
+   "vehicle_retrieval": 0.34375,
+   "text2image_retrieval": 0.7555555555555555,
+   "forensic_detection_blink": 0.8297872340425532,
+   "forensic_detection_forgerynet": 0.8936170212765957,
+   "visual_coherence": 0.6129032258064516,
+   "Icon_Question_Answering_with_Spatial_Context": 0.42857142857142855
+  }
+ }
+}

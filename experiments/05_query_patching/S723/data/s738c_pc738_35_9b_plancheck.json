@@ -1,0 +1,34 @@
+{
+ "tag": "pc738_35_9b",
+ "model": "/dev/shm/vlm_models/Qwen3.5-9B",
+ "old": {
+  "read": {
+   "detector": "abs",
+   "binder": "proto:1.2",
+   "count": "last"
+  },
+  "base": "lm_35_9b",
+  "reader": "none"
+ },
+ "new": {
+  "read": {
+   "detector": "abs",
+   "binder": "proto:1.2",
+   "count": "last"
+  },
+  "base": "lm_35_9b4",
+  "reader": "s729_35_9b"
+ },
+ "res": {
+  "S730": {
+   "n": 150,
+   "identical": 150,
+   "diff_examples": []
+  },
+  "S722": {
+   "n": 150,
+   "identical": 150,
+   "diff_examples": []
+  }
+ }
+}

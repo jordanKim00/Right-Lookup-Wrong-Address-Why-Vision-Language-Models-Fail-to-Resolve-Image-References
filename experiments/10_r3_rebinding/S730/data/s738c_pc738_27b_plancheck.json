@@ -1,0 +1,65 @@
+{
+ "tag": "pc738_27b",
+ "model": "/models/Qwen3.5-27B",
+ "old": {
+  "read": {
+   "detector": "margin:.5",
+   "binder": "proto:1.2",
+   "count": "last"
+  },
+  "base": "r327b",
+  "reader": "s729_r327b"
+ },
+ "new": {
+  "read": {
+   "detector": "margin:0.45",
+   "binder": "proto:1.2",
+   "count": "last"
+  },
+  "base": "r327b",
+  "reader": "s729_r327b"
+ },
+ "res": {
+  "S730": {
+   "n": 150,
+   "identical": 150,
+   "diff_examples": []
+  },
+  "S736": {
+   "n": 360,
+   "identical": 360,
+   "diff_examples": []
+  },
+  "S737": {
+   "n": 550,
+   "identical": 497,
+   "diff_examples": [
+    {
+     "old": 7,
+     "new": 5
+    },
+    {
+     "old": 7,
+     "new": 5
+    },
+    {
+     "old": 7,
+     "new": 5
+    },
+    {
+     "old": 7,
+     "new": 5
+    },
+    {
+     "old": 7,
+     "new": 5
+    }
+   ]
+  },
+  "S722": {
+   "n": 150,
+   "identical": 150,
+   "diff_examples": []
+  }
+ }
+}

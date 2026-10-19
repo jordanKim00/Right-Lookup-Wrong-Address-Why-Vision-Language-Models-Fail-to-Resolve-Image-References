@@ -1,0 +1,15 @@
+{
+ "mq_9b": {
+  "n_rescued": 105,
+  "rescued": {
+   "R3_QBACK": 0.952,
+   "R3_GBACK": 0.99,
+   "R3_RBACK": 0.981,
+   "END_QR3": 0.61,
+   "END_GR3": 0.0,
+   "END_RR3": 0.076
+  },
+  "MEDIATION_NECESSARY": false,
+  "MEDIATION_SUFFICIENT": true
+ }
+}

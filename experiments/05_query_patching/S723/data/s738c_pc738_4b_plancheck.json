@@ -1,0 +1,29 @@
+{
+ "tag": "pc738_4b",
+ "model": "/dev/shm/vlm_models/Qwen3-VL-4B-Instruct",
+ "old": {
+  "read": {
+   "detector": "v1",
+   "binder": "v1_gate",
+   "count": "last"
+  },
+  "base": "lm_4b",
+  "reader": "none"
+ },
+ "new": {
+  "read": {
+   "detector": "v1",
+   "binder": "v1_gate",
+   "count": "last"
+  },
+  "base": "lm_4b",
+  "reader": "s729_4b"
+ },
+ "res": {
+  "S730": {
+   "n": 150,
+   "identical": 150,
+   "diff_examples": []
+  }
+ }
+}

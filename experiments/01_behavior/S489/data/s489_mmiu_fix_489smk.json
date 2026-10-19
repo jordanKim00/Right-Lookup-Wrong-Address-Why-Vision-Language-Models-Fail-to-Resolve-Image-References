@@ -1,0 +1,623 @@
+{
+ "res": {
+  "skipped_N_gt_9": {},
+  "face_retrieval": {
+   "acc": {
+    "F": 1.0,
+    "E": 1.0,
+    "R": 0.0,
+    "R2Q": 1.0
+   },
+   "p_conv": 1.0,
+   "n": 2
+  },
+  "handwritten_retrieval": {
+   "acc": {
+    "F": 0.0,
+    "E": 0.0,
+    "R": 0.0,
+    "R2Q": 0.0
+   },
+   "p_conv": 1.0,
+   "n": 2
+  },
+  "image2image_retrieval": {
+   "acc": {
+    "F": 1.0,
+    "E": 1.0,
+    "R": 0.5,
+    "R2Q": 1.0
+   },
+   "p_conv": 1.0,
+   "n": 2
+  },
+  "person_reid": {
+   "acc": {
+    "F": 1.0,
+    "E": 1.0,
+    "R": 0.5,
+    "R2Q": 1.0
+   },
+   "p_conv": 1.0,
+   "n": 2
+  },
+  "vehicle_retrieval": {
+   "acc": {
+    "F": 1.0,
+    "E": 0.5,
+    "R": 0.0,
+    "R2Q": 0.5
+   },
+   "p_conv": 1.0,
+   "n": 2
+  },
+  "sketch2image_retrieval": {
+   "acc": {
+    "F": 1.0,
+    "E": 1.0,
+    "R": 0.5,
+    "R2Q": 1.0
+   },
+   "p_conv": 0.5,
+   "n": 2
+  },
+  "text2image_retrieval": {
+   "acc": {
+    "F": 1.0,
+    "E": 1.0,
+    "R": 0.0,
+    "R2Q": 0.5
+   },
+   "p_conv": 0.5,
+   "n": 2
+  },
+  "forensic_detection_blink": {
+   "acc": {
+    "F": 0.5,
+    "E": 0.5,
+    "R": 0.0,
+    "R2Q": 0.5
+   },
+   "p_conv": 0.5,
+   "n": 2
+  },
+  "forensic_detection_forgerynet": {
+   "acc": {
+    "F": 1.0,
+    "E": 1.0,
+    "R": 0.0,
+    "R2Q": 0.5
+   },
+   "p_conv": 0.5,
+   "n": 2
+  },
+  "visual_coherence": {
+   "acc": {
+    "F": 0.0,
+    "E": 0.0,
+    "R": 0.0,
+    "R2Q": 0.0
+   },
+   "p_conv": 0.0,
+   "n": 2
+  },
+  "Icon_Question_Answering_with_Spatial_Context": {
+   "acc": {
+    "F": 1.0,
+    "E": 1.0,
+    "R": 0.5,
+    "R2Q": 1.0
+   },
+   "p_conv": 1.0,
+   "n": 2
+  },
+  "\uc804\uccb4": {
+   "acc": {
+    "F": 0.7727272727272727,
+    "E": 0.7272727272727273,
+    "R": 0.18181818181818182,
+    "R2Q": 0.6363636363636364
+   },
+   "p_conv": 0.7272727272727273,
+   "n": 22
+  }
+ },
+ "rows": [
+  {
+   "task": "face_retrieval",
+   "i": 0,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 1,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 0,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 1,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 0,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 1,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 0,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "person_reid",
+   "i": 1,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 0,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 1,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 0,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 1,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    3,
+    3,
+    4
+   ],
+   "conv_ok": false,
+   "R2Q": "C"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 0,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 1,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    3,
+    3,
+    4
+   ],
+   "conv_ok": false,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 0,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    1,
+    3,
+    3,
+    4
+   ],
+   "conv_ok": false,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 1,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 0,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    3,
+    3,
+    4
+   ],
+   "conv_ok": false,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 1,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 0,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    3,
+    3,
+    4
+   ],
+   "conv_ok": false,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 1,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    3,
+    3,
+    4
+   ],
+   "conv_ok": false,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 0,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 1,
+   "gold": "A",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "A",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "ap_27b": {
+  "pooled": {
+   "FA_ALL": {
+    "Tm": 0.656,
+    "T0": 0.131
+   },
+   "ANC": {
+    "Tm": 0.138,
+    "T0": 0.581
+   },
+   "ANC_PURE": {
+    "Tm": 0.113,
+    "T0": 0.656
+   },
+   "ANC_RAND": {
+    "Tm": 0.094,
+    "T0": 0.7
+   },
+   "ANC_Q": {
+    "Tm": 0.1,
+    "T0": 0.637
+   },
+   "ANC_G": {
+    "Tm": 0.138,
+    "T0": 0.581
+   }
+  },
+  "ref_Tm": 0.819,
+  "unedited_T0": 0.675,
+  "ANCHORS_SET_END": false,
+  "PURE_SUFFICE": true,
+  "END_VIA_MATCHER_Q": false
+ }
+}

@@ -1,0 +1,204 @@
+{
+ "tag": "s835_27b",
+ "n": 550,
+ "n_sig": 458,
+ "acc": {
+  "F": 0.8290909090909091,
+  "R": 0.26181818181818184
+ },
+ "t1": {
+  "F": 0.8563636363636363,
+  "R": 0.8818181818181818
+ },
+ "n_s489": 550,
+ "I0": {
+  "t1_F": 0.8563636363636363,
+  "t1_R": 0.8818181818181818,
+  "items_same_as_s489": 1.0,
+  "s489_rows_found": 1.0,
+  "holds": false
+ },
+ "agree_R_with_s489": 1.0,
+ "all": {
+  "errors": 337,
+  "literal": 0.599406528189911,
+  "literal_chance": 0.25618199802176067,
+  "d_literal": 0.34322453016815035,
+  "ci_literal": [
+   0.29970326409495546,
+   0.38575667655786355
+  ],
+  "step": 0.142433234421365,
+  "step_chance": 0.2433234421364985,
+  "d_step": -0.10089020771513352,
+  "ci_step": [
+   -0.12957467853610288,
+   -0.07319485657764585
+  ],
+  "LIT": "wrong answers read the option ordinal from the start",
+  "STEP": "step signature below chance"
+ },
+ "t1_only": {
+  "errors": 281,
+  "literal": 0.5622775800711743,
+  "literal_chance": 0.24080664294187423,
+  "d_literal": 0.3214709371293001,
+  "ci_literal": [
+   0.2763938315539739,
+   0.3665480427046264
+  ],
+  "step": 0.1601423487544484,
+  "step_chance": 0.2502965599051008,
+  "d_step": -0.09015421115065239,
+  "ci_step": [
+   -0.12099644128113878,
+   -0.05931198102016605
+  ],
+  "LIT": "wrong answers read the option ordinal from the start",
+  "STEP": "step signature below chance"
+ },
+ "extension_100": {
+  "n": 1100,
+  "n_sig": 917,
+  "acc": {
+   "F": 0.8490909090909091,
+   "R": 0.2863636363636364
+  },
+  "t1": {
+   "F": 0.8472727272727273,
+   "R": 0.88
+  },
+  "all": {
+   "errors": 657,
+   "literal": 0.604261796042618,
+   "literal_chance": 0.25621511922881784,
+   "d_literal": 0.34804667681380014,
+   "ci_literal": [
+    0.31709791983764585,
+    0.37848807711821403
+   ],
+   "step": 0.136986301369863,
+   "step_chance": 0.23541349568746828,
+   "d_step": -0.09842719431760527,
+   "ci_step": [
+    -0.1187214611872146,
+    -0.0776255707762557
+   ],
+   "LIT": "wrong answers read the option ordinal from the start",
+   "STEP": "step signature below chance"
+  },
+  "t1_only": {
+   "errors": 543,
+   "literal": 0.5598526703499079,
+   "literal_chance": 0.24063842848373235,
+   "d_literal": 0.3192142418661756,
+   "ci_literal": [
+    0.2848373235113567,
+    0.3529772866789442
+   ],
+   "step": 0.14917127071823205,
+   "step_chance": 0.24125230202578268,
+   "d_step": -0.09208103130755063,
+   "ci_step": [
+    -0.11418047882136281,
+    -0.06936771025168814
+   ],
+   "LIT": "wrong answers read the option ordinal from the start",
+   "STEP": "step signature below chance"
+  }
+ },
+ "literal_by_task": {
+  "Icon_Question_Answering_with_Spatial_Context": {
+   "errors": 7,
+   "literal": 0.42857142857142855
+  },
+  "face_retrieval": {
+   "errors": 29,
+   "literal": 0.5172413793103449
+  },
+  "forensic_detection_blink": {
+   "errors": 47,
+   "literal": 0.8297872340425532
+  },
+  "forensic_detection_forgerynet": {
+   "errors": 47,
+   "literal": 0.8936170212765957
+  },
+  "handwritten_retrieval": {
+   "errors": 36,
+   "literal": 0.3055555555555556
+  },
+  "image2image_retrieval": {
+   "errors": 33,
+   "literal": 0.42424242424242425
+  },
+  "person_reid": {
+   "errors": 30,
+   "literal": 0.4666666666666667
+  },
+  "text2image_retrieval": {
+   "errors": 45,
+   "literal": 0.7555555555555555
+  },
+  "vehicle_retrieval": {
+   "errors": 32,
+   "literal": 0.34375
+  },
+  "visual_coherence": {
+   "errors": 31,
+   "literal": 0.6129032258064516
+  }
+ },
+ "acc_by_task": {
+  "Icon_Question_Answering_with_Spatial_Context": {
+   "n": 8,
+   "F": 1.0,
+   "R": 0.125
+  },
+  "face_retrieval": {
+   "n": 50,
+   "F": 0.98,
+   "R": 0.42
+  },
+  "forensic_detection_blink": {
+   "n": 50,
+   "F": 0.76,
+   "R": 0.06
+  },
+  "forensic_detection_forgerynet": {
+   "n": 50,
+   "F": 0.9,
+   "R": 0.06
+  },
+  "handwritten_retrieval": {
+   "n": 50,
+   "F": 0.62,
+   "R": 0.28
+  },
+  "image2image_retrieval": {
+   "n": 50,
+   "F": 0.74,
+   "R": 0.34
+  },
+  "person_reid": {
+   "n": 50,
+   "F": 0.98,
+   "R": 0.4
+  },
+  "text2image_retrieval": {
+   "n": 50,
+   "F": 0.74,
+   "R": 0.1
+  },
+  "vehicle_retrieval": {
+   "n": 50,
+   "F": 0.8,
+   "R": 0.36
+  },
+  "visual_coherence": {
+   "n": 50,
+   "F": 0.8,
+   "R": 0.38
+  }
+ }
+}

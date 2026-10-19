@@ -1,0 +1,414 @@
+{
+ "s781_27b7": {
+  "tag": "s781_27b7",
+  "N": 7,
+  "n": 40,
+  "checks": {
+   "I0": true,
+   "POS_R3_ALL39": false,
+   "POS_S_ALL39": false,
+   "POS_R3_ALL47": true,
+   "POS_S_ALL47": true,
+   "POS_R3_ALL59": true,
+   "POS_S_ALL59": true,
+   "DONOR_CONTENT": true,
+   "FIXED_PLAN": true,
+   "STABLE_MAP": true
+  },
+  "words": {
+   "E5_A": {
+    "addrB": 0.025,
+    "addrB2": 0.0,
+    "cont": 0.15
+   },
+   "E5_B": {
+    "addrB": 0.125,
+    "addrB2": 0.025,
+    "cont": 0.0
+   },
+   "E5_B2": {
+    "addrB": 0.025,
+    "addrB2": 0.175,
+    "cont": 0.0
+   },
+   "S_B": {
+    "addrB": 1.0,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "S_B2": {
+    "addrB": 0.0,
+    "addrB2": 1.0,
+    "cont": 0.0
+   },
+   "NOOP|E5_B": {
+    "addrB": 0.1,
+    "addrB2": 0.025,
+    "cont": 0.0
+   },
+   "R3_A": {
+    "addrB": 0.0,
+    "addrB2": 0.0,
+    "cont": 0.975
+   },
+   "R3_B": {
+    "addrB": 1.0,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "R3_B2": {
+    "addrB": 0.0,
+    "addrB2": 0.975,
+    "cont": 0.025
+   },
+   "R3fixA_B": {
+    "addrB": 1.0,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "R3fixA_B2": {
+    "addrB": 0.0,
+    "addrB2": 0.975,
+    "cont": 0.025
+   },
+   "E5_B<R3_B:ALL39": {
+    "addrB": 0.225,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "E5_B<R3_A:ALL39": {
+    "addrB": 0.15,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "E5_B<S_B:ALL39": {
+    "addrB": 0.275,
+    "addrB2": 0.025,
+    "cont": 0.0
+   },
+   "E5_B2<R3_B2:ALL39": {
+    "addrB": 0.05,
+    "addrB2": 0.3,
+    "cont": 0.0
+   },
+   "E5_B2<R3_A:ALL39": {
+    "addrB": 0.025,
+    "addrB2": 0.15,
+    "cont": 0.0
+   },
+   "E5_B2<S_B2:ALL39": {
+    "addrB": 0.025,
+    "addrB2": 0.3,
+    "cont": 0.0
+   },
+   "E5_B<R3_B:ALL47": {
+    "addrB": 0.825,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "E5_B<R3_A:ALL47": {
+    "addrB": 0.25,
+    "addrB2": 0.025,
+    "cont": 0.125
+   },
+   "E5_B<S_B:ALL47": {
+    "addrB": 0.8,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "E5_B2<R3_B2:ALL47": {
+    "addrB": 0.025,
+    "addrB2": 0.8,
+    "cont": 0.0
+   },
+   "E5_B2<R3_A:ALL47": {
+    "addrB": 0.025,
+    "addrB2": 0.325,
+    "cont": 0.075
+   },
+   "E5_B2<S_B2:ALL47": {
+    "addrB": 0.025,
+    "addrB2": 0.725,
+    "cont": 0.025
+   },
+   "E5_B<R3_B:ALL59": {
+    "addrB": 0.925,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "E5_B<R3_A:ALL59": {
+    "addrB": 0.075,
+    "addrB2": 0.025,
+    "cont": 0.275
+   },
+   "E5_B<S_B:ALL59": {
+    "addrB": 0.925,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "E5_B2<R3_B2:ALL59": {
+    "addrB": 0.0,
+    "addrB2": 0.85,
+    "cont": 0.025
+   },
+   "E5_B2<R3_A:ALL59": {
+    "addrB": 0.025,
+    "addrB2": 0.225,
+    "cont": 0.15
+   },
+   "E5_B2<S_B2:ALL59": {
+    "addrB": 0.0,
+    "addrB2": 0.725,
+    "cont": 0.05
+   }
+  },
+  "i0": {
+   "noop": 0.975,
+   "R3_B_addr": 1.0,
+   "R3_B2_addr": 0.975
+  },
+  "gains": {
+   "ALL39": {
+    "R3same_B": 0.1,
+    "R3same_B2": 0.125,
+    "Ssame_B": 0.15,
+    "Ssame_B2": 0.125,
+    "R3A_B_addr": 0.025,
+    "R3A_B_cont": 0.0,
+    "R3A_B2_addr": -0.025,
+    "R3A_B2_cont": 0.0
+   },
+   "ALL47": {
+    "R3same_B": 0.7,
+    "R3same_B2": 0.625,
+    "Ssame_B": 0.675,
+    "Ssame_B2": 0.55,
+    "R3A_B_addr": 0.125,
+    "R3A_B_cont": 0.125,
+    "R3A_B2_addr": 0.15,
+    "R3A_B2_cont": 0.075
+   },
+   "ALL59": {
+    "R3same_B": 0.8,
+    "R3same_B2": 0.675,
+    "Ssame_B": 0.8,
+    "Ssame_B2": 0.55,
+    "R3A_B_addr": -0.05,
+    "R3A_B_cont": 0.275,
+    "R3A_B2_addr": 0.05,
+    "R3A_B2_cont": 0.15
+   }
+  },
+  "fixed_plan": {
+   "B": 1.0,
+   "B2": 0.975
+  },
+  "r3_plans_identical_A_B_B2": 0.95
+ },
+ "s781_27b8": {
+  "tag": "s781_27b8",
+  "N": 8,
+  "n": 40,
+  "checks": {
+   "I0": true,
+   "POS_R3_ALL39": false,
+   "POS_S_ALL39": false,
+   "POS_R3_ALL47": true,
+   "POS_S_ALL47": true,
+   "POS_R3_ALL59": true,
+   "POS_S_ALL59": true,
+   "DONOR_CONTENT": true,
+   "FIXED_PLAN": true,
+   "STABLE_MAP": true
+  },
+  "words": {
+   "E5_A": {
+    "addrB": 0.05,
+    "addrB2": 0.0,
+    "cont": 0.325
+   },
+   "E5_B": {
+    "addrB": 0.375,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "E5_B2": {
+    "addrB": 0.05,
+    "addrB2": 0.375,
+    "cont": 0.025
+   },
+   "S_B": {
+    "addrB": 1.0,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "S_B2": {
+    "addrB": 0.0,
+    "addrB2": 1.0,
+    "cont": 0.0
+   },
+   "NOOP|E5_B": {
+    "addrB": 0.375,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "R3_A": {
+    "addrB": 0.025,
+    "addrB2": 0.0,
+    "cont": 0.975
+   },
+   "R3_B": {
+    "addrB": 1.0,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "R3_B2": {
+    "addrB": 0.0,
+    "addrB2": 1.0,
+    "cont": 0.0
+   },
+   "R3fixA_B": {
+    "addrB": 1.0,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "R3fixA_B2": {
+    "addrB": 0.0,
+    "addrB2": 1.0,
+    "cont": 0.0
+   },
+   "E5_B<R3_B:ALL39": {
+    "addrB": 0.375,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "E5_B<R3_A:ALL39": {
+    "addrB": 0.325,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "E5_B<S_B:ALL39": {
+    "addrB": 0.375,
+    "addrB2": 0.0,
+    "cont": 0.025
+   },
+   "E5_B2<R3_B2:ALL39": {
+    "addrB": 0.0,
+    "addrB2": 0.425,
+    "cont": 0.0
+   },
+   "E5_B2<R3_A:ALL39": {
+    "addrB": 0.0,
+    "addrB2": 0.3,
+    "cont": 0.025
+   },
+   "E5_B2<S_B2:ALL39": {
+    "addrB": 0.0,
+    "addrB2": 0.425,
+    "cont": 0.0
+   },
+   "E5_B<R3_B:ALL47": {
+    "addrB": 0.7,
+    "addrB2": 0.0,
+    "cont": 0.025
+   },
+   "E5_B<R3_A:ALL47": {
+    "addrB": 0.15,
+    "addrB2": 0.0,
+    "cont": 0.3
+   },
+   "E5_B<S_B:ALL47": {
+    "addrB": 0.675,
+    "addrB2": 0.0,
+    "cont": 0.025
+   },
+   "E5_B2<R3_B2:ALL47": {
+    "addrB": 0.0,
+    "addrB2": 0.7,
+    "cont": 0.0
+   },
+   "E5_B2<R3_A:ALL47": {
+    "addrB": 0.05,
+    "addrB2": 0.125,
+    "cont": 0.25
+   },
+   "E5_B2<S_B2:ALL47": {
+    "addrB": 0.0,
+    "addrB2": 0.725,
+    "cont": 0.0
+   },
+   "E5_B<R3_B:ALL59": {
+    "addrB": 0.825,
+    "addrB2": 0.0,
+    "cont": 0.0
+   },
+   "E5_B<R3_A:ALL59": {
+    "addrB": 0.1,
+    "addrB2": 0.0,
+    "cont": 0.375
+   },
+   "E5_B<S_B:ALL59": {
+    "addrB": 0.825,
+    "addrB2": 0.025,
+    "cont": 0.0
+   },
+   "E5_B2<R3_B2:ALL59": {
+    "addrB": 0.0,
+    "addrB2": 0.925,
+    "cont": 0.0
+   },
+   "E5_B2<R3_A:ALL59": {
+    "addrB": 0.05,
+    "addrB2": 0.075,
+    "cont": 0.4
+   },
+   "E5_B2<S_B2:ALL59": {
+    "addrB": 0.0,
+    "addrB2": 0.9,
+    "cont": 0.0
+   }
+  },
+  "i0": {
+   "noop": 1.0,
+   "R3_B_addr": 1.0,
+   "R3_B2_addr": 1.0
+  },
+  "gains": {
+   "ALL39": {
+    "R3same_B": 0.0,
+    "R3same_B2": 0.05,
+    "Ssame_B": 0.0,
+    "Ssame_B2": 0.05,
+    "R3A_B_addr": -0.05,
+    "R3A_B_cont": 0.0,
+    "R3A_B2_addr": -0.075,
+    "R3A_B2_cont": 0.0
+   },
+   "ALL47": {
+    "R3same_B": 0.325,
+    "R3same_B2": 0.325,
+    "Ssame_B": 0.3,
+    "Ssame_B2": 0.35,
+    "R3A_B_addr": -0.225,
+    "R3A_B_cont": 0.3,
+    "R3A_B2_addr": -0.25,
+    "R3A_B2_cont": 0.225
+   },
+   "ALL59": {
+    "R3same_B": 0.45,
+    "R3same_B2": 0.55,
+    "Ssame_B": 0.45,
+    "Ssame_B2": 0.525,
+    "R3A_B_addr": -0.275,
+    "R3A_B_cont": 0.375,
+    "R3A_B2_addr": -0.3,
+    "R3A_B2_cont": 0.375
+   }
+  },
+  "fixed_plan": {
+   "B": 1.0,
+   "B2": 1.0
+  },
+  "r3_plans_identical_A_B_B2": 1.0
+ }
+}

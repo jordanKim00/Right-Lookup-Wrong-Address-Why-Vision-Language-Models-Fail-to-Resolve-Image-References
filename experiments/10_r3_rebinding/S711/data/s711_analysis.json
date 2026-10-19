@@ -1,0 +1,25 @@
+{
+ "v2_27b": {
+  "overall": {
+   "NATIVE": 0.613,
+   "O_ORD_FR": 0.975,
+   "R3": 0.917,
+   "R3V2": 0.975
+  },
+  "middle": {
+   "NATIVE": 0.625,
+   "O_ORD_FR": 0.975,
+   "R3": 0.625,
+   "R3V2": 0.975
+  },
+  "other": {
+   "NATIVE": 0.61,
+   "O_ORD_FR": 0.975,
+   "R3": 0.975,
+   "R3V2": 0.975
+  },
+  "V2_FIXES_MIDDLE": true,
+  "V2_NO_HARM": true,
+  "V2_OVERALL": true
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "tag": "m3dv2_27b",
+ "base": "r327b",
+ "v2": true,
+ "det_rule": "abs",
+ "det_param": null,
+ "anchor_scale": 1.0,
+ "rev_style": "end",
+ "sealed": false,
+ "fresh": false,
+ "stats": {
+  "inputs": 1800,
+  "sources": 6590,
+  "rebound": 2109,
+  "frame": 2564,
+  "frame_only": 455
+ }
+}

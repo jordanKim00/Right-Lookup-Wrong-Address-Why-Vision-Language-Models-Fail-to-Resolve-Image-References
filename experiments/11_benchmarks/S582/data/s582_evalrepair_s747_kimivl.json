@@ -1,0 +1,4526 @@
+{
+ "res": {
+  "mmiu_pos|F": {
+   "n": 500,
+   "base": 0.754,
+   "rep": 0.754,
+   "d": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "mmiu_pos|R": {
+   "n": 500,
+   "base": 0.328,
+   "rep": 0.328,
+   "d": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "rows": [
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "C",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "C",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "face_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "C",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "C",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "A",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "A",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "B",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "C",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "B",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "A",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "C",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "C",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "handwritten_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "D",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "D",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "B",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "B",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "C",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "B",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "C",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "image2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "B",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "B",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "A",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "person_reid",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "D",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "D",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "B",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "C",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "C",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "C",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "C",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "B",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "vehicle_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "sketch2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "C",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "D",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "B",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "C",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "D",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "A",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "D",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "text2image_retrieval",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "C",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "D",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "B",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "D",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "forensic_detection_forgerynet",
+   "gold": "C",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "C",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "A",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "C",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "C",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "D",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "C",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "D",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "visual_coherence",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "C",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "C",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "E",
+   "F|base": "E",
+   "F|rep": "E",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "C",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "D",
+   "R|rep": "D"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "D",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "B",
+   "R|rep": "B"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "mmiu_pos",
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "B",
+   "R|rep": "B"
+  }
+ ]
+}

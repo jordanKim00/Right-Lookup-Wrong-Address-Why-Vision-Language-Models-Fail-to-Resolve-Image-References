@@ -1,0 +1,5442 @@
+{
+  "N_variant_identity_admission_detector_code_frame_inventory": [
+    {
+      "AUTO_correct": 26,
+      "N": 5,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 26,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": true,
+      "plan_observed": 26,
+      "scheduled_U_inputs": 26,
+      "variant": "V0",
+      "variant_identity_j_equals_k": false
+    },
+    {
+      "AUTO_correct": 24,
+      "N": 5,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 26,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": true,
+      "plan_observed": 26,
+      "scheduled_U_inputs": 26,
+      "variant": "VP",
+      "variant_identity_j_equals_k": false
+    },
+    {
+      "AUTO_correct": 26,
+      "N": 5,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 26,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": true,
+      "plan_observed": 26,
+      "scheduled_U_inputs": 26,
+      "variant": "VL",
+      "variant_identity_j_equals_k": false
+    },
+    {
+      "AUTO_correct": 19,
+      "N": 5,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 20,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": true,
+      "plan_observed": 20,
+      "scheduled_U_inputs": 20,
+      "variant": "VS",
+      "variant_identity_j_equals_k": false
+    },
+    {
+      "AUTO_correct": 5,
+      "N": 5,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 6,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": true,
+      "plan_observed": 6,
+      "scheduled_U_inputs": 6,
+      "variant": "VS",
+      "variant_identity_j_equals_k": true
+    },
+    {
+      "AUTO_correct": 6,
+      "N": 5,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 6,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": false,
+      "plan_observed": 6,
+      "scheduled_U_inputs": 6,
+      "variant": "V0",
+      "variant_identity_j_equals_k": true
+    },
+    {
+      "AUTO_correct": 5,
+      "N": 5,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 6,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": false,
+      "plan_observed": 6,
+      "scheduled_U_inputs": 6,
+      "variant": "VP",
+      "variant_identity_j_equals_k": true
+    },
+    {
+      "AUTO_correct": 6,
+      "N": 5,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 6,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": false,
+      "plan_observed": 6,
+      "scheduled_U_inputs": 6,
+      "variant": "VL",
+      "variant_identity_j_equals_k": true
+    },
+    {
+      "AUTO_correct": 5,
+      "N": 5,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 6,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": false,
+      "plan_observed": 6,
+      "scheduled_U_inputs": 6,
+      "variant": "VS",
+      "variant_identity_j_equals_k": false
+    },
+    {
+      "AUTO_correct": 32,
+      "N": 6,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 32,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": true,
+      "plan_observed": 32,
+      "scheduled_U_inputs": 32,
+      "variant": "V0",
+      "variant_identity_j_equals_k": false
+    },
+    {
+      "AUTO_correct": 31,
+      "N": 6,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 32,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": true,
+      "plan_observed": 32,
+      "scheduled_U_inputs": 32,
+      "variant": "VP",
+      "variant_identity_j_equals_k": false
+    },
+    {
+      "AUTO_correct": 32,
+      "N": 6,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 32,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": true,
+      "plan_observed": 32,
+      "scheduled_U_inputs": 32,
+      "variant": "VL",
+      "variant_identity_j_equals_k": false
+    },
+    {
+      "AUTO_correct": 32,
+      "N": 6,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 32,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": true,
+      "plan_observed": 32,
+      "scheduled_U_inputs": 32,
+      "variant": "VS",
+      "variant_identity_j_equals_k": false
+    },
+    {
+      "AUTO_correct": 27,
+      "N": 7,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 28,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": true,
+      "plan_observed": 28,
+      "scheduled_U_inputs": 28,
+      "variant": "V0",
+      "variant_identity_j_equals_k": false
+    },
+    {
+      "AUTO_correct": 27,
+      "N": 7,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 28,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": true,
+      "plan_observed": 28,
+      "scheduled_U_inputs": 28,
+      "variant": "VP",
+      "variant_identity_j_equals_k": false
+    },
+    {
+      "AUTO_correct": 27,
+      "N": 7,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 28,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": true,
+      "plan_observed": 28,
+      "scheduled_U_inputs": 28,
+      "variant": "VL",
+      "variant_identity_j_equals_k": false
+    },
+    {
+      "AUTO_correct": 23,
+      "N": 7,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 24,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": true,
+      "plan_observed": 24,
+      "scheduled_U_inputs": 24,
+      "variant": "VS",
+      "variant_identity_j_equals_k": false
+    },
+    {
+      "AUTO_correct": 4,
+      "N": 7,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 4,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": true,
+      "plan_observed": 4,
+      "scheduled_U_inputs": 4,
+      "variant": "VS",
+      "variant_identity_j_equals_k": true
+    },
+    {
+      "AUTO_correct": 3,
+      "N": 7,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 4,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": false,
+      "plan_observed": 4,
+      "scheduled_U_inputs": 4,
+      "variant": "V0",
+      "variant_identity_j_equals_k": true
+    },
+    {
+      "AUTO_correct": 4,
+      "N": 7,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 4,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": false,
+      "plan_observed": 4,
+      "scheduled_U_inputs": 4,
+      "variant": "VP",
+      "variant_identity_j_equals_k": true
+    },
+    {
+      "AUTO_correct": 3,
+      "N": 7,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 4,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": false,
+      "plan_observed": 4,
+      "scheduled_U_inputs": 4,
+      "variant": "VL",
+      "variant_identity_j_equals_k": true
+    },
+    {
+      "AUTO_correct": 4,
+      "N": 7,
+      "code_map_status": "identity_correct",
+      "complete_AUTO_endpoint": 4,
+      "completed_invalid_AUTO_output": 0,
+      "detector_alignment": "gold_unique",
+      "frame_type": "calibrated_end",
+      "missing_AUTO_endpoint": 0,
+      "original_V0_D": false,
+      "plan_observed": 4,
+      "scheduled_U_inputs": 4,
+      "variant": "VS",
+      "variant_identity_j_equals_k": false
+    }
+  ],
+  "U_by_variant": {
+    "V0": {
+      "AUTO_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9479166666666666,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 9941543381119563377,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9791666666666666,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.9791666666666666,
+          0.9791666666666666
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      },
+      "AUTO_minus_BASE_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8229166666666666,
+            0.9479166666666666
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 17697361856808914583,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.8854166666666666,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.8854166666666666,
+          0.8854166666666666
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      },
+      "AUTO_minus_NORMALIZER_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 8380158114121257929,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      },
+      "BASE_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.041666666666666664,
+            0.15625
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 196661898529971192,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.09375,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.09375,
+          0.09375
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      },
+      "NORMALIZER_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9479166666666666,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 4949291665533371752,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9791666666666666,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.9791666666666666,
+          0.9791666666666666
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      },
+      "changed_answer": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8333333333333334,
+            0.9479166666666666
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 1107510677733004900,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.8958333333333334,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.8958333333333334,
+          0.8958333333333334
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      },
+      "harm": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 8609229467077509693,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      },
+      "rescue": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8125,
+            0.9479166666666666
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 133278174854532392,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.8854166666666666,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.8854166666666666,
+          0.8854166666666666
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      }
+    },
+    "VL": {
+      "AUTO_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9479166666666666,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 10995297153748900004,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9791666666666666,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.9791666666666666,
+          0.9791666666666666
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      },
+      "AUTO_minus_BASE_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8229166666666666,
+            0.9479166666666666
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 4136615247981623576,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.8854166666666666,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.8854166666666666,
+          0.8854166666666666
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      },
+      "AUTO_minus_NORMALIZER_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 16372209540835475431,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      },
+      "BASE_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.041666666666666664,
+            0.15625
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 15038273333137057681,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.09375,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.09375,
+          0.09375
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      },
+      "NORMALIZER_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9479166666666666,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 28017536902420297,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9791666666666666,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.9791666666666666,
+          0.9791666666666666
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      },
+      "changed_answer": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8333333333333334,
+            0.9479166666666666
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 6823691205190247381,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.8958333333333334,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.8958333333333334,
+          0.8958333333333334
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      },
+      "harm": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 5121723346387957744,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      },
+      "rescue": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8229166666666666,
+            0.9479166666666666
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 16091030200908621041,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.8854166666666666,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.8854166666666666,
+          0.8854166666666666
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      }
+    },
+    "VP": {
+      "AUTO_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8958333333333334,
+            0.9895833333333334
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 17794463855291715250,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9479166666666666,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.9479166666666666,
+          0.9479166666666666
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      },
+      "AUTO_minus_BASE_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.7708333333333334,
+            0.9166666666666666
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 5107645478539812199,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.84375,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.84375,
+          0.84375
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      },
+      "AUTO_minus_NORMALIZER_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 1519486240687551881,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      },
+      "BASE_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.052083333333333336,
+            0.16666666666666666
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 16684943915228794766,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.10416666666666667,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.10416666666666667,
+          0.10416666666666667
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      },
+      "NORMALIZER_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8958333333333334,
+            0.9895833333333334
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 10632022818191760306,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9479166666666666,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.9479166666666666,
+          0.9479166666666666
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      },
+      "changed_answer": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8020833333333334,
+            0.9375
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 14585441565179011607,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.875,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.875,
+          0.875
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      },
+      "harm": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 4884693974067953247,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      },
+      "rescue": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.7708333333333334,
+            0.9166666666666666
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 10347300152378936371,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.84375,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.84375,
+          0.84375
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      }
+    },
+    "VS": {
+      "AUTO_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9166666666666666,
+            0.9895833333333334
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 1053344325766763473,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9583333333333334,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.9583333333333334,
+          0.9583333333333334
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VS"
+        ]
+      },
+      "AUTO_minus_BASE_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.7916666666666666,
+            0.9270833333333334
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 3740007324086762698,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.8645833333333334,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.8645833333333334,
+          0.8645833333333334
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VS"
+        ]
+      },
+      "AUTO_minus_NORMALIZER_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 3924607757012979584,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VS"
+        ]
+      },
+      "BASE_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.041666666666666664,
+            0.15625
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 4544991023038636039,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.09375,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.09375,
+          0.09375
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VS"
+        ]
+      },
+      "NORMALIZER_accuracy": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9166666666666666,
+            0.9895833333333334
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 7137294008058384962,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9583333333333334,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.9583333333333334,
+          0.9583333333333334
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VS"
+        ]
+      },
+      "changed_answer": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8229166666666666,
+            0.9479166666666666
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 12112863595342852372,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.8854166666666666,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.8854166666666666,
+          0.8854166666666666
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VS"
+        ]
+      },
+      "harm": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 18179844715234224530,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VS"
+        ]
+      },
+      "rescue": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.7916666666666666,
+            0.9270833333333334
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 5507289454192286791,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.8645833333333334,
+        "complete_clusters": 96,
+        "complete_variant_cells": 96,
+        "full_population_missing_bounds": [
+          0.8645833333333334,
+          0.8645833333333334
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 96,
+        "variants_per_cluster": [
+          "VS"
+        ]
+      }
+    }
+  },
+  "V0_copying_diagnostics": {
+    "VL": {
+      "OF": {
+        "copy_V0_j_letter": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.0,
+              0.0
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": true,
+            "derived_seed": 17232436368939546374,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.0,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.0,
+            0.0
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VL"
+          ]
+        },
+        "copy_V0_j_payload": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.9651162790697675,
+              1.0
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 14400993146512750411,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.9883720930232558,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.9883720930232558,
+            0.9883720930232558
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VL"
+          ]
+        },
+        "copy_V0_w_letter": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.11627906976744186,
+              0.27906976744186046
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 16528015146801393939,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.19767441860465115,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.19767441860465115,
+            0.19767441860465115
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VL"
+          ]
+        },
+        "copy_V0_w_payload": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.0,
+              0.0
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": true,
+            "derived_seed": 14601457660172507863,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.0,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.0,
+            0.0
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VL"
+          ]
+        }
+      },
+      "WF": {
+        "copy_V0_j_letter": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.1744186046511628,
+              0.36046511627906974
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 16913221596873800334,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.26744186046511625,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.26744186046511625,
+            0.26744186046511625
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VL"
+          ]
+        },
+        "copy_V0_j_payload": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.0,
+              0.0
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": true,
+            "derived_seed": 14753443862690530063,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.0,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.0,
+            0.0
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VL"
+          ]
+        },
+        "copy_V0_w_letter": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.0,
+              0.0
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": true,
+            "derived_seed": 16775221791599307310,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.0,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.0,
+            0.0
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VL"
+          ]
+        },
+        "copy_V0_w_payload": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.9418604651162791,
+              1.0
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 16476809096044111369,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.9767441860465116,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.9767441860465116,
+            0.9767441860465116
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VL"
+          ]
+        }
+      }
+    },
+    "VP": {
+      "OF": {
+        "copy_V0_j_letter": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.0,
+              0.03488372093023256
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 7181796426221363245,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.011627906976744186,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.011627906976744186,
+            0.011627906976744186
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VP"
+          ]
+        },
+        "copy_V0_j_payload": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.0,
+              0.03488372093023256
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 5006247529034070536,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.011627906976744186,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.011627906976744186,
+            0.011627906976744186
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VP"
+          ]
+        },
+        "copy_V0_w_letter": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.10465116279069768,
+              0.2558139534883721
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 6294818196055482664,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.1744186046511628,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.1744186046511628,
+            0.1744186046511628
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VP"
+          ]
+        },
+        "copy_V0_w_payload": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.10465116279069768,
+              0.2558139534883721
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 5724553665210315241,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.1744186046511628,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.1744186046511628,
+            0.1744186046511628
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VP"
+          ]
+        }
+      },
+      "WF": {
+        "copy_V0_j_letter": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.13953488372093023,
+              0.313953488372093
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 5498017508330084942,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.22093023255813954,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.22093023255813954,
+            0.22093023255813954
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VP"
+          ]
+        },
+        "copy_V0_j_payload": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.13953488372093023,
+              0.313953488372093
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 18182870576753770004,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.22093023255813954,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.22093023255813954,
+            0.22093023255813954
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VP"
+          ]
+        },
+        "copy_V0_w_letter": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.0,
+              0.0
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": true,
+            "derived_seed": 17970548909269980237,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.0,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.0,
+            0.0
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VP"
+          ]
+        },
+        "copy_V0_w_payload": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.0,
+              0.0
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": true,
+            "derived_seed": 4682113451536915746,
+            "draws": 10000,
+            "sample_clusters": 86
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.0,
+          "complete_clusters": 86,
+          "complete_variant_cells": 86,
+          "full_population_missing_bounds": [
+            0.0,
+            0.0
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 86,
+          "scheduled_variant_cells": 86,
+          "variants_per_cluster": [
+            "VP"
+          ]
+        }
+      }
+    }
+  },
+  "accounting": {
+    "absent_records_do_not_imply_unattempted": true,
+    "logical_aliases": 384,
+    "per_arm": {
+      "00": {
+        "aliased_logical": 0,
+        "attempted_logical": 258,
+        "complete": 258,
+        "completed_valid": 258,
+        "recorded": 258,
+        "scheduled": 258
+      },
+      "AUTO": {
+        "aliased_logical": 0,
+        "attempted_logical": 384,
+        "complete": 384,
+        "completed_valid": 384,
+        "recorded": 384,
+        "scheduled": 384
+      },
+      "BASE": {
+        "aliased_logical": 0,
+        "attempted_logical": 384,
+        "complete": 384,
+        "completed_valid": 384,
+        "recorded": 384,
+        "scheduled": 384
+      },
+      "F": {
+        "aliased_logical": 0,
+        "attempted_logical": 258,
+        "complete": 258,
+        "completed_valid": 258,
+        "recorded": 258,
+        "scheduled": 258
+      },
+      "NORMALIZER": {
+        "aliased_logical": 384,
+        "attempted_logical": 384,
+        "complete": 384,
+        "completed_valid": 384,
+        "recorded": 384,
+        "scheduled": 384
+      },
+      "O": {
+        "aliased_logical": 0,
+        "attempted_logical": 258,
+        "complete": 258,
+        "completed_valid": 258,
+        "recorded": 258,
+        "scheduled": 258
+      },
+      "OF": {
+        "aliased_logical": 0,
+        "attempted_logical": 258,
+        "complete": 258,
+        "completed_valid": 258,
+        "recorded": 258,
+        "scheduled": 258
+      },
+      "ORF": {
+        "aliased_logical": 0,
+        "attempted_logical": 258,
+        "complete": 258,
+        "completed_valid": 258,
+        "recorded": 258,
+        "scheduled": 258
+      },
+      "RJF": {
+        "aliased_logical": 0,
+        "attempted_logical": 258,
+        "complete": 258,
+        "completed_valid": 258,
+        "recorded": 258,
+        "scheduled": 258
+      },
+      "RWF": {
+        "aliased_logical": 0,
+        "attempted_logical": 258,
+        "complete": 258,
+        "completed_valid": 258,
+        "recorded": 258,
+        "scheduled": 258
+      },
+      "START-1": {
+        "aliased_logical": 0,
+        "attempted_logical": 267,
+        "complete": 267,
+        "completed_valid": 267,
+        "recorded": 267,
+        "scheduled": 267
+      },
+      "START-2": {
+        "aliased_logical": 0,
+        "attempted_logical": 262,
+        "complete": 262,
+        "completed_valid": 262,
+        "recorded": 262,
+        "scheduled": 262
+      },
+      "START-3": {
+        "aliased_logical": 0,
+        "attempted_logical": 183,
+        "complete": 183,
+        "completed_valid": 183,
+        "recorded": 183,
+        "scheduled": 183
+      },
+      "START-4": {
+        "aliased_logical": 0,
+        "attempted_logical": 205,
+        "complete": 205,
+        "completed_valid": 205,
+        "recorded": 205,
+        "scheduled": 205
+      },
+      "START-5": {
+        "aliased_logical": 0,
+        "attempted_logical": 266,
+        "complete": 266,
+        "completed_valid": 266,
+        "recorded": 266,
+        "scheduled": 266
+      },
+      "START-6": {
+        "aliased_logical": 0,
+        "attempted_logical": 157,
+        "complete": 157,
+        "completed_valid": 157,
+        "recorded": 157,
+        "scheduled": 157
+      },
+      "START-7": {
+        "aliased_logical": 0,
+        "attempted_logical": 76,
+        "complete": 76,
+        "completed_valid": 76,
+        "recorded": 76,
+        "scheduled": 76
+      },
+      "W": {
+        "aliased_logical": 0,
+        "attempted_logical": 258,
+        "complete": 258,
+        "completed_valid": 258,
+        "recorded": 258,
+        "scheduled": 258
+      },
+      "WF": {
+        "aliased_logical": 0,
+        "attempted_logical": 258,
+        "complete": 258,
+        "completed_valid": 258,
+        "recorded": 258,
+        "scheduled": 258
+      }
+    },
+    "recorded_logical_trials": 4890,
+    "scheduled_logical_trials": 4890,
+    "unique_attempted_physical_execution_ids": 4506
+  },
+  "admission": {
+    "D_coverage_bounds_with_unobserved": [
+      0.8958333333333334,
+      0.8958333333333334
+    ],
+    "D_coverage_known": 0.8958333333333334,
+    "counts": {
+      "D": 86,
+      "excluded": 10
+    },
+    "low_precision_D_below24": false,
+    "reasons": {
+      "absent_unsupported_generic_frame": 10,
+      "identity": 10,
+      "missing_creation_witness": 10,
+      "no_write": 10
+    },
+    "upstream_pre_answer_attestations_are_not_verified_by_hashes": true
+  },
+  "analysis_is_not_runtime_or_eligibility_witness_validation": true,
+  "analysis_source_sha256": "c84853ecb07aa5df52d66709bdb7b41d72db9127b616c0bdf49d5c770d4a05af",
+  "co_primary": {
+    "correct_address_OF_minus_RJF_at_current_j": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.9534883720930233,
+          0.996124031007752
+        ],
+        "CI97_5": [
+          0.9496124031007752,
+          0.996124031007752
+        ],
+        "degenerate_cluster_support": false,
+        "derived_seed": 415509124612221374,
+        "draws": 10000,
+        "sample_clusters": 86
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.9767441860465116,
+      "complete_clusters": 86,
+      "complete_variant_cells": 258,
+      "full_population_missing_bounds": [
+        0.9767441860465116,
+        0.9767441860465116
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 86,
+      "scheduled_variant_cells": 258,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL"
+      ]
+    },
+    "wrong_address_WF_minus_RWF_at_current_w": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.9418604651162791,
+          0.9922480620155039
+        ],
+        "CI97_5": [
+          0.937984496124031,
+          0.9922480620155039
+        ],
+        "degenerate_cluster_support": false,
+        "derived_seed": 16175553835170640417,
+        "draws": 10000,
+        "sample_clusters": 86
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.9689922480620154,
+      "complete_clusters": 86,
+      "complete_variant_cells": 258,
+      "full_population_missing_bounds": [
+        0.9689922480620154,
+        0.9689922480620154
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 86,
+      "scheduled_variant_cells": 258,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL"
+      ]
+    }
+  },
+  "conditional_arm_destination_matrix": {
+    "00": {
+      "invalid": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 1489734004159724279,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.011627906976744186
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 15408873402667625177,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.003875968992248062,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.003875968992248062,
+          0.003875968992248062
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "k": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8953488372093024,
+            0.9612403100775194
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 3915547645819170884,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9302325581395349,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.9302325581395349,
+          0.9302325581395349
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "other": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.015503875968992248,
+            0.06589147286821705
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 7484741714882426535,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.03875968992248062,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.03875968992248062,
+          0.03875968992248062
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.031007751937984496
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 11186448101061998972,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.011627906976744186,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.011627906976744186,
+          0.011627906976744186
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "wbar": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.03488372093023256
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 567635364028539675,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.015503875968992248,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.015503875968992248,
+          0.015503875968992248
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      }
+    },
+    "F": {
+      "invalid": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 6043626560552605345,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 2911112563618108626,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "k": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.937984496124031,
+            0.9922480620155039
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 7670415870010881997,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9689922480620154,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.9689922480620154,
+          0.9689922480620154
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "other": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.031007751937984496
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 87900264698066140,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.011627906976744186,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.011627906976744186,
+          0.011627906976744186
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.023255813953488372
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 3122791120862379086,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.007751937984496124,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.007751937984496124,
+          0.007751937984496124
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "wbar": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.031007751937984496
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 10837475923660561665,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.011627906976744186,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.011627906976744186,
+          0.011627906976744186
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      }
+    },
+    "O": {
+      "invalid": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 13059264582005370120,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9069767441860465,
+            0.9767441860465116
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 10976099954232267166,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.945736434108527,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.945736434108527,
+          0.945736434108527
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "k": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.03488372093023256
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 15993356056129061702,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.015503875968992248,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.015503875968992248,
+          0.015503875968992248
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "other": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.003875968992248062,
+            0.03488372093023256
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 4201356005280126742,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.01937984496124031,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.01937984496124031,
+          0.01937984496124031
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.01937984496124031
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 14879345968483354612,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.007751937984496124,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.007751937984496124,
+          0.007751937984496124
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "wbar": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.02713178294573643
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 1449017361792578463,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.011627906976744186,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.011627906976744186,
+          0.011627906976744186
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      }
+    },
+    "OF": {
+      "invalid": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 5224647273708126515,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9534883720930233,
+            0.996124031007752
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 15355277599199563857,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9767441860465116,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.9767441860465116,
+          0.9767441860465116
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "k": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.011627906976744186
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 17361012359031396208,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.003875968992248062,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.003875968992248062,
+          0.003875968992248062
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "other": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.031007751937984496
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 10242163568102327883,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.011627906976744186,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.011627906976744186,
+          0.011627906976744186
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.011627906976744186
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 12843050992363027585,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.003875968992248062,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.003875968992248062,
+          0.003875968992248062
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "wbar": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.011627906976744186
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 3368667111410731496,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.003875968992248062,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.003875968992248062,
+          0.003875968992248062
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      }
+    },
+    "ORF": {
+      "invalid": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 3501536689929591359,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8992248062015503,
+            0.9767441860465116
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 56863072000574067,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9418604651162791,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.9418604651162791,
+          0.9418604651162791
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "k": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.03488372093023256
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 17674527793784598962,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.015503875968992248,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.015503875968992248,
+          0.015503875968992248
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "other": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.003875968992248062,
+            0.05823643410852572
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 3314487285465246881,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.02713178294573643,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.02713178294573643,
+          0.02713178294573643
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.011627906976744186
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 76177656154088588,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.003875968992248062,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.003875968992248062,
+          0.003875968992248062
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "wbar": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.02713178294573643
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 5199664838578799259,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.011627906976744186,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.011627906976744186,
+          0.011627906976744186
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      }
+    },
+    "RJF": {
+      "invalid": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 8022923754443115930,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 13722078749902655707,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "k": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.937984496124031,
+            0.9922480620155039
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 16291269217759232286,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9689922480620154,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.9689922480620154,
+          0.9689922480620154
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "other": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.031007751937984496
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 12813444030198128254,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.011627906976744186,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.011627906976744186,
+          0.011627906976744186
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.023255813953488372
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 12646490865578897817,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.007751937984496124,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.007751937984496124,
+          0.007751937984496124
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "wbar": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.031007751937984496
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 3202746546690933748,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.011627906976744186,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.011627906976744186,
+          0.011627906976744186
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      }
+    },
+    "RWF": {
+      "invalid": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 14435961578568818220,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 7960286668962435332,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "k": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.937984496124031,
+            0.9922480620155039
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 2131979148343382594,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9689922480620154,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.9689922480620154,
+          0.9689922480620154
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "other": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.031007751937984496
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 342378812410703248,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.011627906976744186,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.011627906976744186,
+          0.011627906976744186
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.023255813953488372
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 1388000877726985829,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.007751937984496124,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.007751937984496124,
+          0.007751937984496124
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "wbar": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.031007751937984496
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 251563018654153222,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.011627906976744186,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.011627906976744186,
+          0.011627906976744186
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      }
+    },
+    "W": {
+      "invalid": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 14352718929651776733,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.011627906976744186
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 573673616669957926,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.003875968992248062,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.003875968992248062,
+          0.003875968992248062
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "k": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.007751937984496124,
+            0.050387596899224806
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 5041111468246208849,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.02713178294573643,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.02713178294573643,
+          0.02713178294573643
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "other": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.011627906976744186,
+            0.06589147286821705
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 16268930776728513605,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.03488372093023256,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.03488372093023256,
+          0.03488372093023256
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8837209302325582,
+            0.9573643410852712
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 392926277989195983,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9224806201550387,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.9224806201550387,
+          0.9224806201550387
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "wbar": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.02713178294573643
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 11062513828360016027,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.011627906976744186,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.011627906976744186,
+          0.011627906976744186
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      }
+    },
+    "WF": {
+      "invalid": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 15941297939005208122,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 17635906157303078142,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "k": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.01937984496124031
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 9427155673512435847,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.007751937984496124,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.007751937984496124,
+          0.007751937984496124
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "other": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.023255813953488372
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 16194912427294871847,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.007751937984496124,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.007751937984496124,
+          0.007751937984496124
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9534883720930233,
+            0.996124031007752
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 4496285792703001587,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9767441860465116,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.9767441860465116,
+          0.9767441860465116
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      },
+      "wbar": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.01937984496124031
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 788499420704292642,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.007751937984496124,
+        "complete_clusters": 86,
+        "complete_variant_cells": 258,
+        "full_population_missing_bounds": [
+          0.007751937984496124,
+          0.007751937984496124
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 258,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL"
+        ]
+      }
+    }
+  },
+  "conditional_by_variant": {
+    "V0": {
+      "OF_minus_ORF_at_j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.08139534883720931
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 7383912748728280419,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.03488372093023256,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.03488372093023256,
+          0.03488372093023256
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      },
+      "WF_minus_OF_at_w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9186046511627907,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 12278063486854783677,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9651162790697675,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.9651162790697675,
+          0.9651162790697675
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      },
+      "correct_address_OF_minus_RJF_at_current_j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9651162790697675,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 6807329617203560358,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9883720930232558,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.9883720930232558,
+          0.9883720930232558
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      },
+      "factorial_accuracy_interaction": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.05813953488372093
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 11249945743479881724,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.023255813953488372,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.023255813953488372,
+          0.023255813953488372
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      },
+      "frame_switch_sum": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.011627906976744186,
+            0.09302325581395349
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 10452286494166344572,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.046511627906976744,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.046511627906976744,
+          0.046511627906976744
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      },
+      "frame_switch_term1_WF_w_minus_W_w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.011627906976744186,
+            0.09302325581395349
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 18278984070670914719,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.046511627906976744,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.046511627906976744,
+          0.046511627906976744
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      },
+      "frame_switch_term2_W_wbar_minus_WF_wbar": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 10914924293630455607,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      },
+      "wrong_address_WF_minus_RWF_at_current_w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9069767441860465,
+            0.9883720930232558
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 14964054210051122247,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9534883720930233,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.9534883720930233,
+          0.9534883720930233
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "V0"
+        ]
+      }
+    },
+    "VL": {
+      "OF_minus_ORF_at_j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.08139534883720931
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 12054210089190985297,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.03488372093023256,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.03488372093023256,
+          0.03488372093023256
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      },
+      "WF_minus_OF_at_w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9418604651162791,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 1506951538175501456,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9767441860465116,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.9767441860465116,
+          0.9767441860465116
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      },
+      "correct_address_OF_minus_RJF_at_current_j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9651162790697675,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 3039193062398578946,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9883720930232558,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.9883720930232558,
+          0.9883720930232558
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      },
+      "factorial_accuracy_interaction": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.08139534883720931
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 15903392376558502382,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.03488372093023256,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.03488372093023256,
+          0.03488372093023256
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      },
+      "frame_switch_sum": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.011627906976744186,
+            0.09302325581395349
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 9718437585216881690,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.046511627906976744,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.046511627906976744,
+          0.046511627906976744
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      },
+      "frame_switch_term1_WF_w_minus_W_w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.011627906976744186,
+            0.09302325581395349
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 12228335836062363647,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.046511627906976744,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.046511627906976744,
+          0.046511627906976744
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      },
+      "frame_switch_term2_W_wbar_minus_WF_wbar": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 2477400110478740421,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.0,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.0,
+          0.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      },
+      "wrong_address_WF_minus_RWF_at_current_w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9186046511627907,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 894737096139278773,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9651162790697675,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.9651162790697675,
+          0.9651162790697675
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VL"
+        ]
+      }
+    },
+    "VP": {
+      "OF_minus_ORF_at_j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.08139534883720931
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 12734683675560297230,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.03488372093023256,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.03488372093023256,
+          0.03488372093023256
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      },
+      "WF_minus_OF_at_w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9418604651162791,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 4108723870780050853,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9767441860465116,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.9767441860465116,
+          0.9767441860465116
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      },
+      "correct_address_OF_minus_RJF_at_current_j": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9069767441860465,
+            0.9883720930232558
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 1328421993872245577,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9534883720930233,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.9534883720930233,
+          0.9534883720930233
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      },
+      "factorial_accuracy_interaction": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.011627906976744186,
+            0.09302325581395349
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 17397666641142824821,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.046511627906976744,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.046511627906976744,
+          0.046511627906976744
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      },
+      "frame_switch_sum": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.023255813953488372,
+            0.1511627906976744
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 3301237541661387328,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.08139534883720931,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.08139534883720931,
+          0.08139534883720931
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      },
+      "frame_switch_term1_WF_w_minus_W_w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.023255813953488372,
+            0.12790697674418605
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 16670074659926908763,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.06976744186046512,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.06976744186046512,
+          0.06976744186046512
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      },
+      "frame_switch_term2_W_wbar_minus_WF_wbar": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.0,
+            0.03488372093023256
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 12134365333688447745,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.011627906976744186,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.011627906976744186,
+          0.011627906976744186
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      },
+      "wrong_address_WF_minus_RWF_at_current_w": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9651162790697675,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 13907015965676114697,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9883720930232558,
+        "complete_clusters": 86,
+        "complete_variant_cells": 86,
+        "full_population_missing_bounds": [
+          0.9883720930232558,
+          0.9883720930232558
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 86,
+        "variants_per_cluster": [
+          "VP"
+        ]
+      }
+    }
+  },
+  "data_kind": "caller_observed_metadata",
+  "explicit_START_capability_inputs": {
+    "j": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.9427083333333334,
+          0.9869791666666666
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 8621950571786166661,
+        "draws": 10000,
+        "sample_clusters": 96
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.9661458333333334,
+      "complete_clusters": 96,
+      "complete_variant_cells": 384,
+      "full_population_missing_bounds": [
+        0.9661458333333334,
+        0.9661458333333334
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 96,
+      "scheduled_variant_cells": 384,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL",
+        "VS"
+      ]
+    },
+    "k": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.9348958333333334,
+          0.984375
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 598138197179230757,
+        "draws": 10000,
+        "sample_clusters": 96
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.9609375,
+      "complete_clusters": 96,
+      "complete_variant_cells": 384,
+      "full_population_missing_bounds": [
+        0.9609375,
+        0.9609375
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 96,
+      "scheduled_variant_cells": 384,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL",
+        "VS"
+      ]
+    },
+    "w": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.9401041666666666,
+          0.9921875
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 8104988375422330718,
+        "draws": 10000,
+        "sample_clusters": 96
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.96875,
+      "complete_clusters": 96,
+      "complete_variant_cells": 384,
+      "full_population_missing_bounds": [
+        0.96875,
+        0.96875
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 96,
+      "scheduled_variant_cells": 384,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL",
+        "VS"
+      ]
+    },
+    "wbar": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.9453125,
+          0.9947916666666666
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 9221390874323979454,
+        "draws": 10000,
+        "sample_clusters": 96
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.9739583333333334,
+      "complete_clusters": 96,
+      "complete_variant_cells": 384,
+      "full_population_missing_bounds": [
+        0.9739583333333334,
+        0.9739583333333334
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 96,
+      "scheduled_variant_cells": 384,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL",
+        "VS"
+      ]
+    }
+  },
+  "input_bindings": {
+    "admissions_sha256": "8c70a3e5ceaa15dc999486a54bb3d98428b30bd52fcb4e0eec76c14405d52bef",
+    "analysis_contract_sha256": "b5d23df439ca7ab035a9de8cd87994117a0a7e66ab1cb235da0f5c86902b44ff",
+    "journal_sha256": "f0480d32e9d2dcd75ca7f22120de01f672222672187394df032a9f7abb34328a",
+    "manifest_content_sha256": "47c311ac88d1da2ed4e079404a1626795f92f94f54d58ac92e24c3e0d9ee2f8b",
+    "manifest_file_sha256": "cd80dd0c85824b32b962fa528cbca92393164888d2402a5b8e7f65d9f4190b6a",
+    "schedule_sha256": "de949076f1d7af93cffeb7b8a476181c3d4c208936cb863a379ff09d39a5bba5"
+  },
+  "interpretation_limits": [
+    "no outcome-based admission or favorable cluster refill",
+    "no CI success decision when required pairs/admissions missing",
+    "invalid completed MODEL responses count as zero hits, never as execution missing",
+    "missing-run bounds describe known declared populations, not confidence intervals",
+    "normalizer source/passes/budget equivalence requires actual upstream witness",
+    "all landings are response-implied annotations, not hidden pointers",
+    "unobserved admissions do not establish the full D population",
+    "degenerate bootstrap support is flagged, not population certainty"
+  ],
+  "literal_reflected_mapping": {
+    "O": {
+      "literal": "j",
+      "reflected": "k"
+    },
+    "W": {
+      "literal": "w",
+      "reflected": "wbar"
+    }
+  },
+  "plan_coverage": {
+    "interpretation": "caller-observed detections/admission/post-filter RETURNED writes; not executed-write coverage",
+    "metrics": {
+      "admitted_source": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8463541666666666,
+            0.9401041666666666
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 3481136532165057764,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.8958333333333334,
+        "complete_clusters": 96,
+        "complete_variant_cells": 384,
+        "full_population_missing_bounds": [
+          0.8958333333333334,
+          0.8958333333333334
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 384,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL",
+          "VS"
+        ]
+      },
+      "detected_source": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            1.0,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 4438797404107926521,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 1.0,
+        "complete_clusters": 96,
+        "complete_variant_cells": 384,
+        "full_population_missing_bounds": [
+          1.0,
+          1.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 384,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL",
+          "VS"
+        ]
+      },
+      "returned_frame_write": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            1.0,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 16080851993957935671,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 1.0,
+        "complete_clusters": 96,
+        "complete_variant_cells": 384,
+        "full_population_missing_bounds": [
+          1.0,
+          1.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 384,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL",
+          "VS"
+        ]
+      },
+      "returned_ordinal_write": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.8463541666666666,
+            0.9401041666666666
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 1193128953670158656,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.8958333333333334,
+        "complete_clusters": 96,
+        "complete_variant_cells": 384,
+        "full_population_missing_bounds": [
+          0.8958333333333334,
+          0.8958333333333334
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 384,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL",
+          "VS"
+        ]
+      },
+      "returned_write": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            1.0,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": true,
+          "derived_seed": 14038587301736020400,
+          "draws": 10000,
+          "sample_clusters": 96
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 1.0,
+        "complete_clusters": 96,
+        "complete_variant_cells": 384,
+        "full_population_missing_bounds": [
+          1.0,
+          1.0
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 96,
+        "scheduled_variant_cells": 384,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL",
+          "VS"
+        ]
+      }
+    }
+  },
+  "post_terminal_consumer_provenance": {
+    "analysis_called": true,
+    "analysis_contract_sha256": "b5d23df439ca7ab035a9de8cd87994117a0a7e66ab1cb235da0f5c86902b44ff",
+    "analysis_source_sha256": "c84853ecb07aa5df52d66709bdb7b41d72db9127b616c0bdf49d5c770d4a05af",
+    "bootstrap_draws": 10000,
+    "bootstrap_master_seed": 2026100608,
+    "consumer_source_sha256": "a082fdc0c7e97ab6e5f757b76cbb29dbc274847d8f0fc26a534016941ed9f1ca",
+    "created_UTC": "2026-10-06T21:44:53.333709+00:00",
+    "elapsed_seconds": 41.7666915449081,
+    "limitation": "Frozen statistical API validates supplied records; separate saved-record admission/native-write/endpoint audit remains essential.",
+    "manifest_file_sha256": "cd80dd0c85824b32b962fa528cbca92393164888d2402a5b8e7f65d9f4190b6a",
+    "model_processor_tokenizer_renderer_GPU_calls": 0,
+    "raw_schedule_envelope_fields_removed": [
+      "adapter_sequence",
+      "saved_unix"
+    ],
+    "registered_SID": "R3SEM20261007_4B_002",
+    "registered_SID_bound_to_retained_seal": true,
+    "retained_artifacts": {
+      "admission_barrier.json": {
+        "exists": true,
+        "file_sha256": "88712715800f837ee5de69e88996c5115356a446fcc06af6a55d82b569e4b842"
+      },
+      "admissions.json": {
+        "exists": true,
+        "file_sha256": "f89ebb40cc5bd4f5751a960d080bdd7c59004f851ff0d7e3f6cbc334e4c23d67"
+      },
+      "logical_journal.json": {
+        "exists": true,
+        "file_sha256": "47bd937b0ce1b2c3a496cbf8f0a3e4e741f6572a880a3b56dd1ac3aba27a9302"
+      },
+      "logical_schedule.json": {
+        "exists": true,
+        "file_sha256": "f7634850762e9be4fc189b78bcfd3624e5a698ea734f49525e5f5b2a73ecf002"
+      },
+      "native_banks.json": {
+        "exists": true,
+        "file_sha256": "b4f8ad7eaf374dea6f4a9d7c8404085b9e4448707e554f7c69e0fddb31719811"
+      },
+      "pending_unconditional_journal.json": {
+        "exists": true,
+        "file_sha256": "fa05d9332e6753216d6b028d62b16c3d126045c6b20dc225aaa30a1e1787a2d6"
+      },
+      "pending_unconditional_schedule.json": {
+        "exists": true,
+        "file_sha256": "8f4b722d32f620662d54e3bfa7f3da4eb19bfdda88fea7ffb61417306d4383b7"
+      },
+      "physical_attempts.json": {
+        "exists": true,
+        "file_sha256": "02b83751668d19388fb03e7416228b6d906424d145f2db10a34ac7291b324f73"
+      },
+      "runtime_pin.json": {
+        "exists": true,
+        "file_sha256": "1beb8c218dc42fb962e028c334fce3c7c89936c11236b39d5b02c5d625e31ed0"
+      },
+      "terminal.json": {
+        "exists": true,
+        "file_sha256": "2634632052fce751bf0e0e1b11575981757f629110de782a89a15933450d4e18"
+      }
+    },
+    "saved_native_eligibility_execution_endpoint_audit_certified": false,
+    "schema": "r3_semantic_post_terminal_consumer_v1",
+    "science_seal_file_sha256": "1930cc0aa024e8f04b766063e907204ce2484aa7a2e8c95ccdd2bd1eee011999",
+    "science_seal_registration_validation_error": null,
+    "status": "frozen_10000_draw_analysis_finished_runtime_audit_separate",
+    "study_directory_identity": "retained worker record",
+    "worker_terminal_file_sha256": "1a4ba67511588139056f431c318cfd0f3c5009716567a381fc77feac64f13f7a",
+    "worker_terminal_status": "complete"
+  },
+  "schema": "r3_semantic_analysis_v1_draft_report",
+  "scientific_evidence_certified": false,
+  "secondary": {
+    "OF_minus_ORF_at_j": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.007751937984496124,
+          0.07364341085271317
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 8257256633465635727,
+        "draws": 10000,
+        "sample_clusters": 86
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.03488372093023256,
+      "complete_clusters": 86,
+      "complete_variant_cells": 258,
+      "full_population_missing_bounds": [
+        0.03488372093023256,
+        0.03488372093023256
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 86,
+      "scheduled_variant_cells": 258,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL"
+      ]
+    },
+    "WF_minus_OF_at_w": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.9496124031007752,
+          0.9922480620155039
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 11289972661112638859,
+        "draws": 10000,
+        "sample_clusters": 86
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.9728682170542636,
+      "complete_clusters": 86,
+      "complete_variant_cells": 258,
+      "full_population_missing_bounds": [
+        0.9728682170542636,
+        0.9728682170542636
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 86,
+      "scheduled_variant_cells": 258,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL"
+      ]
+    },
+    "factorial_accuracy_interaction": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.011627906976744186,
+          0.06589147286821705
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 5560770634273562328,
+        "draws": 10000,
+        "sample_clusters": 86
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.03488372093023256,
+      "complete_clusters": 86,
+      "complete_variant_cells": 258,
+      "full_population_missing_bounds": [
+        0.03488372093023256,
+        0.03488372093023256
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 86,
+      "scheduled_variant_cells": 258,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL"
+      ]
+    },
+    "frame_switch_sum": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.02713178294573643,
+          0.09689922480620154
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 7828327086694121027,
+        "draws": 10000,
+        "sample_clusters": 86
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.05813953488372093,
+      "complete_clusters": 86,
+      "complete_variant_cells": 258,
+      "full_population_missing_bounds": [
+        0.05813953488372093,
+        0.05813953488372093
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 86,
+      "scheduled_variant_cells": 258,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL"
+      ]
+    },
+    "frame_switch_term1_WF_w_minus_W_w": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.02713178294573643,
+          0.08527131782945736
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 4954504623306040727,
+        "draws": 10000,
+        "sample_clusters": 86
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.05426356589147286,
+      "complete_clusters": 86,
+      "complete_variant_cells": 258,
+      "full_population_missing_bounds": [
+        0.05426356589147286,
+        0.05426356589147286
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 86,
+      "scheduled_variant_cells": 258,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL"
+      ]
+    },
+    "frame_switch_term2_W_wbar_minus_WF_wbar": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.0,
+          0.011627906976744186
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 12269948978692248537,
+        "draws": 10000,
+        "sample_clusters": 86
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.003875968992248062,
+      "complete_clusters": 86,
+      "complete_variant_cells": 258,
+      "full_population_missing_bounds": [
+        0.003875968992248062,
+        0.003875968992248062
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 86,
+      "scheduled_variant_cells": 258,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL"
+      ]
+    }
+  },
+  "software_contract_file_sha256": "b5d23df439ca7ab035a9de8cd87994117a0a7e66ab1cb235da0f5c86902b44ff",
+  "strata": {
+    "N5": {
+      "D_primary": {
+        "correct_address_OF_minus_RJF_at_current_j": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.9358974358974359,
+              1.0
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 16975681381232890855,
+            "draws": 10000,
+            "sample_clusters": 26
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.9743589743589743,
+          "complete_clusters": 26,
+          "complete_variant_cells": 78,
+          "full_population_missing_bounds": [
+            0.9743589743589743,
+            0.9743589743589743
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 26,
+          "scheduled_variant_cells": 78,
+          "variants_per_cluster": [
+            "V0",
+            "VP",
+            "VL"
+          ]
+        },
+        "wrong_address_WF_minus_RWF_at_current_w": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.8717948717948718,
+              0.9871794871794872
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 1654185803362807443,
+            "draws": 10000,
+            "sample_clusters": 26
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.9358974358974359,
+          "complete_clusters": 26,
+          "complete_variant_cells": 78,
+          "full_population_missing_bounds": [
+            0.9358974358974359,
+            0.9358974358974359
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 26,
+          "scheduled_variant_cells": 78,
+          "variants_per_cluster": [
+            "V0",
+            "VP",
+            "VL"
+          ]
+        }
+      },
+      "U_AUTO_minus_BASE": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.6640625,
+            0.8828125
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 6204214353073207407,
+          "draws": 10000,
+          "sample_clusters": 32
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.78125,
+        "complete_clusters": 32,
+        "complete_variant_cells": 128,
+        "full_population_missing_bounds": [
+          0.78125,
+          0.78125
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 32,
+        "scheduled_variant_cells": 128,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL",
+          "VS"
+        ]
+      }
+    },
+    "N6": {
+      "D_primary": {
+        "correct_address_OF_minus_RJF_at_current_j": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.96875,
+              1.0
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 13740359946028632761,
+            "draws": 10000,
+            "sample_clusters": 32
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.9895833333333334,
+          "complete_clusters": 32,
+          "complete_variant_cells": 96,
+          "full_population_missing_bounds": [
+            0.9895833333333334,
+            0.9895833333333334
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 32,
+          "scheduled_variant_cells": 96,
+          "variants_per_cluster": [
+            "V0",
+            "VP",
+            "VL"
+          ]
+        },
+        "wrong_address_WF_minus_RWF_at_current_w": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              1.0,
+              1.0
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": true,
+            "derived_seed": 6904379154061379435,
+            "draws": 10000,
+            "sample_clusters": 32
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 1.0,
+          "complete_clusters": 32,
+          "complete_variant_cells": 96,
+          "full_population_missing_bounds": [
+            1.0,
+            1.0
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 32,
+          "scheduled_variant_cells": 96,
+          "variants_per_cluster": [
+            "V0",
+            "VP",
+            "VL"
+          ]
+        }
+      },
+      "U_AUTO_minus_BASE": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9765625,
+            1.0
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 10535720297915949089,
+          "draws": 10000,
+          "sample_clusters": 32
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9921875,
+        "complete_clusters": 32,
+        "complete_variant_cells": 128,
+        "full_population_missing_bounds": [
+          0.9921875,
+          0.9921875
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 32,
+        "scheduled_variant_cells": 128,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL",
+          "VS"
+        ]
+      }
+    },
+    "N7": {
+      "D_primary": {
+        "correct_address_OF_minus_RJF_at_current_j": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.9047619047619048,
+              1.0
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 5945365831905390982,
+            "draws": 10000,
+            "sample_clusters": 28
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.9642857142857143,
+          "complete_clusters": 28,
+          "complete_variant_cells": 84,
+          "full_population_missing_bounds": [
+            0.9642857142857143,
+            0.9642857142857143
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 28,
+          "scheduled_variant_cells": 84,
+          "variants_per_cluster": [
+            "V0",
+            "VP",
+            "VL"
+          ]
+        },
+        "wrong_address_WF_minus_RWF_at_current_w": {
+          "all_required_endpoints_observed": true,
+          "bootstrap": {
+            "CI95": [
+              0.9047619047619048,
+              1.0
+            ],
+            "CI97_5": null,
+            "degenerate_cluster_support": false,
+            "derived_seed": 9460208552829143204,
+            "draws": 10000,
+            "sample_clusters": 28
+          },
+          "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+          "complete_cluster_mean": 0.9642857142857143,
+          "complete_clusters": 28,
+          "complete_variant_cells": 84,
+          "full_population_missing_bounds": [
+            0.9642857142857143,
+            0.9642857142857143
+          ],
+          "incomplete_clusters": 0,
+          "population_clusters": 28,
+          "scheduled_variant_cells": 84,
+          "variants_per_cluster": [
+            "V0",
+            "VP",
+            "VL"
+          ]
+        }
+      },
+      "U_AUTO_minus_BASE": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.7421875,
+            0.921875
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 11460628421955354312,
+          "draws": 10000,
+          "sample_clusters": 32
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.8359375,
+        "complete_clusters": 32,
+        "complete_variant_cells": 128,
+        "full_population_missing_bounds": [
+          0.8359375,
+          0.8359375
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 32,
+        "scheduled_variant_cells": 128,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL",
+          "VS"
+        ]
+      }
+    },
+    "original_identity": {
+      "False": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.9156976744186046,
+            0.9709302325581395
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 13185881267992528278,
+          "draws": 10000,
+          "sample_clusters": 86
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.9447674418604651,
+        "complete_clusters": 86,
+        "complete_variant_cells": 344,
+        "full_population_missing_bounds": [
+          0.9447674418604651,
+          0.9447674418604651
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 86,
+        "scheduled_variant_cells": 344,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL",
+          "VS"
+        ]
+      },
+      "True": {
+        "all_required_endpoints_observed": true,
+        "bootstrap": {
+          "CI95": [
+            0.175,
+            0.25
+          ],
+          "CI97_5": null,
+          "degenerate_cluster_support": false,
+          "derived_seed": 6300687412272252273,
+          "draws": 10000,
+          "sample_clusters": 10
+        },
+        "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+        "complete_cluster_mean": 0.225,
+        "complete_clusters": 10,
+        "complete_variant_cells": 40,
+        "full_population_missing_bounds": [
+          0.225,
+          0.225
+        ],
+        "incomplete_clusters": 0,
+        "population_clusters": 10,
+        "scheduled_variant_cells": 40,
+        "variants_per_cluster": [
+          "V0",
+          "VP",
+          "VL",
+          "VS"
+        ]
+      }
+    }
+  },
+  "unconditional": {
+    "AUTO_accuracy": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.9427083333333334,
+          0.9869791666666666
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 5971714970862601777,
+        "draws": 10000,
+        "sample_clusters": 96
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.9661458333333334,
+      "complete_clusters": 96,
+      "complete_variant_cells": 384,
+      "full_population_missing_bounds": [
+        0.9661458333333334,
+        0.9661458333333334
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 96,
+      "scheduled_variant_cells": 384,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL",
+        "VS"
+      ]
+    },
+    "AUTO_minus_BASE_accuracy": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.8151041666666666,
+          0.9192708333333334
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 12997539422054356741,
+        "draws": 10000,
+        "sample_clusters": 96
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.8697916666666666,
+      "complete_clusters": 96,
+      "complete_variant_cells": 384,
+      "full_population_missing_bounds": [
+        0.8697916666666666,
+        0.8697916666666666
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 96,
+      "scheduled_variant_cells": 384,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL",
+        "VS"
+      ]
+    },
+    "AUTO_minus_NORMALIZER_accuracy": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.0,
+          0.0
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": true,
+        "derived_seed": 1836863206740401857,
+        "draws": 10000,
+        "sample_clusters": 96
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.0,
+      "complete_clusters": 96,
+      "complete_variant_cells": 384,
+      "full_population_missing_bounds": [
+        0.0,
+        0.0
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 96,
+      "scheduled_variant_cells": 384,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL",
+        "VS"
+      ]
+    },
+    "BASE_accuracy": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.0546875,
+          0.14322916666666666
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 13864262429282795200,
+        "draws": 10000,
+        "sample_clusters": 96
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.09635416666666667,
+      "complete_clusters": 96,
+      "complete_variant_cells": 384,
+      "full_population_missing_bounds": [
+        0.09635416666666667,
+        0.09635416666666667
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 96,
+      "scheduled_variant_cells": 384,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL",
+        "VS"
+      ]
+    },
+    "NORMALIZER_accuracy": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.9427083333333334,
+          0.9869791666666666
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 8360313630242431735,
+        "draws": 10000,
+        "sample_clusters": 96
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.9661458333333334,
+      "complete_clusters": 96,
+      "complete_variant_cells": 384,
+      "full_population_missing_bounds": [
+        0.9661458333333334,
+        0.9661458333333334
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 96,
+      "scheduled_variant_cells": 384,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL",
+        "VS"
+      ]
+    },
+    "changed_answer": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.8385416666666666,
+          0.9322916666666666
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 6446942306285422748,
+        "draws": 10000,
+        "sample_clusters": 96
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.8880208333333334,
+      "complete_clusters": 96,
+      "complete_variant_cells": 384,
+      "full_population_missing_bounds": [
+        0.8880208333333334,
+        0.8880208333333334
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 96,
+      "scheduled_variant_cells": 384,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL",
+        "VS"
+      ]
+    },
+    "harm": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.0,
+          0.0
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": true,
+        "derived_seed": 8299298017828988677,
+        "draws": 10000,
+        "sample_clusters": 96
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.0,
+      "complete_clusters": 96,
+      "complete_variant_cells": 384,
+      "full_population_missing_bounds": [
+        0.0,
+        0.0
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 96,
+      "scheduled_variant_cells": 384,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL",
+        "VS"
+      ]
+    },
+    "rescue": {
+      "all_required_endpoints_observed": true,
+      "bootstrap": {
+        "CI95": [
+          0.8151041666666666,
+          0.9166666666666666
+        ],
+        "CI97_5": null,
+        "degenerate_cluster_support": false,
+        "derived_seed": 7348909099970945428,
+        "draws": 10000,
+        "sample_clusters": 96
+      },
+      "complete_cluster_estimand": "execution-completeness-dependent subset of pre-answer population; equal cluster weights; all named variants complete; no reweighting observed variants",
+      "complete_cluster_mean": 0.8697916666666666,
+      "complete_clusters": 96,
+      "complete_variant_cells": 384,
+      "full_population_missing_bounds": [
+        0.8697916666666666,
+        0.8697916666666666
+      ],
+      "incomplete_clusters": 0,
+      "population_clusters": 96,
+      "scheduled_variant_cells": 384,
+      "variants_per_cluster": [
+        "V0",
+        "VP",
+        "VL",
+        "VS"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+ "b5_27b": {
+  "I0": true,
+  "selw": 0.467,
+  "noop": 0.983,
+  "n_fail": 87,
+  "P_fail": {
+   "PTR": 0.414,
+   "PTR_C": 0.276,
+   "PTR_M": 0.402,
+   "Q_ONLY": 0.31,
+   "G_ONLY": 0.011,
+   "QG": 0.276
+  },
+  "PTR_RESCUE": false,
+  "COND_CARRIES": true,
+  "MATCHER_SUFFICIENT": true,
+  "QK_ROUTE": true,
+  "GATE_ROUTE": false
+ }
+}

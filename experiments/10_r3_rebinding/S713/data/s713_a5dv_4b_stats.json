@@ -1,0 +1,26 @@
+{
+ "tag": "a5dv_4b",
+ "base": "lm_4b",
+ "assembled": "rc_4b",
+ "choice": {
+  "detector": "v1",
+  "binder": "v1_gate",
+  "count": "last"
+ },
+ "v2": true,
+ "det_rule": "abs",
+ "det_param": null,
+ "anchor_scale": 1.0,
+ "ablate": null,
+ "prompt_mode": "none",
+ "rev_style": "end",
+ "sealed": false,
+ "fresh": false,
+ "stats": {
+  "inputs": 2600,
+  "sources": 6572,
+  "rebound": 2536,
+  "frame": 2983,
+  "frame_only": 447
+ }
+}

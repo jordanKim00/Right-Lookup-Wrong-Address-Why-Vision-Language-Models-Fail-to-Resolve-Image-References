@@ -1,0 +1,75 @@
+{
+ "ref": {
+  "base": 0.344,
+  "forward(normalization)": 0.852
+ },
+ "arms": {
+  "full": {
+   "rep": 0.82,
+   "base": 0.344,
+   "forward_changed": 0.0
+  },
+  "no_ord": {
+   "rep": 0.302,
+   "base": 0.344,
+   "forward_changed": 0.0
+  },
+  "no_frame": {
+   "rep": 0.578,
+   "base": 0.344,
+   "forward_changed": 0.0
+  },
+  "rand_target": {
+   "rep": 0.316,
+   "base": 0.344,
+   "forward_changed": 0.0
+  },
+  "oracle_n": {
+   "rep": 0.826,
+   "base": 0.344,
+   "forward_changed": 0.0
+  },
+  "explain": {
+   "rep": 0.744,
+   "base": 0.426,
+   "forward_changed": 0.0
+  },
+  "twopass": {
+   "rep": 0.824,
+   "base": 0.824,
+   "forward_changed": 0.0
+  }
+ },
+ "latency": {
+  "lat_27b": {
+   "n": 218,
+   "base_ms": 977.2440551335864,
+   "r3_ms": 1464.113345383581,
+   "r3_ms_written": 1955.1017678368391,
+   "r3_ms_unwritten": 973.1249229303228,
+   "tokens": 600.9449541284404,
+   "peak_gib": [
+    15.618051052093506,
+    18.012457370758057,
+    18.23892307281494
+   ]
+  },
+  "lat_4b": {
+   "n": 218,
+   "base_ms": 177.22050251103852,
+   "r3_ms": 269.00108709425126,
+   "r3_ms_written": 353.47117374726395,
+   "r3_ms_unwritten": 198.72765366023233,
+   "tokens": 593.9266055045872,
+   "peak_gib": [
+    8.433922290802002
+   ]
+  }
+ },
+ "checks": {
+  "ABL_ORD_NEEDED": true,
+  "ABL_FRAME_NEEDED": true,
+  "ABL_ADDRESS_SPECIFIC": true,
+  "ABL_READ_OK": true
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "res": {
+  "question|F|train-phr": {
+   "base": 0.975,
+   "rep": 0.975
+  },
+  "question|R|train-phr": {
+   "base": 0.25,
+   "rep": 0.875
+  },
+  "question|R|seal-anchor|from the very end": {
+   "base": 0.25,
+   "rep": 0.25
+  },
+  "question|R|seal-anchor|counting back from the last one": {
+   "base": 0.15,
+   "rep": 0.75
+  },
+  "question|R|seal-anchor|from the far end": {
+   "base": 0.1,
+   "rep": 0.1
+  },
+  "question|R|seal-noanchor|counting from the rear": {
+   "base": 0.15,
+   "rep": 0.15
+  },
+  "question|R|seal-noanchor|in backward order": {
+   "base": 0.1,
+   "rep": 0.1
+  },
+  "question|R|seal-noanchor|going backwards": {
+   "base": 0.2,
+   "rep": 0.2
+  },
+  "question|R|N9": {
+   "base": 0.1,
+   "rep": 0.9
+  },
+  "question|F|N9": {
+   "base": 0.85,
+   "rep": 0.85
+  },
+  "question|R|N10": {
+   "base": 0.3,
+   "rep": 0.75
+  },
+  "question|F|N10": {
+   "base": 0.9,
+   "rep": 0.9
+  },
+  "statement|F|train-phr": {
+   "base": 0.95,
+   "rep": 0.95
+  },
+  "statement|R|train-phr": {
+   "base": 0.4,
+   "rep": 0.85
+  },
+  "statement|R|seal-anchor|from the very end": {
+   "base": 0.4,
+   "rep": 0.4
+  },
+  "statement|R|seal-anchor|counting back from the last one": {
+   "base": 0.25,
+   "rep": 0.6
+  },
+  "statement|R|seal-anchor|from the far end": {
+   "base": 0.15,
+   "rep": 0.15
+  },
+  "statement|R|seal-noanchor|counting from the rear": {
+   "base": 0.15,
+   "rep": 0.15
+  },
+  "statement|R|seal-noanchor|in backward order": {
+   "base": 0.1,
+   "rep": 0.1
+  },
+  "statement|R|seal-noanchor|going backwards": {
+   "base": 0.05,
+   "rep": 0.05
+  },
+  "statement|R|N9": {
+   "base": 0.0,
+   "rep": 0.85
+  },
+  "statement|F|N9": {
+   "base": 0.9,
+   "rep": 0.9
+  },
+  "statement|R|N10": {
+   "base": 0.15,
+   "rep": 0.55
+  },
+  "statement|F|N10": {
+   "base": 0.85,
+   "rep": 0.85
+  },
+  "options|F|train-phr": {
+   "base": 1.0,
+   "rep": 1.0
+  },
+  "options|R|train-phr": {
+   "base": 0.575,
+   "rep": 1.0
+  },
+  "options|R|seal-anchor|from the very end": {
+   "base": 0.3,
+   "rep": 0.75
+  },
+  "options|R|seal-anchor|counting back from the last one": {
+   "base": 0.2,
+   "rep": 1.0
+  },
+  "options|R|seal-anchor|from the far end": {
+   "base": 0.2,
+   "rep": 0.2
+  },
+  "options|R|seal-noanchor|counting from the rear": {
+   "base": 0.3,
+   "rep": 0.3
+  },
+  "options|R|seal-noanchor|in backward order": {
+   "base": 0.2,
+   "rep": 0.2
+  },
+  "options|R|seal-noanchor|going backwards": {
+   "base": 0.25,
+   "rep": 0.25
+  },
+  "options|R|N9": {
+   "base": 0.45,
+   "rep": 0.9
+  },
+  "options|F|N9": {
+   "base": 1.0,
+   "rep": 1.0
+  },
+  "options|R|N10": {
+   "base": 0.15,
+   "rep": 0.9
+  },
+  "options|F|N10": {
+   "base": 1.0,
+   "rep": 1.0
+  },
+  "content|2AFC": {
+   "base": 0.9,
+   "rep": 0.9
+  }
+ },
+ "summary": {
+  "R": 0.9083333333333333,
+  "seal_anchor": 0.4666666666666667,
+  "seal_noanchor": 0.16666666666666666,
+  "held": 0.31666666666666665,
+  "N9": 0.8833333333333333,
+  "N10": 0.7333333333333334,
+  "dF": 0.0,
+  "content": [
+   0.9,
+   0.9
+  ],
+  "stats": {
+   "inputs": 880,
+   "sources": 1610,
+   "rebound": 581,
+   "frame": 636,
+   "frame_only": 55
+  }
+ }
+}

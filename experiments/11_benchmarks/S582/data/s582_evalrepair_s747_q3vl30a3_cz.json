@@ -1,0 +1,1826 @@
+{
+ "res": {
+  "cloze|F": {
+   "n": 200,
+   "base": 0.255,
+   "rep": 0.255,
+   "d": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "cloze|R": {
+   "n": 200,
+   "base": 0.225,
+   "rep": 0.225,
+   "d": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "rows": [
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "C",
+   "R|rep": "C"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "D",
+   "F|rep": "D",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "C",
+   "F|rep": "C",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "D",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "C",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "B",
+   "F|base": "A",
+   "F|rep": "A",
+   "R|base": "A",
+   "R|rep": "A"
+  },
+  {
+   "suite": "cloze",
+   "task": "visual_cloze",
+   "gold": "A",
+   "F|base": "B",
+   "F|rep": "B",
+   "R|base": "A",
+   "R|rep": "A"
+  }
+ ]
+}

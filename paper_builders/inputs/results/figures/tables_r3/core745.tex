@@ -1,0 +1,16 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+ & \multicolumn{2}{c}{InternVL2.5-8B} & \multicolumn{2}{c}{Qwen3-VL-32B} & \multicolumn{2}{c}{Qwen3-VL-30B-A3B} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+ & $j$ & $w$ & $j$ & $w$ & $j$ & $w$ \\
+\midrule
+start-relative accuracy & \multicolumn{2}{c}{50} & \multicolumn{2}{c}{93} & \multicolumn{2}{c}{93} \\
+end-relative accuracy (literal) & \multicolumn{2}{c}{12 (23)} & \multicolumn{2}{c}{19 (24)} & \multicolumn{2}{c}{7 (70)} \\
+heads' share, literal / target & \multicolumn{2}{c}{25 / 11} & \multicolumn{2}{c}{17 / 16} & \multicolumn{2}{c}{45 / 12} \\
+\midrule
+start-relative queries of $x$: on $x$ & 46 & 45 & 91 & 96 & 92 & 91 \\
+\quad on the literal image & 6 & 10 & 1 & 1 & 0 & 2 \\
+ordinal state of $x$, layers 2--6: on $x$ & 25 & 17 & 26 & 22 & 69 & 61 \\
+\quad on the donor's image / literal & 14/13 & 12/16 & 11/19 & 13/9 & 5/6 & 4/6 \\
+\bottomrule
+\end{tabular}

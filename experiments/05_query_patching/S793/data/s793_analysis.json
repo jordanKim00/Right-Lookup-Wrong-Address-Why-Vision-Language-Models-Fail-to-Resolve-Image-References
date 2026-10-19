@@ -1,0 +1,224 @@
+{
+ "s793_27b": {
+  "n": 160,
+  "n_wrong": 79,
+  "acc": {
+   "START": 0.98125,
+   "END": 0.50625,
+   "NOOP": 0.98125,
+   "ES_pre": 0.5625,
+   "ES_look": 0.9875,
+   "SE_pre": 0.9875,
+   "SE_look": 0.625
+  },
+  "effects": {
+   "pre": {
+    "suf": 0.05625000000000002,
+    "nec_rep": 0.0,
+    "nec_drop": -0.006250000000000089
+   },
+   "look": {
+    "suf": 0.48125000000000007,
+    "nec_rep": 0.5822784810126582,
+    "nec_drop": 0.35624999999999996
+   }
+  },
+  "by_k": {
+   "2": {
+    "START": 0.975,
+    "END": 0.85,
+    "ES_pre": 0.95,
+    "ES_look": 0.975,
+    "SE_pre": 0.975,
+    "SE_look": 0.925
+   },
+   "3": {
+    "START": 1.0,
+    "END": 0.525,
+    "ES_pre": 0.675,
+    "ES_look": 1.0,
+    "SE_pre": 0.975,
+    "SE_look": 0.6
+   },
+   "5": {
+    "START": 0.975,
+    "END": 0.25,
+    "ES_pre": 0.225,
+    "ES_look": 1.0,
+    "SE_pre": 1.0,
+    "SE_look": 0.35
+   },
+   "6": {
+    "START": 0.975,
+    "END": 0.4,
+    "ES_pre": 0.4,
+    "ES_look": 0.975,
+    "SE_pre": 1.0,
+    "SE_look": 0.625
+   }
+  },
+  "target_share_look": {
+   "START": 0.5140134767784426,
+   "END": 0.23505617845027396,
+   "ES_look": 0.5140134767784426,
+   "SE_look": 0.23505617845027396
+  },
+  "t1_menu": 1.0,
+  "checks": {
+   "I0": true,
+   "SUF_pre": false,
+   "NEC_pre": false,
+   "SUF_look": true,
+   "NEC_look": true,
+   "LOC": true
+  }
+ },
+ "s793_35_4b": {
+  "n": 160,
+  "n_wrong": 138,
+  "acc": {
+   "START": 0.9625,
+   "END": 0.1375,
+   "NOOP": 0.9625,
+   "ES_pre": 0.4375,
+   "ES_look": 0.95,
+   "SE_pre": 0.95625,
+   "SE_look": 0.46875
+  },
+  "effects": {
+   "pre": {
+    "suf": 0.3,
+    "nec_rep": 0.0,
+    "nec_drop": 0.006249999999999978
+   },
+   "look": {
+    "suf": 0.8125,
+    "nec_rep": 0.5652173913043478,
+    "nec_drop": 0.49375
+   }
+  },
+  "by_k": {
+   "2": {
+    "START": 0.9,
+    "END": 0.375,
+    "ES_pre": 0.35,
+    "ES_look": 0.925,
+    "SE_pre": 0.95,
+    "SE_look": 0.6
+   },
+   "3": {
+    "START": 0.975,
+    "END": 0.125,
+    "ES_pre": 0.625,
+    "ES_look": 0.975,
+    "SE_pre": 0.975,
+    "SE_look": 0.625
+   },
+   "5": {
+    "START": 0.975,
+    "END": 0.0,
+    "ES_pre": 0.35,
+    "ES_look": 0.95,
+    "SE_pre": 0.975,
+    "SE_look": 0.15
+   },
+   "6": {
+    "START": 1.0,
+    "END": 0.05,
+    "ES_pre": 0.425,
+    "ES_look": 0.95,
+    "SE_pre": 0.925,
+    "SE_look": 0.5
+   }
+  },
+  "target_share_look": {
+   "START": 0.5516394582887492,
+   "END": 0.15815487362366792,
+   "ES_look": 0.5516394582887492,
+   "SE_look": 0.15815487362366792
+  },
+  "t1_menu": 1.0,
+  "checks": {
+   "I0": true,
+   "SUF_pre": false,
+   "NEC_pre": false,
+   "SUF_look": true,
+   "NEC_look": true,
+   "LOC": true
+  }
+ },
+ "s793_35_9b": {
+  "n": 160,
+  "n_wrong": 130,
+  "acc": {
+   "START": 0.9875,
+   "END": 0.1875,
+   "NOOP": 0.9875,
+   "ES_pre": 0.1625,
+   "ES_look": 0.9125,
+   "SE_pre": 0.94375,
+   "SE_look": 0.55625
+  },
+  "effects": {
+   "pre": {
+    "suf": -0.024999999999999994,
+    "nec_rep": 0.015384615384615385,
+    "nec_drop": 0.04375000000000007
+   },
+   "look": {
+    "suf": 0.725,
+    "nec_rep": 0.46153846153846156,
+    "nec_drop": 0.43125
+   }
+  },
+  "by_k": {
+   "2": {
+    "START": 1.0,
+    "END": 0.475,
+    "ES_pre": 0.225,
+    "ES_look": 0.95,
+    "SE_pre": 0.975,
+    "SE_look": 0.775
+   },
+   "3": {
+    "START": 1.0,
+    "END": 0.225,
+    "ES_pre": 0.1,
+    "ES_look": 0.95,
+    "SE_pre": 1.0,
+    "SE_look": 0.725
+   },
+   "5": {
+    "START": 1.0,
+    "END": 0.0,
+    "ES_pre": 0.075,
+    "ES_look": 0.975,
+    "SE_pre": 0.975,
+    "SE_look": 0.275
+   },
+   "6": {
+    "START": 0.95,
+    "END": 0.05,
+    "ES_pre": 0.25,
+    "ES_look": 0.775,
+    "SE_pre": 0.825,
+    "SE_look": 0.45
+   }
+  },
+  "target_share_look": {
+   "START": 0.42751897340640427,
+   "END": 0.157437822354647,
+   "ES_look": 0.42751897340640427,
+   "SE_look": 0.157437822354647
+  },
+  "t1_menu": 1.0,
+  "checks": {
+   "I0": true,
+   "SUF_pre": false,
+   "NEC_pre": false,
+   "SUF_look": true,
+   "NEC_look": false,
+   "LOC": true
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "tag": "x5fr_ivl3_8b",
+ "base": "lm_ivl3_8b",
+ "assembled": "rc_ivl3_8b",
+ "choice": {
+  "detector": "margin:0.30",
+  "binder": "proto:1.4",
+  "count": "last"
+ },
+ "v2": true,
+ "det_rule": "abs",
+ "det_param": null,
+ "anchor_scale": 1.0,
+ "ablate": null,
+ "prompt_mode": "none",
+ "rev_style": "end",
+ "sealed": false,
+ "fresh": true,
+ "stats": {
+  "inputs": 1000,
+  "sources": 4500,
+  "rebound": 1638,
+  "frame": 1811,
+  "frame_only": 173
+ }
+}

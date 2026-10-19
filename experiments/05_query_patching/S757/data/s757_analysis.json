@@ -1,0 +1,47 @@
+{
+ "s757_27b": {
+  "n": 40,
+  "checks": {
+   "I0": true,
+   "ANSWER_CHANGES": false,
+   "QK": "QK_STABLE"
+  },
+  "qm_max_diff": 0.0,
+  "answer_change_rate": 0.275,
+  "qk_detail": {
+   "changed_pairs": 33,
+   "pointer_stays": 0.939,
+   "pointer_moves_to_new_answer": 0.091
+  },
+  "unchanged_pointer_stays": 0.828,
+  "margin": {
+   "mean_M0": -1.174,
+   "mean_abs_change": 0.138,
+   "mean_abs_change_changed": 0.137
+  },
+  "controls": {
+   "E2": {
+    "acc_M0": 0.8,
+    "acc_M1": 0.7,
+    "answer_change": 0.175,
+    "pointer_change": 0.075
+   },
+   "S3": {
+    "acc_M0": 0.95,
+    "acc_M1": 0.975,
+    "answer_change": 0.025,
+    "pointer_change": 0.0
+   }
+  },
+  "E5_dist_M0": {
+   "0": 0.0,
+   "1": 0.075,
+   "2": 0.25,
+   "3": 0.325,
+   "4": 0.175,
+   "5": 0.1,
+   "6": 0.075,
+   "7": 0.0
+  }
+ }
+}

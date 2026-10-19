@@ -1,0 +1,47 @@
+{
+ "tag": "rd_27b",
+ "base": "r327b",
+ "old": "s709_r327b",
+ "layer": 51,
+ "site": "vend",
+ "res": {
+  "new": {
+   "proc": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "nat": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "low": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "all": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "N10": 1.0
+  },
+  "old": {
+   "proc": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "nat": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "low": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "all": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "N10": 1.0
+  }
+ }
+}

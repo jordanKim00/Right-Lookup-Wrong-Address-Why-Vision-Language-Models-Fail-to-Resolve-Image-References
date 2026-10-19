@@ -1,0 +1,994 @@
+{
+ "calibration": {
+  "natural": 12000,
+  "flat": 0,
+  "procedural": "rendered shapes (not matched)"
+ },
+ "r3ref_unmatched_keys": {
+  "coco": 3077,
+  "proc": 8217
+ },
+ "evaluation": {
+  "MMIU": 33055,
+  "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)": 88399,
+  "MuirBench": 11264,
+  "MathVista": 1000,
+  "MMIU(hf)": 33055,
+  "imagenette": 3925,
+  "CIFAR-10 test": 10000,
+  "R3-Ref": 9074
+ },
+ "evaluation_total": 189772,
+ "evaluation_flat": 341,
+ "flagged": [
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:133",
+   "eval": "/vlm/assets/mmiu/functional_correspondence_blink/functional_correspondence_blink_60_0.jpg",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:133",
+   "eval": "/vlm/assets/r3_bench/blink/Functional_Correspondence/test-00000-of-00001.parquet#1:9:image_1:0",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 19
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:133",
+   "eval": "/vlm/assets/r3_bench/blink/Functional_Correspondence/val-00000-of-00001.parquet#0:20:image_1:0",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:133",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/High-level-obj-semantic.zip!functional_correspondence_blink/functional_correspondence_blink_60_0.jpg",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:133",
+   "eval": "/vlm/assets/mmiu/functional_correspondence_blink/functional_correspondence_blink_7_1.jpg",
+   "source": "MMIU",
+   "dhash": 2,
+   "ahash16": 23
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:133",
+   "eval": "/vlm/assets/r3_bench/blink/Functional_Correspondence/val-00000-of-00001.parquet#0:74:image_2:0",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 2,
+   "ahash16": 23
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:133",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/High-level-obj-semantic.zip!functional_correspondence_blink/functional_correspondence_blink_7_1.jpg",
+   "source": "MMIU(hf)",
+   "dhash": 2,
+   "ahash16": 23
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:562",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/closed_ended_vqa/n03998194_2021.JPEG",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 16
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1069",
+   "eval": "/vlm/assets/mmiu/visually_grounded_reasoning_nlvr2/visually_grounded_reasoning_nlvr2_76_1.png",
+   "source": "MMIU",
+   "dhash": 3,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1069",
+   "eval": "/vlm/assets/mmiu/visually_grounded_reasoning_nlvr2/visually_grounded_reasoning_nlvr2_192_0.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 21
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1069",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/general_comparison/test1-1048-0-img1.png",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 3,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1069",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/general_comparison/test1-346-3-img0.png",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 3,
+   "ahash16": 23
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1069",
+   "eval": "/vlm/assets/hf/hub/datasets--MUIRBENCH--MUIRBENCH/snapshots/4c393cffc985c77d28de3b9045e2e5186920df80/data/test-00000-of-00005.parquet#2:72:image_list:1",
+   "source": "MuirBench",
+   "dhash": 3,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1069",
+   "eval": "/vlm/assets/hf/hub/datasets--MUIRBENCH--MUIRBENCH/snapshots/4c393cffc985c77d28de3b9045e2e5186920df80/data/test-00000-of-00005.parquet#2:73:image_list:1",
+   "source": "MuirBench",
+   "dhash": 3,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1069",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/High-level-obj-semantic.zip!visually_grounded_reasoning_nlvr2/visually_grounded_reasoning_nlvr2_76_1.png",
+   "source": "MMIU(hf)",
+   "dhash": 3,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1069",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/High-level-obj-semantic.zip!visually_grounded_reasoning_nlvr2/visually_grounded_reasoning_nlvr2_192_0.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 21
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1069",
+   "eval": "domainnet:train-00002-of-00003.parquet:62281",
+   "source": "R3-Ref",
+   "dhash": 3,
+   "ahash16": 20
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1069",
+   "eval": "domainnet:train-00002-of-00003.parquet:78470",
+   "source": "R3-Ref",
+   "dhash": 2,
+   "ahash16": 20
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1069",
+   "eval": "domainnet:train-00001-of-00003.parquet:38390",
+   "source": "R3-Ref",
+   "dhash": 2,
+   "ahash16": 20
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1069",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/general_comparison/test1-121-0-img1.png",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 3,
+   "ahash16": 21
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1069",
+   "eval": "/vlm/assets/r3_bench/mirb/images.zip!images/domain/60_1.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 19
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1069",
+   "eval": "/vlm/assets/r3_bench/mirb/images.zip!images/attribute/60_1.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 19
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1089",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/general_comparison/test1-1018-1-img1.png",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 21
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1308",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_15_14.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 16
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1308",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_45_5.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 16
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1308",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_45_5.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 16
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1308",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_15_14.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 16
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1509",
+   "eval": "domainnet:train-00001-of-00003.parquet:115252",
+   "source": "R3-Ref",
+   "dhash": 4,
+   "ahash16": 23
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1575",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/closed_ended_vqa/n04522168_10595.JPEG",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 16
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1575",
+   "eval": "/vlm/assets/r3_bench/mirb/images.zip!images/domain/39_3.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 21
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1575",
+   "eval": "/vlm/assets/r3_bench/mirb/images.zip!images/attribute/39_3.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 21
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1752",
+   "eval": "/vlm/assets/mmiu/sketch2image_retrieval/sketch2image_retrieval_197_3.jpg",
+   "source": "MMIU",
+   "dhash": 2,
+   "ahash16": 19
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1752",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/High-level-obj-semantic.zip!sketch2image_retrieval/sketch2image_retrieval_197_3.jpg",
+   "source": "MMIU(hf)",
+   "dhash": 2,
+   "ahash16": 19
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1793",
+   "eval": "/vlm/assets/mmiu/visually_grounded_reasoning_nlvr2/visually_grounded_reasoning_nlvr2_158_0.png",
+   "source": "MMIU",
+   "dhash": 2,
+   "ahash16": 20
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1793",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/High-level-obj-semantic.zip!visually_grounded_reasoning_nlvr2/visually_grounded_reasoning_nlvr2_158_0.png",
+   "source": "MMIU(hf)",
+   "dhash": 2,
+   "ahash16": 20
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:1924",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/general_comparison/test1-163-2-img0.png",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 23
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2345",
+   "eval": "/vlm/assets/mmiu/visual_cloze/visual_cloze_108_6.jpg",
+   "source": "MMIU",
+   "dhash": 3,
+   "ahash16": 18
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2345",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/text_rich_images/easy-mysql-replication-setup-and-troubleshooting-10-1024.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 24
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2345",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/Discrete-temporal.zip!visual_cloze/visual_cloze_108_6.jpg",
+   "source": "MMIU(hf)",
+   "dhash": 3,
+   "ahash16": 18
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/Image_Captioning_with_Spatial_Context/Image_Captioning_with_Spatial_Context_129_0.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 8
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/Image_Captioning_with_Spatial_Context/Image_Captioning_with_Spatial_Context_161_0.png",
+   "source": "MMIU",
+   "dhash": 2,
+   "ahash16": 15
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/Image_Captioning_with_Spatial_Context/Image_Captioning_with_Spatial_Context_193_1.png",
+   "source": "MMIU",
+   "dhash": 2,
+   "ahash16": 14
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/Image_Captioning_with_Spatial_Context/Image_Captioning_with_Spatial_Context_69_2.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_107_11.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 24
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_107_12.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_107_15.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_107_7.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_107_8.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 24
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_125_10.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_125_12.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 23
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_125_15.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 23
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_125_5.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 21
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_125_8.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 24
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_127_9.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_143_13.png",
+   "source": "MMIU",
+   "dhash": 3,
+   "ahash16": 21
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_165_8.png",
+   "source": "MMIU",
+   "dhash": 1,
+   "ahash16": 5
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_33_7.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 24
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_47_1.png",
+   "source": "MMIU",
+   "dhash": 1,
+   "ahash16": 6
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_4_7.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 24
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_54_13.png",
+   "source": "MMIU",
+   "dhash": 1,
+   "ahash16": 10
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_54_7.png",
+   "source": "MMIU",
+   "dhash": 1,
+   "ahash16": 6
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_60_4.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 23
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_66_7.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 23
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_69_1.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_69_10.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_69_12.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_69_15.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_69_3.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_69_8.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_74_0.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_75_4.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_83_1.png",
+   "source": "MMIU",
+   "dhash": 1,
+   "ahash16": 6
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_83_7.png",
+   "source": "MMIU",
+   "dhash": 1,
+   "ahash16": 10
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_95_8.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 21
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/r3_bench/mirb/images.zip!images/image_jigsaw/jigsaw_7_piece_2.png",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 16
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!Image_Captioning_with_Spatial_Context/Image_Captioning_with_Spatial_Context_193_1.png",
+   "source": "MMIU(hf)",
+   "dhash": 2,
+   "ahash16": 14
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!Image_Captioning_with_Spatial_Context/Image_Captioning_with_Spatial_Context_161_0.png",
+   "source": "MMIU(hf)",
+   "dhash": 2,
+   "ahash16": 15
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!Image_Captioning_with_Spatial_Context/Image_Captioning_with_Spatial_Context_69_2.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!Image_Captioning_with_Spatial_Context/Image_Captioning_with_Spatial_Context_129_0.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 8
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_54_7.png",
+   "source": "MMIU(hf)",
+   "dhash": 1,
+   "ahash16": 6
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_66_7.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 23
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_69_10.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_69_12.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_107_12.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_143_13.png",
+   "source": "MMIU(hf)",
+   "dhash": 3,
+   "ahash16": 21
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_4_7.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 24
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_69_8.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_74_0.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_75_4.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_125_15.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 23
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_60_4.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 23
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_54_13.png",
+   "source": "MMIU(hf)",
+   "dhash": 1,
+   "ahash16": 10
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_69_1.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_69_3.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_95_8.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 21
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_165_8.png",
+   "source": "MMIU(hf)",
+   "dhash": 1,
+   "ahash16": 5
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_33_7.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 24
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_107_11.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 24
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_125_5.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 21
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_125_8.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 24
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_83_1.png",
+   "source": "MMIU(hf)",
+   "dhash": 1,
+   "ahash16": 6
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_127_9.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_69_15.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_107_7.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_107_8.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 24
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_107_15.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_47_1.png",
+   "source": "MMIU(hf)",
+   "dhash": 1,
+   "ahash16": 6
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_83_7.png",
+   "source": "MMIU(hf)",
+   "dhash": 1,
+   "ahash16": 10
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_125_10.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_125_12.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 23
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/mmiu/ravens_progressive_matrices/ravens_progressive_matrices_172_11.png",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 24
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2498",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/2D-spatial.zip!ravens_progressive_matrices/ravens_progressive_matrices_172_11.png",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 24
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2614",
+   "eval": "domainnet:train-00002-of-00003.parquet:78585",
+   "source": "R3-Ref",
+   "dhash": 3,
+   "ahash16": 14
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2614",
+   "eval": "domainnet:train-00001-of-00003.parquet:119401",
+   "source": "R3-Ref",
+   "dhash": 4,
+   "ahash16": 21
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2880",
+   "eval": "cifar100:train-00000-of-00001.parquet:13725",
+   "source": "R3-Ref",
+   "dhash": 3,
+   "ahash16": 20
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2880",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/text_rich_images/services-marketing-9-1024.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 2,
+   "ahash16": 22
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2897",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/open_ended_vqa/COCO_val2014_000000021864.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 3,
+   "ahash16": 21
+  },
+  {
+   "cal": "caltech256:test-00000-of-00001.parquet:2978",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/closed_ended_vqa/n04435653_1918.JPEG",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 2,
+   "ahash16": 24
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3071",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/temporal_reasoning/64037/image_00038.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 3,
+   "ahash16": 23
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3071",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/vision_linked_textual_knowledge/oven_05044079.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 3,
+   "ahash16": 22
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3071",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/open_ended_vqa/COCO_val2014_000000493772.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 3,
+   "ahash16": 17
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3104",
+   "eval": "/vlm/assets/mmiu/textual_cloze/textual_cloze_75_4.jpg",
+   "source": "MMIU",
+   "dhash": 2,
+   "ahash16": 23
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3104",
+   "eval": "/vlm/assets/mmiu/textual_cloze/textual_cloze_82_9.jpg",
+   "source": "MMIU",
+   "dhash": 3,
+   "ahash16": 20
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3104",
+   "eval": "/vlm/assets/mmiu/visual_cloze/visual_cloze_62_1.jpg",
+   "source": "MMIU",
+   "dhash": 3,
+   "ahash16": 19
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3104",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/closed_ended_vqa/n03207743_10499.JPEG",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 19
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3104",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/text_rich_images/2013-edelman-trust-barometer-global-financial-services-industry-4-1024.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 3,
+   "ahash16": 22
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3104",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/text_rich_images/easy-mysql-replication-setup-and-troubleshooting-4-1024.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 2,
+   "ahash16": 19
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3104",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/text_rich_images/easy-mysql-replication-setup-and-troubleshooting-7-1024.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 2,
+   "ahash16": 16
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3104",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/Discrete-temporal.zip!textual_cloze/textual_cloze_75_4.jpg",
+   "source": "MMIU(hf)",
+   "dhash": 2,
+   "ahash16": 23
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3104",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/Discrete-temporal.zip!textual_cloze/textual_cloze_82_9.jpg",
+   "source": "MMIU(hf)",
+   "dhash": 3,
+   "ahash16": 20
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3104",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/Discrete-temporal.zip!visual_cloze/visual_cloze_62_1.jpg",
+   "source": "MMIU(hf)",
+   "dhash": 3,
+   "ahash16": 19
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3104",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/text_rich_images/easy-mysql-replication-setup-and-troubleshooting-11-1024.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 3,
+   "ahash16": 24
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3104",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/text_rich_images/easy-mysql-replication-setup-and-troubleshooting-14-1024.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 23
+  },
+  {
+   "cal": "food101:validation-00000-of-00003.parquet:3104",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/text_rich_images/easy-mysql-replication-setup-and-troubleshooting-10-1024.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 3,
+   "ahash16": 19
+  },
+  {
+   "cal": "food101:validation-00002-of-00003.parquet:1110",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/text_rich_images/easy-mysql-replication-setup-and-troubleshooting-14-1024.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 4,
+   "ahash16": 20
+  },
+  {
+   "cal": "food101:validation-00002-of-00003.parquet:6887",
+   "eval": "/vlm/assets/r3_bench/mibench/image.zip!image/vision_linked_textual_knowledge/oven_05027757.jpg",
+   "source": "r3_bench(BLINK,Q-Bench2,Mantis,MMMU,MIBench,MIRB)",
+   "dhash": 0,
+   "ahash16": 0
+  },
+  {
+   "cal": "food101:validation-00001-of-00003.parquet:2399",
+   "eval": "/vlm/assets/mmiu/visual_cloze/visual_cloze_39_3.jpg",
+   "source": "MMIU",
+   "dhash": 4,
+   "ahash16": 21
+  },
+  {
+   "cal": "food101:validation-00001-of-00003.parquet:2399",
+   "eval": "/vlm/assets/hf/hub/datasets--FanqingM--MMIU-Benchmark/snapshots/03bf7d143d920e97a757f606b6b7baee161b019b/Discrete-temporal.zip!visual_cloze/visual_cloze_39_3.jpg",
+   "source": "MMIU(hf)",
+   "dhash": 4,
+   "ahash16": 21
+  }
+ ],
+ "n_flagged": 138,
+ "decode_errors": [],
+ "n_errors": 0
+}

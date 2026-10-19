@@ -1,0 +1,176 @@
+{
+ "s746_4bt": {
+  "res": {
+   "START|off|acc": {
+    "v": 0.9625,
+    "ci": [
+     0.925,
+     1.0
+    ]
+   },
+   "START|on|acc": {
+    "v": 0.925,
+    "ci": [
+     0.8625,
+     0.975
+    ]
+   },
+   "START|on|trunc": {
+    "v": 0.0125,
+    "ci": [
+     0.0,
+     0.0375
+    ]
+   },
+   "END|off|acc": {
+    "v": 0.0375,
+    "ci": [
+     0.0,
+     0.075
+    ]
+   },
+   "END|off|lit": {
+    "v": 0.8,
+    "ci": [
+     0.75,
+     0.8625
+    ]
+   },
+   "END|on|acc": {
+    "v": 0.925,
+    "ci": [
+     0.875,
+     0.975
+    ]
+   },
+   "END|on|lit": {
+    "v": 0.0125,
+    "ci": [
+     0.0,
+     0.0375
+    ]
+   },
+   "END|on|trunc": {
+    "v": 0.0375,
+    "ci": [
+     0.0,
+     0.075
+    ]
+   }
+  },
+  "trace": {
+   "j": {
+    "n": 77,
+    "ans_target": 0.961038961038961,
+    "ans_literal": 0.012987012987012988
+   },
+   "k": {
+    "n": 0,
+    "ans_target": null,
+    "ans_literal": null
+   },
+   "other": {
+    "n": 0,
+    "ans_target": null,
+    "ans_literal": null
+   },
+   "none": {
+    "n": 3,
+    "ans_target": 0.0,
+    "ans_literal": 0.0
+   }
+  },
+  "checks": {
+   "THINK_HELPS": true,
+   "SAY_NOT_SEE": false
+  },
+  "n": 160
+ },
+ "s746_8bt": {
+  "res": {
+   "START|off|acc": {
+    "v": 0.9125,
+    "ci": [
+     0.8625,
+     0.9625
+    ]
+   },
+   "START|on|acc": {
+    "v": 0.9625,
+    "ci": [
+     0.925,
+     1.0
+    ]
+   },
+   "START|on|trunc": {
+    "v": 0.025,
+    "ci": [
+     0.0,
+     0.0625
+    ]
+   },
+   "END|off|acc": {
+    "v": 0.0125,
+    "ci": [
+     0.0,
+     0.0375
+    ]
+   },
+   "END|off|lit": {
+    "v": 0.8875,
+    "ci": [
+     0.825,
+     0.95
+    ]
+   },
+   "END|on|acc": {
+    "v": 0.9,
+    "ci": [
+     0.825,
+     0.9625
+    ]
+   },
+   "END|on|lit": {
+    "v": 0.05,
+    "ci": [
+     0.0125,
+     0.1
+    ]
+   },
+   "END|on|trunc": {
+    "v": 0.025,
+    "ci": [
+     0.0,
+     0.0625
+    ]
+   }
+  },
+  "trace": {
+   "j": {
+    "n": 74,
+    "ans_target": 0.9594594594594594,
+    "ans_literal": 0.013513513513513514
+   },
+   "k": {
+    "n": 3,
+    "ans_target": 0.0,
+    "ans_literal": 1.0
+   },
+   "other": {
+    "n": 1,
+    "ans_target": 1.0,
+    "ans_literal": 0.0
+   },
+   "none": {
+    "n": 2,
+    "ans_target": 0.0,
+    "ans_literal": 0.0
+   }
+  },
+  "checks": {
+   "THINK_HELPS": true,
+   "SAY_NOT_SEE": false
+  },
+  "n": 160
+ }
+}

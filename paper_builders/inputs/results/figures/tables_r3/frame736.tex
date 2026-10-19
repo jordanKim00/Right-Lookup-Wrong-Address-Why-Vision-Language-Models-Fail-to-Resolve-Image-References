@@ -1,0 +1,14 @@
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+ & \multicolumn{2}{c}{VL-4B} & \multicolumn{2}{c}{VL-8B} & \multicolumn{2}{c}{3.5-4B} & \multicolumn{2}{c}{3.5-9B} & \multicolumn{2}{c}{3.5-27B} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}
+Write & near & far & near & far & near & far & near & far & near & far \\
+\midrule
+start-relative & 95 & 94 & 99 & 96 & 98 & 96 & 99 & 100 & 97 & 99 \\
+end-relative & 1 & 22 & 1 & 10 & 1 & 29 & 16 & 32 & 41 & 66 \\
+address only & 41 & 68 & 66 & 95 & 16 & 82 & 11 & 82 & 9 & 14 \\
+address + random frame & 39 & 66 & 76 & 96 & 34 & 83 & 17 & 92 & 10 & 16 \\
+address + frame (\rthree) & 95 & 73 & 99 & 96 & 98 & 93 & 99 & 100 & 98 & 99 \\
+frame only & 1 & 16 & 1 & 0 & 1 & 0 & 0 & 1 & 0 & 1 \\
+\bottomrule
+\end{tabular}

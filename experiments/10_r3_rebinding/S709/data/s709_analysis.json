@@ -1,0 +1,31 @@
+{
+ "e2e_27b": {
+  "overall": {
+   "NATIVE": 0.604,
+   "EXPLICIT": 0.988,
+   "TEXTNORM": 0.988,
+   "O_ORD": 0.229,
+   "O_ORD_FR": 0.992,
+   "R3": 0.942
+  },
+  "hard": {
+   "NATIVE": 0.442,
+   "EXPLICIT": 1.0,
+   "TEXTNORM": 1.0,
+   "O_ORD": 0.267,
+   "O_ORD_FR": 1.0,
+   "R3": 0.9
+  },
+  "WRONG_follow": 0.99,
+  "n_acted": 200,
+  "REREFLECT_k": 0.565,
+  "R3_failure_stages": {
+   "no write": 12,
+   "address written, selection wrong": 2
+  },
+  "E2E_REPAIR": true,
+  "ORACLE_FRACTION": true,
+  "ADDRESS_CONTROL": true,
+  "REREFLECT_REPLICATES": true
+ }
+}

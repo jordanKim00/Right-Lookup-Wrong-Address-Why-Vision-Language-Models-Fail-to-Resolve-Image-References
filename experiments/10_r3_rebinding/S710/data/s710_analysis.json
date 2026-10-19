@@ -1,0 +1,15 @@
+{
+ "mq_27b": {
+  "n_rescued": 68,
+  "rescued": {
+   "R3_QBACK": 0.368,
+   "R3_GBACK": 0.985,
+   "R3_RBACK": 1.0,
+   "END_QR3": 0.324,
+   "END_GR3": 0.015,
+   "END_RR3": 0.059
+  },
+  "MEDIATION_NECESSARY": true,
+  "MEDIATION_SUFFICIENT": true
+ }
+}

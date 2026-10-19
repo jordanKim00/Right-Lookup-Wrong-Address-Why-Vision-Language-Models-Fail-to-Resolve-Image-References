@@ -1,0 +1,482 @@
+[
+ {
+  "sel": "rc_4b",
+  "val": "rvl8_4b",
+  "grid": {
+   "detectors": [
+    "abs",
+    "margin:0.30",
+    "margin:0.35",
+    "margin:0.40",
+    "margin:0.45",
+    "margin:0.50",
+    "margin:0.55",
+    "margin:0.60",
+    "margin:0.65",
+    "margin:0.70"
+   ],
+   "binders": [
+    "proto:1.0",
+    "proto:1.1",
+    "proto:1.2",
+    "proto:1.3",
+    "proto:1.4",
+    "proto:1.5",
+    "proto:1.6"
+   ],
+   "counts": [
+    "last",
+    "max"
+   ]
+  },
+  "admissible_detectors": [
+   "abs",
+   "margin:0.30",
+   "margin:0.35",
+   "margin:0.40",
+   "margin:0.45",
+   "margin:0.50",
+   "margin:0.55",
+   "margin:0.60",
+   "margin:0.65"
+  ],
+  "admissible_binders": [
+   "proto:1.0",
+   "proto:1.1",
+   "proto:1.2",
+   "proto:1.3",
+   "proto:1.4",
+   "proto:1.5",
+   "proto:1.6"
+  ],
+  "final": [
+   "v1c",
+   "v1",
+   "v1_gate",
+   "last"
+  ],
+  "deployed": [
+   "v1c",
+   "v1",
+   "v1_gate",
+   "last"
+  ],
+  "planexact_sel": {
+   "final": 0.8566666666666667,
+   "deployed": 0.8566666666666667
+  },
+  "planexact_val": {
+   "final": 0.8333333333333334,
+   "deployed": 0.8333333333333334
+  },
+  "identical_plans": {
+   "sel": 1.0,
+   "val": 1.0
+  },
+  "top5": [
+   [
+    [
+     "v1c",
+     "v1",
+     "v1_gate",
+     "last"
+    ],
+    0.8566666666666667
+   ],
+   [
+    [
+     "v1c",
+     "v1",
+     "v1_gate",
+     "max"
+    ],
+    0.8566666666666667
+   ],
+   [
+    [
+     "min",
+     "margin:0.30",
+     "proto:1.6",
+     "last"
+    ],
+    0.8233333333333334
+   ],
+   [
+    [
+     "min",
+     "margin:0.30",
+     "proto:1.6",
+     "max"
+    ],
+    0.8233333333333334
+   ],
+   [
+    [
+     "min",
+     "margin:0.35",
+     "proto:1.6",
+     "last"
+    ],
+    0.8233333333333334
+   ]
+  ]
+ },
+ {
+  "sel": "rc_8b",
+  "val": "rvl8_8b",
+  "grid": {
+   "detectors": [
+    "abs",
+    "margin:0.30",
+    "margin:0.35",
+    "margin:0.40",
+    "margin:0.45",
+    "margin:0.50",
+    "margin:0.55",
+    "margin:0.60",
+    "margin:0.65",
+    "margin:0.70"
+   ],
+   "binders": [
+    "proto:1.0",
+    "proto:1.1",
+    "proto:1.2",
+    "proto:1.3",
+    "proto:1.4",
+    "proto:1.5",
+    "proto:1.6"
+   ],
+   "counts": [
+    "last",
+    "max"
+   ]
+  },
+  "admissible_detectors": [
+   "abs",
+   "margin:0.30",
+   "margin:0.35",
+   "margin:0.40",
+   "margin:0.45",
+   "margin:0.50",
+   "margin:0.55",
+   "margin:0.60",
+   "margin:0.65"
+  ],
+  "admissible_binders": [
+   "proto:1.0",
+   "proto:1.1",
+   "proto:1.2",
+   "proto:1.3",
+   "proto:1.4",
+   "proto:1.5",
+   "proto:1.6"
+  ],
+  "final": [
+   "min",
+   "margin:0.30",
+   "proto:1.3",
+   "last"
+  ],
+  "deployed": [
+   "min",
+   "margin:.4",
+   "proto:1.5",
+   "last"
+  ],
+  "planexact_sel": {
+   "final": 0.8566666666666667,
+   "deployed": 0.8566666666666667
+  },
+  "planexact_val": {
+   "final": 0.88,
+   "deployed": 0.8733333333333333
+  },
+  "identical_plans": {
+   "sel": 0.9933333333333333,
+   "val": 0.9933333333333333
+  },
+  "top5": [
+   [
+    [
+     "min",
+     "margin:0.30",
+     "proto:1.3",
+     "last"
+    ],
+    0.8566666666666667
+   ],
+   [
+    [
+     "min",
+     "margin:0.30",
+     "proto:1.3",
+     "max"
+    ],
+    0.8566666666666667
+   ],
+   [
+    [
+     "min",
+     "margin:0.30",
+     "proto:1.4",
+     "last"
+    ],
+    0.8566666666666667
+   ],
+   [
+    [
+     "min",
+     "margin:0.30",
+     "proto:1.4",
+     "max"
+    ],
+    0.8566666666666667
+   ],
+   [
+    [
+     "min",
+     "margin:0.30",
+     "proto:1.5",
+     "last"
+    ],
+    0.8566666666666667
+   ]
+  ]
+ },
+ {
+  "sel": "rc_35_4b",
+  "val": "rvl8_35_4b",
+  "grid": {
+   "detectors": [
+    "abs",
+    "margin:0.30",
+    "margin:0.35",
+    "margin:0.40",
+    "margin:0.45",
+    "margin:0.50",
+    "margin:0.55",
+    "margin:0.60",
+    "margin:0.65",
+    "margin:0.70"
+   ],
+   "binders": [
+    "proto:1.0",
+    "proto:1.1",
+    "proto:1.2",
+    "proto:1.3",
+    "proto:1.4",
+    "proto:1.5",
+    "proto:1.6"
+   ],
+   "counts": [
+    "last",
+    "max"
+   ]
+  },
+  "admissible_detectors": [
+   "abs",
+   "margin:0.30",
+   "margin:0.35",
+   "margin:0.40",
+   "margin:0.45",
+   "margin:0.50",
+   "margin:0.55"
+  ],
+  "admissible_binders": [
+   "proto:1.0",
+   "proto:1.1",
+   "proto:1.2",
+   "proto:1.3",
+   "proto:1.4",
+   "proto:1.5",
+   "proto:1.6"
+  ],
+  "final": [
+   "v1c",
+   "v1",
+   "v1_gate",
+   "last"
+  ],
+  "deployed": [
+   "v1c",
+   "v1",
+   "v1_gate",
+   "last"
+  ],
+  "planexact_sel": {
+   "final": 0.9633333333333334,
+   "deployed": 0.9633333333333334
+  },
+  "planexact_val": {
+   "final": 0.96,
+   "deployed": 0.96
+  },
+  "identical_plans": {
+   "sel": 1.0,
+   "val": 1.0
+  },
+  "top5": [
+   [
+    [
+     "v1c",
+     "v1",
+     "v1_gate",
+     "last"
+    ],
+    0.9633333333333334
+   ],
+   [
+    [
+     "v1c",
+     "v1",
+     "v1_gate",
+     "max"
+    ],
+    0.9633333333333334
+   ],
+   [
+    [
+     "min",
+     "abs",
+     "proto:1.5",
+     "last"
+    ],
+    0.8433333333333334
+   ],
+   [
+    [
+     "min",
+     "abs",
+     "proto:1.5",
+     "max"
+    ],
+    0.8433333333333334
+   ],
+   [
+    [
+     "min",
+     "abs",
+     "proto:1.6",
+     "last"
+    ],
+    0.8433333333333334
+   ]
+  ]
+ },
+ {
+  "sel": "rc_35_9b",
+  "val": "rvl8_35_9b",
+  "grid": {
+   "detectors": [
+    "abs",
+    "margin:0.30",
+    "margin:0.35",
+    "margin:0.40",
+    "margin:0.45",
+    "margin:0.50",
+    "margin:0.55",
+    "margin:0.60",
+    "margin:0.65",
+    "margin:0.70"
+   ],
+   "binders": [
+    "proto:1.0",
+    "proto:1.1",
+    "proto:1.2",
+    "proto:1.3",
+    "proto:1.4",
+    "proto:1.5",
+    "proto:1.6"
+   ],
+   "counts": [
+    "last",
+    "max"
+   ]
+  },
+  "admissible_detectors": [
+   "abs",
+   "margin:0.30",
+   "margin:0.35",
+   "margin:0.40",
+   "margin:0.45",
+   "margin:0.50"
+  ],
+  "admissible_binders": [
+   "proto:1.0",
+   "proto:1.1",
+   "proto:1.2",
+   "proto:1.3"
+  ],
+  "final": [
+   "min",
+   "abs",
+   "proto:1.2",
+   "last"
+  ],
+  "deployed": [
+   "min",
+   "abs",
+   "proto:1.2",
+   "last"
+  ],
+  "planexact_sel": {
+   "final": 0.8533333333333334,
+   "deployed": 0.8533333333333334
+  },
+  "planexact_val": {
+   "final": 0.89,
+   "deployed": 0.89
+  },
+  "identical_plans": {
+   "sel": 1.0,
+   "val": 1.0
+  },
+  "top5": [
+   [
+    [
+     "min",
+     "abs",
+     "proto:1.2",
+     "last"
+    ],
+    0.8533333333333334
+   ],
+   [
+    [
+     "min",
+     "abs",
+     "proto:1.2",
+     "max"
+    ],
+    0.8533333333333334
+   ],
+   [
+    [
+     "min",
+     "abs",
+     "proto:1.3",
+     "last"
+    ],
+    0.8533333333333334
+   ],
+   [
+    [
+     "min",
+     "abs",
+     "proto:1.3",
+     "max"
+    ],
+    0.8533333333333334
+   ],
+   [
+    [
+     "v1c",
+     "v1",
+     "v1_gate",
+     "last"
+    ],
+    0.8266666666666667
+   ]
+  ]
+ }
+]

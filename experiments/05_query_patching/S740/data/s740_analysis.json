@@ -1,0 +1,65 @@
+{
+ "nm740_35_4b": {
+  "summary": {
+   "n_items": 550,
+   "n_written": 550,
+   "n_repaired": 150,
+   "noop": 0.9933333333333333,
+   "acc": {
+    "NOOP": 0.9933333333333333,
+    "R3_QBACK_ALL": 0.19333333333333333,
+    "END_QALL": 0.6266666666666667,
+    "R3_QBACK_M": 0.84,
+    "END_QM": 0.1
+   },
+   "back_to_original": 0.6611570247933884
+  },
+  "checks": {
+   "NOOP_OK": true,
+   "NAT_QUERY_SUFFICIENT": true,
+   "NAT_QUERY_NECESSARY": true
+  }
+ },
+ "nm740_35_9b": {
+  "summary": {
+   "n_items": 550,
+   "n_written": 550,
+   "n_repaired": 150,
+   "noop": 0.9933333333333333,
+   "acc": {
+    "NOOP": 0.9933333333333333,
+    "R3_QBACK_ALL": 0.14,
+    "END_QALL": 0.78,
+    "R3_QBACK_M": 0.9333333333333333,
+    "END_QM": 0.13333333333333333
+   },
+   "back_to_original": 0.8449612403100775
+  },
+  "checks": {
+   "NOOP_OK": true,
+   "NAT_QUERY_SUFFICIENT": true,
+   "NAT_QUERY_NECESSARY": true
+  }
+ },
+ "nm740_27b": {
+  "summary": {
+   "n_items": 550,
+   "n_written": 550,
+   "n_repaired": 150,
+   "noop": 0.9933333333333333,
+   "acc": {
+    "NOOP": 0.9933333333333333,
+    "R3_QBACK_ALL": 0.26,
+    "END_QALL": 0.9333333333333333,
+    "R3_QBACK_M": 0.54,
+    "END_QM": 0.8533333333333334
+   },
+   "back_to_original": 0.7567567567567568
+  },
+  "checks": {
+   "NOOP_OK": true,
+   "NAT_QUERY_SUFFICIENT": true,
+   "NAT_QUERY_NECESSARY": true
+  }
+ }
+}

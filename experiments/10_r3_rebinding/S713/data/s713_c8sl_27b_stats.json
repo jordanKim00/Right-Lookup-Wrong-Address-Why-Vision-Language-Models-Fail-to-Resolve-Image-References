@@ -1,0 +1,26 @@
+{
+ "tag": "c8sl_27b",
+ "base": "r327b",
+ "assembled": "rc_27b",
+ "choice": {
+  "detector": "margin:0.45",
+  "binder": "proto:1.2",
+  "count": "last"
+ },
+ "v2": true,
+ "det_rule": "abs",
+ "det_param": null,
+ "anchor_scale": 1.0,
+ "ablate": null,
+ "prompt_mode": "none",
+ "rev_style": "end",
+ "sealed": true,
+ "fresh": false,
+ "stats": {
+  "inputs": 3504,
+  "sources": 12382,
+  "rebound": 4268,
+  "frame": 5074,
+  "frame_only": 806
+ }
+}

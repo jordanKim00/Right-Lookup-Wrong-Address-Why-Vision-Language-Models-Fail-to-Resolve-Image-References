@@ -1,0 +1,20 @@
+{
+ "tag": "lmfr_35_9b",
+ "base": "lm_35_9b",
+ "v2": true,
+ "det_rule": "margin",
+ "det_param": 0.5,
+ "anchor_scale": 1.2,
+ "ablate": null,
+ "prompt_mode": "none",
+ "rev_style": "end",
+ "sealed": false,
+ "fresh": true,
+ "stats": {
+  "inputs": 1000,
+  "sources": 0,
+  "rebound": 0,
+  "frame": 0,
+  "frame_only": 0
+ }
+}

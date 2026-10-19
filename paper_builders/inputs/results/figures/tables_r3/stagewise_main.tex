@@ -1,0 +1,21 @@
+\begin{tabular}{lrrrrr}
+\toprule
+ & VL-4B & VL-8B & 3.5-4B & 3.5-9B & 3.5-27B \\
+\midrule
+\multicolumn{6}{l}{\textit{Accuracy on the target (\%), $k\neq4$}} \\
+start-relative & 96 & 97 & 98 & 100 & 100 \\
+end-relative & 3 & 12 & 14 & 17 & 52 \\
+\quad + address & 72 & 77 & 68 & 59 & 2 \\
+\quad + frame & 0 & 0 & 0 & 0 & 0 \\
+\quad + both (\rthree) & 96 & 97 & 99 & 99 & 100 \\
+\addlinespace
+\multicolumn{6}{l}{\textit{Accuracy, $k=4$ (target = literal image)}} \\
+end-relative & 93 & 97 & 100 & 83 & 53 \\
+\quad + frame & 97 & 97 & 100 & 100 & 97 \\
+\midrule
+\multicolumn{6}{l}{\textit{Query cosine to start-relative}} \\
+end-relative & 0.85 & 0.84 & 0.85 & 0.91 & 0.77 \\
+\quad + address & 0.95 & 0.96 & 0.89 & 0.93 & 0.74 \\
+\quad + both (\rthree) & 1.00 & 1.00 & 0.98 & 0.99 & 0.99 \\
+\bottomrule
+\end{tabular}

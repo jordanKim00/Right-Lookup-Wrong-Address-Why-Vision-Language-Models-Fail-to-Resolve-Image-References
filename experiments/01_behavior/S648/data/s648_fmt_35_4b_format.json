@@ -1,0 +1,2503 @@
+{
+ "tag": "fmt_35_4b",
+ "model": "/dev/shm/vlm_models/Qwen3.5-4B",
+ "summary": {
+  "QF": {
+   "acc": 0.95
+  },
+  "QR": {
+   "acc": 0.1375,
+   "surf": 0.6875
+  },
+  "OF": {
+   "acc": 0.9875,
+   "lure": 0.0125
+  },
+  "OR": {
+   "acc": 0.1375,
+   "lure": 0.6375
+  }
+ },
+ "rows": [
+  {
+   "N": 6,
+   "t": 6,
+   "lure": 1,
+   "pos": [
+    6,
+    2,
+    1,
+    5
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "cross"
+   },
+   "QR": {
+    "ok": true,
+    "surf": false,
+    "ans": "cross"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 1
+   }
+  },
+  {
+   "N": 6,
+   "t": 4,
+   "lure": 3,
+   "pos": [
+    6,
+    3,
+    4,
+    2
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "heart"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "triangle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 3
+   }
+  },
+  {
+   "N": 7,
+   "t": 3,
+   "lure": 5,
+   "pos": [
+    2,
+    5,
+    7,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "circle"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "diamond"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 3
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 7
+   }
+  },
+  {
+   "N": 5,
+   "t": 4,
+   "lure": 2,
+   "pos": [
+    3,
+    1,
+    2,
+    4
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ellipse"
+   },
+   "QR": {
+    "ok": false,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 2
+   }
+  },
+  {
+   "N": 6,
+   "t": 4,
+   "lure": 3,
+   "pos": [
+    6,
+    3,
+    4,
+    1
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "cross"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ellipse"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 1
+   }
+  },
+  {
+   "N": 5,
+   "t": 5,
+   "lure": 1,
+   "pos": [
+    5,
+    1,
+    4,
+    2
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "cross"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "diamond"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 1
+   }
+  },
+  {
+   "N": 6,
+   "t": 5,
+   "lure": 2,
+   "pos": [
+    1,
+    3,
+    2,
+    5
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "QR": {
+    "ok": false,
+    "surf": false,
+    "ans": "star"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 2
+   }
+  },
+  {
+   "N": 6,
+   "t": 5,
+   "lure": 2,
+   "pos": [
+    2,
+    1,
+    4,
+    5
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "star"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "heart"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   }
+  },
+  {
+   "N": 7,
+   "t": 1,
+   "lure": 7,
+   "pos": [
+    2,
+    1,
+    3,
+    7
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ring"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "cross"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 1
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 7
+   }
+  },
+  {
+   "N": 5,
+   "t": 4,
+   "lure": 2,
+   "pos": [
+    5,
+    4,
+    3,
+    2
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ring"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "triangle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 2
+   }
+  },
+  {
+   "N": 6,
+   "t": 6,
+   "lure": 1,
+   "pos": [
+    5,
+    6,
+    4,
+    1
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ellipse"
+   },
+   "QR": {
+    "ok": false,
+    "surf": false,
+    "ans": "cross"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 1
+   }
+  },
+  {
+   "N": 7,
+   "t": 7,
+   "lure": 1,
+   "pos": [
+    7,
+    3,
+    1,
+    4
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "QR": {
+    "ok": true,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 7
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 1
+   }
+  },
+  {
+   "N": 7,
+   "t": 5,
+   "lure": 3,
+   "pos": [
+    4,
+    3,
+    5,
+    1
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "cross"
+   },
+   "QR": {
+    "ok": true,
+    "surf": false,
+    "ans": "cross"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 3
+   }
+  },
+  {
+   "N": 7,
+   "t": 7,
+   "lure": 1,
+   "pos": [
+    3,
+    1,
+    2,
+    7
+   ],
+   "QF": {
+    "ok": false,
+    "surf": false,
+    "ans": "heart"
+   },
+   "QR": {
+    "ok": true,
+    "surf": false,
+    "ans": "diamond"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 7
+   },
+   "OR": {
+    "ok": true,
+    "lure": false,
+    "pick": 7
+   }
+  },
+  {
+   "N": 6,
+   "t": 1,
+   "lure": 6,
+   "pos": [
+    3,
+    2,
+    1,
+    6
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "square"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "triangle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 1
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 6
+   }
+  },
+  {
+   "N": 5,
+   "t": 2,
+   "lure": 4,
+   "pos": [
+    4,
+    2,
+    5,
+    1
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "diamond"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "circle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 5
+   }
+  },
+  {
+   "N": 6,
+   "t": 3,
+   "lure": 4,
+   "pos": [
+    5,
+    4,
+    1,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "cross"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 3
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 4
+   }
+  },
+  {
+   "N": 6,
+   "t": 4,
+   "lure": 3,
+   "pos": [
+    1,
+    2,
+    4,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "circle"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ring"
+   },
+   "OF": {
+    "ok": false,
+    "lure": true,
+    "pick": 3
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 3
+   }
+  },
+  {
+   "N": 5,
+   "t": 4,
+   "lure": 2,
+   "pos": [
+    5,
+    2,
+    3,
+    4
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "heart"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "cross"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 2
+   }
+  },
+  {
+   "N": 5,
+   "t": 4,
+   "lure": 2,
+   "pos": [
+    2,
+    3,
+    4,
+    1
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "heart"
+   },
+   "QR": {
+    "ok": false,
+    "surf": false,
+    "ans": "cross"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 1
+   }
+  },
+  {
+   "N": 6,
+   "t": 6,
+   "lure": 1,
+   "pos": [
+    6,
+    1,
+    4,
+    2
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "square"
+   },
+   "QR": {
+    "ok": false,
+    "surf": false,
+    "ans": "circle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 1
+   }
+  },
+  {
+   "N": 6,
+   "t": 3,
+   "lure": 4,
+   "pos": [
+    5,
+    2,
+    3,
+    4
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "star"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "triangle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 3
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 4
+   }
+  },
+  {
+   "N": 7,
+   "t": 1,
+   "lure": 7,
+   "pos": [
+    1,
+    2,
+    7,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "circle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 1
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 7
+   }
+  },
+  {
+   "N": 5,
+   "t": 4,
+   "lure": 2,
+   "pos": [
+    4,
+    5,
+    2,
+    1
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ellipse"
+   },
+   "QR": {
+    "ok": false,
+    "surf": false,
+    "ans": "star"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 2
+   }
+  },
+  {
+   "N": 6,
+   "t": 2,
+   "lure": 5,
+   "pos": [
+    5,
+    1,
+    2,
+    4
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "square"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "triangle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 1
+   }
+  },
+  {
+   "N": 7,
+   "t": 1,
+   "lure": 7,
+   "pos": [
+    7,
+    4,
+    1,
+    2
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ring"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "circle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 1
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 2
+   }
+  },
+  {
+   "N": 7,
+   "t": 6,
+   "lure": 2,
+   "pos": [
+    7,
+    6,
+    2,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "circle"
+   },
+   "QR": {
+    "ok": false,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 2
+   }
+  },
+  {
+   "N": 7,
+   "t": 3,
+   "lure": 5,
+   "pos": [
+    5,
+    1,
+    7,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "star"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "triangle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 3
+   },
+   "OR": {
+    "ok": true,
+    "lure": false,
+    "pick": 3
+   }
+  },
+  {
+   "N": 7,
+   "t": 6,
+   "lure": 2,
+   "pos": [
+    2,
+    4,
+    1,
+    6
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "star"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ellipse"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   },
+   "OR": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   }
+  },
+  {
+   "N": 7,
+   "t": 5,
+   "lure": 3,
+   "pos": [
+    3,
+    6,
+    7,
+    5
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "star"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ellipse"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 7
+   }
+  },
+  {
+   "N": 6,
+   "t": 2,
+   "lure": 5,
+   "pos": [
+    2,
+    5,
+    4,
+    6
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "star"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "diamond"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 5
+   }
+  },
+  {
+   "N": 6,
+   "t": 1,
+   "lure": 6,
+   "pos": [
+    5,
+    1,
+    3,
+    6
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "heart"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "cross"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 1
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 6
+   }
+  },
+  {
+   "N": 5,
+   "t": 2,
+   "lure": 4,
+   "pos": [
+    4,
+    2,
+    1,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "heart"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "star"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   },
+   "OR": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   }
+  },
+  {
+   "N": 6,
+   "t": 4,
+   "lure": 3,
+   "pos": [
+    3,
+    6,
+    2,
+    4
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "diamond"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ring"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 2
+   }
+  },
+  {
+   "N": 5,
+   "t": 2,
+   "lure": 4,
+   "pos": [
+    4,
+    2,
+    3,
+    1
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "square"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ring"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 1
+   }
+  },
+  {
+   "N": 7,
+   "t": 6,
+   "lure": 2,
+   "pos": [
+    2,
+    6,
+    5,
+    7
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ring"
+   },
+   "QR": {
+    "ok": false,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   },
+   "OR": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   }
+  },
+  {
+   "N": 5,
+   "t": 5,
+   "lure": 1,
+   "pos": [
+    5,
+    1,
+    3,
+    2
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ellipse"
+   },
+   "QR": {
+    "ok": true,
+    "surf": false,
+    "ans": "ellipse"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 1
+   }
+  },
+  {
+   "N": 7,
+   "t": 6,
+   "lure": 2,
+   "pos": [
+    5,
+    6,
+    2,
+    1
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ellipse"
+   },
+   "QR": {
+    "ok": true,
+    "surf": false,
+    "ans": "ellipse"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 2
+   }
+  },
+  {
+   "N": 7,
+   "t": 6,
+   "lure": 2,
+   "pos": [
+    3,
+    1,
+    6,
+    2
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "heart"
+   },
+   "QR": {
+    "ok": false,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 2
+   }
+  },
+  {
+   "N": 6,
+   "t": 4,
+   "lure": 3,
+   "pos": [
+    2,
+    4,
+    3,
+    6
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "square"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "diamond"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 3
+   }
+  },
+  {
+   "N": 5,
+   "t": 2,
+   "lure": 4,
+   "pos": [
+    2,
+    5,
+    3,
+    4
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "square"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ellipse"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 4
+   }
+  },
+  {
+   "N": 7,
+   "t": 5,
+   "lure": 3,
+   "pos": [
+    6,
+    3,
+    2,
+    5
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "circle"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "diamond"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 3
+   }
+  },
+  {
+   "N": 6,
+   "t": 2,
+   "lure": 5,
+   "pos": [
+    4,
+    5,
+    2,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "star"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ring"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 5
+   }
+  },
+  {
+   "N": 6,
+   "t": 1,
+   "lure": 6,
+   "pos": [
+    1,
+    2,
+    6,
+    4
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "circle"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ellipse"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 1
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 6
+   }
+  },
+  {
+   "N": 6,
+   "t": 2,
+   "lure": 5,
+   "pos": [
+    3,
+    2,
+    4,
+    5
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "circle"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "square"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 5
+   }
+  },
+  {
+   "N": 5,
+   "t": 5,
+   "lure": 1,
+   "pos": [
+    1,
+    2,
+    5,
+    4
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "QR": {
+    "ok": true,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   }
+  },
+  {
+   "N": 6,
+   "t": 3,
+   "lure": 4,
+   "pos": [
+    6,
+    1,
+    4,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "cross"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 3
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 4
+   }
+  },
+  {
+   "N": 5,
+   "t": 4,
+   "lure": 2,
+   "pos": [
+    4,
+    5,
+    2,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "cross"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "triangle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 2
+   }
+  },
+  {
+   "N": 5,
+   "t": 1,
+   "lure": 5,
+   "pos": [
+    4,
+    5,
+    1,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "square"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ellipse"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 1
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 5
+   }
+  },
+  {
+   "N": 5,
+   "t": 2,
+   "lure": 4,
+   "pos": [
+    5,
+    2,
+    1,
+    4
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ring"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "heart"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 4
+   }
+  },
+  {
+   "N": 7,
+   "t": 5,
+   "lure": 3,
+   "pos": [
+    2,
+    5,
+    3,
+    6
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ring"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "cross"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 3
+   }
+  },
+  {
+   "N": 6,
+   "t": 6,
+   "lure": 1,
+   "pos": [
+    6,
+    1,
+    3,
+    2
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "diamond"
+   },
+   "QR": {
+    "ok": false,
+    "surf": false,
+    "ans": "ring"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 1
+   }
+  },
+  {
+   "N": 7,
+   "t": 5,
+   "lure": 3,
+   "pos": [
+    5,
+    7,
+    3,
+    2
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "diamond"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "star"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 3
+   }
+  },
+  {
+   "N": 6,
+   "t": 6,
+   "lure": 1,
+   "pos": [
+    1,
+    3,
+    5,
+    6
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "diamond"
+   },
+   "QR": {
+    "ok": true,
+    "surf": false,
+    "ans": "diamond"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   },
+   "OR": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   }
+  },
+  {
+   "N": 6,
+   "t": 4,
+   "lure": 3,
+   "pos": [
+    4,
+    1,
+    5,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "square"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "triangle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 3
+   }
+  },
+  {
+   "N": 5,
+   "t": 1,
+   "lure": 5,
+   "pos": [
+    5,
+    1,
+    4,
+    2
+   ],
+   "QF": {
+    "ok": false,
+    "surf": false,
+    "ans": "heart"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "diamond"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 1
+   },
+   "OR": {
+    "ok": true,
+    "lure": false,
+    "pick": 1
+   }
+  },
+  {
+   "N": 7,
+   "t": 5,
+   "lure": 3,
+   "pos": [
+    3,
+    5,
+    1,
+    4
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "cross"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "heart"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 4
+   }
+  },
+  {
+   "N": 6,
+   "t": 5,
+   "lure": 2,
+   "pos": [
+    2,
+    5,
+    4,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ellipse"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "star"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 3
+   }
+  },
+  {
+   "N": 7,
+   "t": 6,
+   "lure": 2,
+   "pos": [
+    6,
+    4,
+    3,
+    2
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "cross"
+   },
+   "QR": {
+    "ok": true,
+    "surf": false,
+    "ans": "cross"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 2
+   }
+  },
+  {
+   "N": 7,
+   "t": 2,
+   "lure": 6,
+   "pos": [
+    6,
+    7,
+    5,
+    2
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "circle"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "star"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   },
+   "OR": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   }
+  },
+  {
+   "N": 5,
+   "t": 4,
+   "lure": 2,
+   "pos": [
+    5,
+    4,
+    2,
+    1
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ellipse"
+   },
+   "QR": {
+    "ok": false,
+    "surf": false,
+    "ans": "heart"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 2
+   }
+  },
+  {
+   "N": 5,
+   "t": 1,
+   "lure": 5,
+   "pos": [
+    3,
+    4,
+    5,
+    1
+   ],
+   "QF": {
+    "ok": false,
+    "surf": false,
+    "ans": "cross"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ellipse"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 1
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 5
+   }
+  },
+  {
+   "N": 7,
+   "t": 6,
+   "lure": 2,
+   "pos": [
+    2,
+    7,
+    4,
+    6
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ellipse"
+   },
+   "QR": {
+    "ok": true,
+    "surf": false,
+    "ans": "ellipse"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 7
+   }
+  },
+  {
+   "N": 6,
+   "t": 6,
+   "lure": 1,
+   "pos": [
+    2,
+    4,
+    1,
+    6
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "diamond"
+   },
+   "QR": {
+    "ok": false,
+    "surf": false,
+    "ans": "square"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 1
+   }
+  },
+  {
+   "N": 5,
+   "t": 1,
+   "lure": 5,
+   "pos": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ellipse"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "square"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 1
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 5
+   }
+  },
+  {
+   "N": 6,
+   "t": 3,
+   "lure": 4,
+   "pos": [
+    1,
+    4,
+    3,
+    5
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "heart"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 3
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 4
+   }
+  },
+  {
+   "N": 6,
+   "t": 5,
+   "lure": 2,
+   "pos": [
+    2,
+    5,
+    6,
+    1
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "cross"
+   },
+   "QR": {
+    "ok": false,
+    "surf": false,
+    "ans": "circle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 6
+   }
+  },
+  {
+   "N": 6,
+   "t": 4,
+   "lure": 3,
+   "pos": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "star"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "square"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 6
+   }
+  },
+  {
+   "N": 7,
+   "t": 5,
+   "lure": 3,
+   "pos": [
+    5,
+    3,
+    4,
+    1
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "star"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ring"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 3
+   }
+  },
+  {
+   "N": 6,
+   "t": 4,
+   "lure": 3,
+   "pos": [
+    3,
+    6,
+    1,
+    4
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "circle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   }
+  },
+  {
+   "N": 6,
+   "t": 1,
+   "lure": 6,
+   "pos": [
+    1,
+    2,
+    6,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "cross"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ellipse"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 1
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 6
+   }
+  },
+  {
+   "N": 7,
+   "t": 6,
+   "lure": 2,
+   "pos": [
+    2,
+    6,
+    3,
+    1
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ellipse"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "cross"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 6
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 1
+   }
+  },
+  {
+   "N": 7,
+   "t": 3,
+   "lure": 5,
+   "pos": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "triangle"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ring"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 3
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 5
+   }
+  },
+  {
+   "N": 6,
+   "t": 2,
+   "lure": 5,
+   "pos": [
+    4,
+    1,
+    2,
+    5
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "heart"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "diamond"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 5
+   }
+  },
+  {
+   "N": 5,
+   "t": 2,
+   "lure": 4,
+   "pos": [
+    1,
+    2,
+    5,
+    4
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ellipse"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ring"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 4
+   }
+  },
+  {
+   "N": 7,
+   "t": 2,
+   "lure": 6,
+   "pos": [
+    6,
+    7,
+    2,
+    1
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "ring"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "circle"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 2
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 1
+   }
+  },
+  {
+   "N": 5,
+   "t": 4,
+   "lure": 2,
+   "pos": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "cross"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "ring"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 4
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 5
+   }
+  },
+  {
+   "N": 6,
+   "t": 3,
+   "lure": 4,
+   "pos": [
+    1,
+    3,
+    4,
+    2
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "diamond"
+   },
+   "QR": {
+    "ok": false,
+    "surf": true,
+    "ans": "cross"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 3
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 4
+   }
+  },
+  {
+   "N": 7,
+   "t": 7,
+   "lure": 1,
+   "pos": [
+    6,
+    1,
+    3,
+    7
+   ],
+   "QF": {
+    "ok": false,
+    "surf": false,
+    "ans": "square"
+   },
+   "QR": {
+    "ok": false,
+    "surf": false,
+    "ans": "square"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 7
+   },
+   "OR": {
+    "ok": false,
+    "lure": true,
+    "pick": 1
+   }
+  },
+  {
+   "N": 5,
+   "t": 5,
+   "lure": 1,
+   "pos": [
+    5,
+    1,
+    4,
+    3
+   ],
+   "QF": {
+    "ok": true,
+    "surf": false,
+    "ans": "diamond"
+   },
+   "QR": {
+    "ok": true,
+    "surf": false,
+    "ans": "diamond"
+   },
+   "OF": {
+    "ok": true,
+    "lure": false,
+    "pick": 5
+   },
+   "OR": {
+    "ok": false,
+    "lure": false,
+    "pick": 4
+   }
+  }
+ ]
+}

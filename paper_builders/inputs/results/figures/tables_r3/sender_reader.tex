@@ -1,0 +1,13 @@
+\begin{tabular}{lrrrr}
+\toprule
+Readers L43--59 get & frame recovery & END(2)$\to$END(5) & END(5) errors in END(2) & END(2) lost to START(2) \\
+\midrule
+whole donor query & 56 & 52 & 68 & 88 \\
+message after layer 26 & -- & -2 & 0 & 5 \\
+message after layer 34 & 22 & 15 & 4 & 32 \\
+message after layer 42 & 26 & 30 & 20 & 88 \\
+layers 27--34 DeltaNet only & 11 & 15 & 4 & 5 \\
+layers 27--34 attention only & 0 & -2 & 4 & 12 \\
+layers 27--34 MLP only & -4 & -8 & 0 & 5 \\
+\bottomrule
+\end{tabular}

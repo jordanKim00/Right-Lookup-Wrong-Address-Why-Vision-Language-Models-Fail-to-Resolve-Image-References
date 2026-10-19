@@ -1,0 +1,17 @@
+\begin{tabular}{llrrrr}
+\toprule
+ & & \multicolumn{2}{c}{$N=7$} & \multicolumn{2}{c}{$N=8$} \\
+Question & frame word read at & image 4 & lookup & image 4 & image 5 \\
+\midrule
+END(4) & ``last'' (natural) & 52 & 24 & 32 & 22 \\
+END(4) & ``first'' at 27--34 & 100 & 64 & 98 & 0 \\
+END(4) & \quad DeltaNet conv only & 78 & 57 & 52 & 12 \\
+END(4) & \quad attention 27, 31 only & 68 & 29 & 50 & 10 \\
+END(4) & ``first'' at 35--63 & 78 & 24 & 38 & 28 \\
+END(4) & ``first'' at 27--63 & 100 & 64 & 100 & 0 \\
+START(4) & ``first'' (natural) & 100 & 69 & 98 & 0 \\
+START(4) & ``last'' at 27--34 & 95 & 34 & 85 & 8 \\
+START(4) & \quad DeltaNet conv only & 100 & 55 & 100 & 0 \\
+START(4) & ``last'' at 27--63 & 30 & 29 & 20 & 20 \\
+\bottomrule
+\end{tabular}

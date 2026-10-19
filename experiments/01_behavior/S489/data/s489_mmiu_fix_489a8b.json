@@ -1,0 +1,12567 @@
+{
+ "res": {
+  "skipped_N_gt_9": {},
+  "face_retrieval": {
+   "acc": {
+    "F": 0.94,
+    "E": 0.94,
+    "R": 0.34,
+    "R2Q": 0.94
+   },
+   "p_conv": 1.0,
+   "n": 50
+  },
+  "handwritten_retrieval": {
+   "acc": {
+    "F": 0.32,
+    "E": 0.26,
+    "R": 0.28,
+    "R2Q": 0.26
+   },
+   "p_conv": 1.0,
+   "n": 50
+  },
+  "image2image_retrieval": {
+   "acc": {
+    "F": 0.76,
+    "E": 0.74,
+    "R": 0.32,
+    "R2Q": 0.74
+   },
+   "p_conv": 1.0,
+   "n": 50
+  },
+  "person_reid": {
+   "acc": {
+    "F": 0.98,
+    "E": 0.98,
+    "R": 0.36,
+    "R2Q": 0.98
+   },
+   "p_conv": 1.0,
+   "n": 50
+  },
+  "vehicle_retrieval": {
+   "acc": {
+    "F": 0.74,
+    "E": 0.78,
+    "R": 0.4,
+    "R2Q": 0.78
+   },
+   "p_conv": 1.0,
+   "n": 50
+  },
+  "sketch2image_retrieval": {
+   "acc": {
+    "F": 0.8,
+    "E": 0.78,
+    "R": 0.34,
+    "R2Q": 0.78
+   },
+   "p_conv": 1.0,
+   "n": 50
+  },
+  "text2image_retrieval": {
+   "acc": {
+    "F": 0.66,
+    "E": 0.7,
+    "R": 0.1,
+    "R2Q": 0.7
+   },
+   "p_conv": 1.0,
+   "n": 50
+  },
+  "forensic_detection_blink": {
+   "acc": {
+    "F": 0.82,
+    "E": 0.84,
+    "R": 0.08,
+    "R2Q": 0.84
+   },
+   "p_conv": 0.98,
+   "n": 50
+  },
+  "forensic_detection_forgerynet": {
+   "acc": {
+    "F": 0.92,
+    "E": 0.9,
+    "R": 0.04,
+    "R2Q": 0.9
+   },
+   "p_conv": 1.0,
+   "n": 50
+  },
+  "visual_coherence": {
+   "acc": {
+    "F": 0.48,
+    "E": 0.46,
+    "R": 0.16,
+    "R2Q": 0.46
+   },
+   "p_conv": 0.96,
+   "n": 50
+  },
+  "Icon_Question_Answering_with_Spatial_Context": {
+   "acc": {
+    "F": 0.92,
+    "E": 0.9,
+    "R": 0.36,
+    "R2Q": 0.9
+   },
+   "p_conv": 1.0,
+   "n": 50
+  },
+  "\uc804\uccb4": {
+   "acc": {
+    "F": 0.7581818181818182,
+    "E": 0.7527272727272727,
+    "R": 0.25272727272727274,
+    "R2Q": 0.7527272727272727
+   },
+   "p_conv": 0.9945454545454545,
+   "n": 550
+  }
+ },
+ "rows": [
+  {
+   "task": "face_retrieval",
+   "i": 0,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 1,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 2,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 3,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 4,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 5,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 6,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 7,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 8,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 9,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 10,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 11,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 12,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 13,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 14,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 15,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 16,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 17,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 18,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 19,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 20,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 21,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 22,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 23,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 24,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 25,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 26,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 27,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 28,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 29,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 30,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 31,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 32,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 33,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 34,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 35,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 36,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 37,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 38,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 39,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 40,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 41,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 42,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 43,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 44,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 45,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 46,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 47,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 48,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "face_retrieval",
+   "i": 49,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 0,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 1,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 2,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 3,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 4,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 5,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 6,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 7,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 8,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 9,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 10,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 11,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 12,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 13,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 14,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 15,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 16,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 17,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 18,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 19,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 20,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 21,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 22,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 23,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 24,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 25,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 26,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 27,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 28,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 29,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 30,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 31,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 32,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 33,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 34,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 35,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 36,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 37,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 38,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 39,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 40,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 41,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 42,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 43,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 44,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 45,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 46,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 47,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 48,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "handwritten_retrieval",
+   "i": 49,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 0,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 1,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 2,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 3,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 4,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 5,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 6,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 7,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 8,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 9,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 10,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 11,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 12,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 13,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 14,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 15,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 16,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 17,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 18,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 19,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 20,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 21,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 22,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 23,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 24,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 25,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 26,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 27,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 28,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 29,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 30,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 31,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 32,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 33,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 34,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 35,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 36,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 37,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 38,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 39,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 40,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 41,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 42,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 43,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 44,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 45,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 46,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 47,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 48,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "image2image_retrieval",
+   "i": 49,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 0,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "person_reid",
+   "i": 1,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "person_reid",
+   "i": 2,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "person_reid",
+   "i": 3,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "person_reid",
+   "i": 4,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "person_reid",
+   "i": 5,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "person_reid",
+   "i": 6,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "person_reid",
+   "i": 7,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 8,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 9,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 10,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 11,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "person_reid",
+   "i": 12,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 13,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 14,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 15,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 16,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 17,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 18,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "person_reid",
+   "i": 19,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 20,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "person_reid",
+   "i": 21,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 22,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 23,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "person_reid",
+   "i": 24,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 25,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "person_reid",
+   "i": 26,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 27,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 28,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "person_reid",
+   "i": 29,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 30,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 31,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "person_reid",
+   "i": 32,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 33,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "person_reid",
+   "i": 34,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "person_reid",
+   "i": 35,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 36,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 37,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 38,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "person_reid",
+   "i": 39,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "person_reid",
+   "i": 40,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "person_reid",
+   "i": 41,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 42,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 43,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 44,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 45,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 46,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "person_reid",
+   "i": 47,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "person_reid",
+   "i": 48,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "person_reid",
+   "i": 49,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 0,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 1,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 2,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 3,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 4,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 5,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 6,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 7,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 8,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 9,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 10,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 11,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "D",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 12,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 13,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 14,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 15,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 16,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 17,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 18,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 19,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 20,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 21,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 22,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 23,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 24,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 25,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 26,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 27,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 28,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 29,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 30,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 31,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 32,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 33,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 34,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 35,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 36,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 37,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 38,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 39,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 40,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 41,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 42,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 43,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 44,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 45,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 46,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 47,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 48,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "vehicle_retrieval",
+   "i": 49,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 0,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 1,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 2,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 3,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 4,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 5,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 6,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 7,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 8,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 9,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 10,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 11,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 12,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 13,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 14,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 15,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 16,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 17,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 18,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 19,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 20,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 21,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 22,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 23,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 24,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 25,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 26,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 27,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 28,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 29,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 30,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 31,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 32,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 33,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 34,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 35,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 36,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 37,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 38,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 39,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 40,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 41,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 42,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 43,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 44,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 45,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 46,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 47,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 48,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "sketch2image_retrieval",
+   "i": 49,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 0,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 1,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 2,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 3,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 4,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 5,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 6,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 7,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 8,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 9,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 10,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 11,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 12,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "D",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 13,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 14,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 15,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 16,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 17,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 18,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 19,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 20,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 21,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 22,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 23,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 24,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 25,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 26,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 27,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 28,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 29,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 30,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 31,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 32,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 33,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 34,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 35,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 36,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 37,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 38,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 39,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 40,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 41,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 42,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 43,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 44,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 45,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 46,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 47,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 48,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "text2image_retrieval",
+   "i": 49,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 0,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 1,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 2,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 3,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 4,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 5,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 6,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 7,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 8,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 9,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 10,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 11,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 12,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 13,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 14,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 15,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 16,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 17,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 18,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 19,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 20,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 21,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 22,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 23,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 24,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 25,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 26,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 27,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    2,
+    4
+   ],
+   "conv_ok": false,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 28,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 29,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 30,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 31,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 32,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 33,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 34,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 35,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 36,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 37,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 38,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 39,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 40,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 41,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 42,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 43,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 44,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 45,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 46,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 47,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 48,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_blink",
+   "i": 49,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 0,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 1,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 2,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 3,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 4,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 5,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 6,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 7,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 8,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 9,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 10,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 11,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 12,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 13,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 14,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 15,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 16,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 17,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 18,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 19,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 20,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 21,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 22,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 23,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 24,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 25,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 26,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 27,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 28,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 29,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 30,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 31,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 32,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 33,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 34,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 35,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 36,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 37,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 38,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 39,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 40,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 41,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 42,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 43,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "D",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 44,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 45,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 46,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 47,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 48,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "forensic_detection_forgerynet",
+   "i": 49,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 0,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 1,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 2,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 3,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 4,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 5,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 6,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "D",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 7,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 8,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 9,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 10,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 11,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 12,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 13,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 14,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 15,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 16,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 17,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 18,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 19,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 20,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 21,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 22,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 23,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "D",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 24,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "A",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 25,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 26,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 27,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 28,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 29,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 30,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 31,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    2,
+    4
+   ],
+   "conv_ok": false,
+   "R2Q": "D"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 32,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 33,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 34,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 35,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 36,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 37,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    2,
+    4
+   ],
+   "conv_ok": false,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 38,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 39,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 40,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 41,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 42,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 43,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 44,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 45,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 46,
+   "gold": "D",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 47,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 48,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "visual_coherence",
+   "i": 49,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 0,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 1,
+   "gold": "A",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 2,
+   "gold": "A",
+   "N": 6,
+   "ks": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "F": "C",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 3,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 4,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 5,
+   "gold": "A",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 6,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "D",
+   "E": "D",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 7,
+   "gold": "B",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 8,
+   "gold": "B",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 9,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 10,
+   "gold": "B",
+   "N": 6,
+   "ks": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 11,
+   "gold": "B",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 12,
+   "gold": "B",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 13,
+   "gold": "D",
+   "N": 6,
+   "ks": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "F": "E",
+   "E": "E",
+   "R": "A",
+   "jhat": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "conv_ok": true,
+   "R2Q": "E"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 14,
+   "gold": "A",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 15,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 16,
+   "gold": "D",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 17,
+   "gold": "B",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "A",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 18,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 19,
+   "gold": "A",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 20,
+   "gold": "A",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 21,
+   "gold": "B",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 22,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 23,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "B",
+   "E": "D",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "D"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 24,
+   "gold": "B",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 25,
+   "gold": "B",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 26,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 27,
+   "gold": "B",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 28,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 29,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 30,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 31,
+   "gold": "C",
+   "N": 5,
+   "ks": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 32,
+   "gold": "B",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 33,
+   "gold": "A",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "A",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 34,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 35,
+   "gold": "B",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 36,
+   "gold": "A",
+   "N": 6,
+   "ks": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "D",
+   "jhat": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 37,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 38,
+   "gold": "A",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 39,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 40,
+   "gold": "A",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 41,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 42,
+   "gold": "A",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 43,
+   "gold": "A",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 44,
+   "gold": "A",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 45,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 46,
+   "gold": "A",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "A",
+   "E": "A",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "A"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 47,
+   "gold": "B",
+   "N": 3,
+   "ks": [
+    2,
+    3
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "B",
+   "jhat": [
+    2,
+    3
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 48,
+   "gold": "B",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "B",
+   "E": "B",
+   "R": "C",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "B"
+  },
+  {
+   "task": "Icon_Question_Answering_with_Spatial_Context",
+   "i": 49,
+   "gold": "C",
+   "N": 4,
+   "ks": [
+    2,
+    3,
+    4
+   ],
+   "F": "C",
+   "E": "C",
+   "R": "B",
+   "jhat": [
+    2,
+    3,
+    4
+   ],
+   "conv_ok": true,
+   "R2Q": "C"
+  }
+ ]
+}

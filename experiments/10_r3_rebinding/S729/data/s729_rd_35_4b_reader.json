@@ -1,0 +1,47 @@
+{
+ "tag": "rd_35_4b",
+ "base": "35_4b",
+ "old": "s609_35_4b",
+ "layer": 20,
+ "site": "vend",
+ "res": {
+  "new": {
+   "proc": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "nat": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "low": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "all": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "N10": 1.0
+  },
+  "old": {
+   "proc": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "nat": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "low": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "all": {
+    "count": 1.0,
+    "block": 1.0
+   },
+   "N10": 1.0
+  }
+ }
+}

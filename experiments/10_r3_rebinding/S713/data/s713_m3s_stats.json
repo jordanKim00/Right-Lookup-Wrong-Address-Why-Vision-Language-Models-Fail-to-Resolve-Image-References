@@ -1,0 +1,15 @@
+{
+ "tag": "m3s",
+ "base": "r327b",
+ "v2": true,
+ "rev_style": "end",
+ "sealed": false,
+ "fresh": false,
+ "stats": {
+  "inputs": 58,
+  "sources": 152,
+  "rebound": 43,
+  "frame": 52,
+  "frame_only": 9
+ }
+}

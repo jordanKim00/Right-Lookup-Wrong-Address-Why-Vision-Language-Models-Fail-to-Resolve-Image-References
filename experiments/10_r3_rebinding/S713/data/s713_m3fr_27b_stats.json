@@ -1,0 +1,15 @@
+{
+ "tag": "m3fr_27b",
+ "base": "r327b",
+ "v2": true,
+ "rev_style": "end",
+ "sealed": false,
+ "fresh": true,
+ "stats": {
+  "inputs": 1000,
+  "sources": 4173,
+  "rebound": 1244,
+  "frame": 1521,
+  "frame_only": 277
+ }
+}

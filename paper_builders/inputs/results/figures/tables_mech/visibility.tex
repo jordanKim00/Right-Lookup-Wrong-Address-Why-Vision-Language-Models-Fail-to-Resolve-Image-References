@@ -1,0 +1,18 @@
+\begin{tabular}{lrr}
+\toprule
+Last $m$ images hidden from & $k=2$ & $k=3$ \\
+\midrule
+full attention, all layers & 75 & 52 \\
+full attention, two layers (68--75\% depth) & 57 & 49 \\
+recurrent memory, all layers & 6 & 21 \\
+images removed (reference) & 85 & 68 \\
+no edit & 6 & 19 \\
+\midrule
+\multicolumn{3}{l}{\textit{Heads hidden at the two end-reading layers ($k\in\{2,3\}$, pooled)}} \\
+all heads & \multicolumn{2}{r}{46} \\
+index-matching heads only & \multicolumn{2}{r}{14} \\
+other heads only & \multicolumn{2}{r}{12} \\
+end-attending heads only (11) & \multicolumn{2}{r}{14} \\
+random heads (11) & \multicolumn{2}{r}{9} \\
+\bottomrule
+\end{tabular}

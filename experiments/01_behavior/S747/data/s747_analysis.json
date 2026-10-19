@@ -1,0 +1,118 @@
+{
+ "s747_q3vl32b": {
+  "res": {
+   "n": 500,
+   "start": 0.754,
+   "start_ci": [
+    0.716,
+    0.792
+   ],
+   "end": 0.328,
+   "end_ci": [
+    0.286,
+    0.368
+   ],
+   "drop": 0.426,
+   "drop_ci": [
+    0.372,
+    0.482
+   ],
+   "lure_share": 0.7898832684824902,
+   "lure_chance": 0.35278858625162024,
+   "lure_errors": 257,
+   "cloze_start": 0.295,
+   "cloze_end": 0.24
+  },
+  "checks": {
+   "END_DROP": true,
+   "LITERAL_ERRORS": true
+  }
+ },
+ "s747_kimivl": {
+  "res": {
+   "n": 500,
+   "start": 0.754,
+   "start_ci": [
+    0.716,
+    0.79
+   ],
+   "end": 0.328,
+   "end_ci": [
+    0.286,
+    0.37
+   ],
+   "drop": 0.426,
+   "drop_ci": [
+    0.37395,
+    0.474
+   ],
+   "lure_share": 0.7142857142857143,
+   "lure_chance": 0.352258852258851,
+   "lure_errors": 273,
+   "cloze_start": 0.35,
+   "cloze_end": 0.265
+  },
+  "checks": {
+   "END_DROP": true,
+   "LITERAL_ERRORS": true
+  }
+ },
+ "s747_q3vl30a3": {
+  "res": {
+   "n": 500,
+   "start": 0.77,
+   "start_ci": [
+    0.734,
+    0.806
+   ],
+   "end": 0.25,
+   "end_ci": [
+    0.21,
+    0.288
+   ],
+   "drop": 0.52,
+   "drop_ci": [
+    0.468,
+    0.572
+   ],
+   "lure_share": 0.7898550724637681,
+   "lure_chance": 0.34842995169082014,
+   "lure_errors": 276,
+   "cloze_start": 0.255,
+   "cloze_end": 0.225
+  },
+  "checks": {
+   "END_DROP": true,
+   "LITERAL_ERRORS": true
+  }
+ },
+ "s747_ernie": {
+  "res": {
+   "n": 500,
+   "start": 0.63,
+   "start_ci": [
+    0.588,
+    0.672
+   ],
+   "end": 0.278,
+   "end_ci": [
+    0.24,
+    0.32
+   ],
+   "drop": 0.352,
+   "drop_ci": [
+    0.292,
+    0.408
+   ],
+   "lure_share": 0.475,
+   "lure_chance": 0.352380952380951,
+   "lure_errors": 280,
+   "cloze_start": 0.22,
+   "cloze_end": 0.265
+  },
+  "checks": {
+   "END_DROP": true,
+   "LITERAL_ERRORS": false
+  }
+ }
+}

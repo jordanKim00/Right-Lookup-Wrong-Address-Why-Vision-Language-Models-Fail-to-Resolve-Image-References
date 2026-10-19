@@ -1,0 +1,20 @@
+{
+ "tag": "lmcz_4b",
+ "base": "lm_4b",
+ "v2": true,
+ "det_rule": "margin",
+ "det_param": 0.5,
+ "anchor_scale": 1.2,
+ "ablate": null,
+ "prompt_mode": "none",
+ "rev_style": "end",
+ "sealed": false,
+ "fresh": false,
+ "stats": {
+  "inputs": 400,
+  "sources": 2000,
+  "rebound": 600,
+  "frame": 800,
+  "frame_only": 200
+ }
+}

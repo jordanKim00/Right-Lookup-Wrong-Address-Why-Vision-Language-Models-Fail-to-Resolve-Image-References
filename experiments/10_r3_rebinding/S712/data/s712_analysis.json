@@ -1,0 +1,99 @@
+{
+ "gen_27b": {
+  "END": {
+   "n": 360,
+   "NATIVE": 0.5333333333333333,
+   "R3V2": 0.9805555555555555,
+   "O_ORD_FR": 0.9833333333333333
+  },
+  "START": {
+   "n": 360,
+   "NATIVE": 0.9777777777777777,
+   "R3V2": 0.9777777777777777,
+   "write_rate": 0.0
+  },
+  "factors": {
+   "N": {
+    "3": {
+     "n": 36,
+     "NATIVE": 0.528,
+     "R3V2": 0.944,
+     "O_ORD_FR": 0.972
+    },
+    "4": {
+     "n": 48,
+     "NATIVE": 0.708,
+     "R3V2": 0.958,
+     "O_ORD_FR": 0.958
+    },
+    "6": {
+     "n": 72,
+     "NATIVE": 0.625,
+     "R3V2": 0.986,
+     "O_ORD_FR": 0.986
+    },
+    "8": {
+     "n": 96,
+     "NATIVE": 0.5,
+     "R3V2": 0.99,
+     "O_ORD_FR": 0.99
+    },
+    "9": {
+     "n": 108,
+     "NATIVE": 0.426,
+     "R3V2": 0.991,
+     "O_ORD_FR": 0.991
+    }
+   },
+   "layout": {
+    "first": {
+     "n": 120,
+     "NATIVE": 0.575,
+     "R3V2": 0.983,
+     "O_ORD_FR": 0.983
+    },
+    "newline": {
+     "n": 120,
+     "NATIVE": 0.55,
+     "R3V2": 0.992,
+     "O_ORD_FR": 0.992
+    },
+    "picture": {
+     "n": 120,
+     "NATIVE": 0.475,
+     "R3V2": 0.967,
+     "O_ORD_FR": 0.975
+    }
+   },
+   "word": {
+    "end": {
+     "n": 180,
+     "NATIVE": 0.511,
+     "R3V2": 0.978,
+     "O_ORD_FR": 0.978
+    },
+    "last": {
+     "n": 180,
+     "NATIVE": 0.556,
+     "R3V2": 0.983,
+     "O_ORD_FR": 0.989
+    }
+   }
+  },
+  "ledger": {
+   "detected": 360,
+   "anchor": 359,
+   "kh_ok": 359,
+   "Nhat_ok": 359,
+   "t_ok": 359,
+   "wrote": 359,
+   "wrote_wrong": 6
+  },
+  "checks": {
+   "GEN_REPAIR": true,
+   "GEN_FACTORS": true,
+   "ORACLE_FRACTION": true,
+   "START_NO_HARM": true
+  }
+ }
+}

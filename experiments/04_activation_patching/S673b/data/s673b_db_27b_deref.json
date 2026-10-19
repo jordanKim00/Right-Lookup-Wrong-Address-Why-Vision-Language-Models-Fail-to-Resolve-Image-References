@@ -1,0 +1,2307 @@
+{
+ "tag": "db_27b",
+ "model": "/models/Qwen3.5-27B",
+ "L_port": 14,
+ "LS": [
+  4,
+  9,
+  14,
+  19,
+  24,
+  29,
+  34,
+  39,
+  50
+ ],
+ "QW": [
+  15,
+  19,
+  23,
+  27,
+  31,
+  35
+ ],
+ "OH": [],
+ "rows": [
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 4,
+   "B": [
+    "ring",
+    "star",
+    "triangle",
+    "circle",
+    "cross",
+    "ellipse",
+    "diamond"
+   ],
+   "D": [
+    "ellipse",
+    "cross",
+    "circle",
+    "diamond",
+    "triangle",
+    "ring",
+    "star"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 6,
+    "SAME": 6,
+    "ORD@4": 6,
+    "ORD@9": 6,
+    "ORD@14": 6,
+    "ORD@19": 6,
+    "ORD@24": 6,
+    "ORD@29": 3,
+    "ORD@34": 6,
+    "ORD@39": 6,
+    "ORD@50": 6,
+    "ORD_Q": 6
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 7,
+   "B": [
+    "ring",
+    "diamond",
+    "triangle",
+    "ellipse",
+    "star",
+    "heart",
+    "square"
+   ],
+   "D": [
+    "diamond",
+    "heart",
+    "square",
+    "ellipse",
+    "triangle",
+    "star",
+    "ring"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 4,
+    "SAME": 4,
+    "ORD@4": 4,
+    "ORD@9": 4,
+    "ORD@14": 4,
+    "ORD@19": 4,
+    "ORD@24": 4,
+    "ORD@29": 4,
+    "ORD@34": 4,
+    "ORD@39": 4,
+    "ORD@50": 4,
+    "ORD_Q": 4
+   }
+  },
+  {
+   "k": 6,
+   "j": 2,
+   "yj": 5,
+   "B": [
+    "ellipse",
+    "square",
+    "triangle",
+    "star",
+    "circle",
+    "ring",
+    "heart"
+   ],
+   "D": [
+    "ring",
+    "circle",
+    "triangle",
+    "square",
+    "ellipse",
+    "star",
+    "heart"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 1,
+    "SAME": 6,
+    "ORD@4": 6,
+    "ORD@9": 6,
+    "ORD@14": 6,
+    "ORD@19": 6,
+    "ORD@24": 6,
+    "ORD@29": 3,
+    "ORD@34": 3,
+    "ORD@39": 3,
+    "ORD@50": 1,
+    "ORD_Q": 1
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 7,
+   "B": [
+    "diamond",
+    "square",
+    "triangle",
+    "ring",
+    "circle",
+    "heart",
+    "ellipse"
+   ],
+   "D": [
+    "triangle",
+    "ring",
+    "ellipse",
+    "heart",
+    "square",
+    "diamond",
+    "circle"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 3,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 5,
+    "ORD@34": 5,
+    "ORD@39": 3,
+    "ORD@50": 3,
+    "ORD_Q": 3
+   }
+  },
+  {
+   "k": 6,
+   "j": 2,
+   "yj": 7,
+   "B": [
+    "ellipse",
+    "square",
+    "star",
+    "ring",
+    "cross",
+    "diamond",
+    "circle"
+   ],
+   "D": [
+    "ellipse",
+    "circle",
+    "diamond",
+    "cross",
+    "ring",
+    "square",
+    "star"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 2,
+    "SAME": 6,
+    "ORD@4": 6,
+    "ORD@9": 6,
+    "ORD@14": 6,
+    "ORD@19": 6,
+    "ORD@24": 6,
+    "ORD@29": 6,
+    "ORD@34": 2,
+    "ORD@39": 6,
+    "ORD@50": 2,
+    "ORD_Q": 2
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 7,
+   "B": [
+    "heart",
+    "triangle",
+    "cross",
+    "ellipse",
+    "square",
+    "ring",
+    "star"
+   ],
+   "D": [
+    "triangle",
+    "heart",
+    "star",
+    "cross",
+    "square",
+    "ring",
+    "ellipse"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 4,
+    "SAME": 4,
+    "ORD@4": 4,
+    "ORD@9": 4,
+    "ORD@14": 4,
+    "ORD@19": 4,
+    "ORD@24": 4,
+    "ORD@29": 4,
+    "ORD@34": 4,
+    "ORD@39": 4,
+    "ORD@50": 4,
+    "ORD_Q": 4
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 1,
+   "B": [
+    "cross",
+    "circle",
+    "star",
+    "ring",
+    "diamond",
+    "triangle",
+    "square"
+   ],
+   "D": [
+    "triangle",
+    "star",
+    "diamond",
+    "ring",
+    "cross",
+    "square",
+    "circle"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 5,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 6,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 5,
+    "ORD_Q": 6
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 1,
+   "B": [
+    "triangle",
+    "cross",
+    "diamond",
+    "ring",
+    "circle",
+    "heart",
+    "ellipse"
+   ],
+   "D": [
+    "circle",
+    "heart",
+    "triangle",
+    "ring",
+    "ellipse",
+    "cross",
+    "diamond"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 7,
+    "SAME": 7,
+    "ORD@4": 7,
+    "ORD@9": 7,
+    "ORD@14": 7,
+    "ORD@19": 7,
+    "ORD@24": 7,
+    "ORD@29": 7,
+    "ORD@34": 7,
+    "ORD@39": 7,
+    "ORD@50": 7,
+    "ORD_Q": 7
+   }
+  },
+  {
+   "k": 2,
+   "j": 6,
+   "yj": 1,
+   "B": [
+    "ring",
+    "heart",
+    "triangle",
+    "circle",
+    "ellipse",
+    "diamond",
+    "star"
+   ],
+   "D": [
+    "triangle",
+    "circle",
+    "star",
+    "diamond",
+    "ellipse",
+    "ring",
+    "heart"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 6,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 6,
+    "ORD@29": 6,
+    "ORD@34": 6,
+    "ORD@39": 6,
+    "ORD@50": 6,
+    "ORD_Q": 6
+   }
+  },
+  {
+   "k": 2,
+   "j": 6,
+   "yj": 5,
+   "B": [
+    "star",
+    "ring",
+    "heart",
+    "ellipse",
+    "circle",
+    "triangle",
+    "diamond"
+   ],
+   "D": [
+    "ring",
+    "heart",
+    "ellipse",
+    "star",
+    "triangle",
+    "circle",
+    "diamond"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 6,
+    "SAME": 4,
+    "ORD@4": 4,
+    "ORD@9": 4,
+    "ORD@14": 4,
+    "ORD@19": 4,
+    "ORD@24": 6,
+    "ORD@29": 6,
+    "ORD@34": 6,
+    "ORD@39": 6,
+    "ORD@50": 6,
+    "ORD_Q": 6
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 1,
+   "B": [
+    "ellipse",
+    "triangle",
+    "star",
+    "heart",
+    "diamond",
+    "square",
+    "circle"
+   ],
+   "D": [
+    "triangle",
+    "square",
+    "circle",
+    "heart",
+    "ellipse",
+    "star",
+    "diamond"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 6,
+    "SAME": 2,
+    "ORD@4": 2,
+    "ORD@9": 2,
+    "ORD@14": 2,
+    "ORD@19": 2,
+    "ORD@24": 4,
+    "ORD@29": 4,
+    "ORD@34": 4,
+    "ORD@39": 4,
+    "ORD@50": 6,
+    "ORD_Q": 6
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 1,
+   "B": [
+    "star",
+    "cross",
+    "square",
+    "heart",
+    "ring",
+    "circle",
+    "diamond"
+   ],
+   "D": [
+    "square",
+    "heart",
+    "cross",
+    "circle",
+    "star",
+    "ring",
+    "diamond"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 6,
+    "SAME": 0,
+    "ORD@4": 0,
+    "ORD@9": 0,
+    "ORD@14": 0,
+    "ORD@19": 0,
+    "ORD@24": 0,
+    "ORD@29": 6,
+    "ORD@34": 6,
+    "ORD@39": 6,
+    "ORD@50": 6,
+    "ORD_Q": 6
+   }
+  },
+  {
+   "k": 2,
+   "j": 6,
+   "yj": 5,
+   "B": [
+    "cross",
+    "triangle",
+    "ellipse",
+    "star",
+    "circle",
+    "ring",
+    "heart"
+   ],
+   "D": [
+    "ellipse",
+    "star",
+    "heart",
+    "cross",
+    "triangle",
+    "circle",
+    "ring"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 5,
+    "SAME": 3,
+    "ORD@4": 3,
+    "ORD@9": 3,
+    "ORD@14": 3,
+    "ORD@19": 3,
+    "ORD@24": 5,
+    "ORD@29": 5,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 5,
+    "ORD_Q": 5
+   }
+  },
+  {
+   "k": 6,
+   "j": 2,
+   "yj": 4,
+   "B": [
+    "ring",
+    "ellipse",
+    "cross",
+    "heart",
+    "square",
+    "triangle",
+    "circle"
+   ],
+   "D": [
+    "cross",
+    "heart",
+    "square",
+    "ellipse",
+    "circle",
+    "triangle",
+    "ring"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 2,
+    "SAME": 6,
+    "ORD@4": 6,
+    "ORD@9": 6,
+    "ORD@14": 6,
+    "ORD@19": 6,
+    "ORD@24": 6,
+    "ORD@29": 2,
+    "ORD@34": 2,
+    "ORD@39": 2,
+    "ORD@50": 2,
+    "ORD_Q": 2
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 7,
+   "B": [
+    "ellipse",
+    "cross",
+    "circle",
+    "diamond",
+    "heart",
+    "square",
+    "star"
+   ],
+   "D": [
+    "square",
+    "circle",
+    "star",
+    "diamond",
+    "ellipse",
+    "cross",
+    "heart"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 1,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 1,
+    "ORD@34": 1,
+    "ORD@39": 4,
+    "ORD@50": 1,
+    "ORD_Q": 1
+   }
+  },
+  {
+   "k": 6,
+   "j": 2,
+   "yj": 1,
+   "B": [
+    "square",
+    "ellipse",
+    "circle",
+    "triangle",
+    "cross",
+    "ring",
+    "heart"
+   ],
+   "D": [
+    "cross",
+    "square",
+    "heart",
+    "triangle",
+    "ellipse",
+    "ring",
+    "circle"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 2,
+    "SAME": 2,
+    "ORD@4": 2,
+    "ORD@9": 2,
+    "ORD@14": 2,
+    "ORD@19": 2,
+    "ORD@24": 2,
+    "ORD@29": 2,
+    "ORD@34": 2,
+    "ORD@39": 2,
+    "ORD@50": 2,
+    "ORD_Q": 2
+   }
+  },
+  {
+   "k": 6,
+   "j": 2,
+   "yj": 5,
+   "B": [
+    "ellipse",
+    "cross",
+    "heart",
+    "diamond",
+    "square",
+    "ring",
+    "triangle"
+   ],
+   "D": [
+    "cross",
+    "square",
+    "triangle",
+    "ellipse",
+    "diamond",
+    "heart",
+    "ring"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 1,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 1,
+    "ORD@34": 1,
+    "ORD@39": 1,
+    "ORD@50": 1,
+    "ORD_Q": 1
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 2,
+   "B": [
+    "diamond",
+    "ellipse",
+    "square",
+    "star",
+    "triangle",
+    "heart",
+    "circle"
+   ],
+   "D": [
+    "star",
+    "square",
+    "diamond",
+    "triangle",
+    "ellipse",
+    "circle",
+    "heart"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 5,
+    "SAME": 2,
+    "ORD@4": 2,
+    "ORD@9": 2,
+    "ORD@14": 2,
+    "ORD@19": 2,
+    "ORD@24": 2,
+    "ORD@29": 3,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 5,
+    "ORD_Q": 3
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 7,
+   "B": [
+    "circle",
+    "square",
+    "heart",
+    "triangle",
+    "cross",
+    "ellipse",
+    "diamond"
+   ],
+   "D": [
+    "ellipse",
+    "triangle",
+    "circle",
+    "heart",
+    "diamond",
+    "square",
+    "cross"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 6,
+    "SAME": 4,
+    "ORD@4": 4,
+    "ORD@9": 4,
+    "ORD@14": 4,
+    "ORD@19": 4,
+    "ORD@24": 4,
+    "ORD@29": 6,
+    "ORD@34": 6,
+    "ORD@39": 6,
+    "ORD@50": 6,
+    "ORD_Q": 6
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 6,
+   "B": [
+    "ring",
+    "cross",
+    "heart",
+    "circle",
+    "triangle",
+    "diamond",
+    "square"
+   ],
+   "D": [
+    "circle",
+    "cross",
+    "diamond",
+    "heart",
+    "ring",
+    "square",
+    "triangle"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 6,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 5,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 6,
+    "ORD_Q": 5
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 7,
+   "B": [
+    "ellipse",
+    "circle",
+    "cross",
+    "heart",
+    "star",
+    "diamond",
+    "square"
+   ],
+   "D": [
+    "circle",
+    "diamond",
+    "square",
+    "cross",
+    "heart",
+    "star",
+    "ellipse"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 4,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 4,
+    "ORD@34": 4,
+    "ORD@39": 4,
+    "ORD@50": 4,
+    "ORD_Q": 1
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 2,
+   "B": [
+    "star",
+    "square",
+    "diamond",
+    "circle",
+    "heart",
+    "triangle",
+    "ring"
+   ],
+   "D": [
+    "circle",
+    "diamond",
+    "square",
+    "triangle",
+    "ring",
+    "heart",
+    "star"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 3,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 3,
+    "ORD@29": 3,
+    "ORD@34": 3,
+    "ORD@39": 3,
+    "ORD@50": 3,
+    "ORD_Q": 3
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 1,
+   "B": [
+    "diamond",
+    "heart",
+    "square",
+    "cross",
+    "ring",
+    "circle",
+    "triangle"
+   ],
+   "D": [
+    "square",
+    "ring",
+    "diamond",
+    "heart",
+    "triangle",
+    "circle",
+    "cross"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 2,
+    "SAME": 4,
+    "ORD@4": 3,
+    "ORD@9": 3,
+    "ORD@14": 3,
+    "ORD@19": 4,
+    "ORD@24": 4,
+    "ORD@29": 1,
+    "ORD@34": 1,
+    "ORD@39": 2,
+    "ORD@50": 2,
+    "ORD_Q": 2
+   }
+  },
+  {
+   "k": 2,
+   "j": 6,
+   "yj": 5,
+   "B": [
+    "star",
+    "ring",
+    "circle",
+    "ellipse",
+    "triangle",
+    "cross",
+    "heart"
+   ],
+   "D": [
+    "ellipse",
+    "star",
+    "circle",
+    "cross",
+    "ring",
+    "triangle",
+    "heart"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 6,
+    "SAME": 4,
+    "ORD@4": 4,
+    "ORD@9": 4,
+    "ORD@14": 4,
+    "ORD@19": 4,
+    "ORD@24": 4,
+    "ORD@29": 6,
+    "ORD@34": 6,
+    "ORD@39": 6,
+    "ORD@50": 6,
+    "ORD_Q": 6
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 7,
+   "B": [
+    "heart",
+    "square",
+    "ring",
+    "star",
+    "cross",
+    "circle",
+    "triangle"
+   ],
+   "D": [
+    "cross",
+    "ring",
+    "triangle",
+    "star",
+    "square",
+    "circle",
+    "heart"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 2,
+    "SAME": 6,
+    "ORD@4": 6,
+    "ORD@9": 6,
+    "ORD@14": 6,
+    "ORD@19": 6,
+    "ORD@24": 6,
+    "ORD@29": 4,
+    "ORD@34": 4,
+    "ORD@39": 2,
+    "ORD@50": 2,
+    "ORD_Q": 2
+   }
+  },
+  {
+   "k": 2,
+   "j": 6,
+   "yj": 1,
+   "B": [
+    "ellipse",
+    "cross",
+    "circle",
+    "diamond",
+    "square",
+    "ring",
+    "heart"
+   ],
+   "D": [
+    "ring",
+    "square",
+    "heart",
+    "circle",
+    "cross",
+    "ellipse",
+    "diamond"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 6,
+    "SAME": 5,
+    "ORD@4": 1,
+    "ORD@9": 1,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 6,
+    "ORD@34": 6,
+    "ORD@39": 6,
+    "ORD@50": 6,
+    "ORD_Q": 6
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 2,
+   "B": [
+    "ellipse",
+    "cross",
+    "square",
+    "star",
+    "heart",
+    "triangle",
+    "diamond"
+   ],
+   "D": [
+    "diamond",
+    "ellipse",
+    "triangle",
+    "heart",
+    "cross",
+    "star",
+    "square"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 6,
+    "SAME": 6,
+    "ORD@4": 6,
+    "ORD@9": 6,
+    "ORD@14": 6,
+    "ORD@19": 6,
+    "ORD@24": 6,
+    "ORD@29": 6,
+    "ORD@34": 6,
+    "ORD@39": 6,
+    "ORD@50": 6,
+    "ORD_Q": 6
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 4,
+   "B": [
+    "heart",
+    "circle",
+    "square",
+    "diamond",
+    "star",
+    "ring",
+    "cross"
+   ],
+   "D": [
+    "cross",
+    "circle",
+    "diamond",
+    "ring",
+    "square",
+    "star",
+    "heart"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 4,
+    "SAME": 4,
+    "ORD@4": 4,
+    "ORD@9": 4,
+    "ORD@14": 4,
+    "ORD@19": 4,
+    "ORD@24": 4,
+    "ORD@29": 4,
+    "ORD@34": 4,
+    "ORD@39": 4,
+    "ORD@50": 4,
+    "ORD_Q": 4
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 4,
+   "B": [
+    "diamond",
+    "ellipse",
+    "heart",
+    "circle",
+    "star",
+    "cross",
+    "square"
+   ],
+   "D": [
+    "cross",
+    "star",
+    "heart",
+    "ellipse",
+    "circle",
+    "diamond",
+    "square"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 5,
+    "SAME": 4,
+    "ORD@4": 2,
+    "ORD@9": 2,
+    "ORD@14": 4,
+    "ORD@19": 4,
+    "ORD@24": 4,
+    "ORD@29": 4,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 5,
+    "ORD_Q": 5
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 1,
+   "B": [
+    "triangle",
+    "heart",
+    "star",
+    "diamond",
+    "cross",
+    "square",
+    "ring"
+   ],
+   "D": [
+    "star",
+    "heart",
+    "triangle",
+    "ring",
+    "square",
+    "cross",
+    "diamond"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 4,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 4,
+    "ORD@34": 4,
+    "ORD@39": 4,
+    "ORD@50": 4,
+    "ORD_Q": 4
+   }
+  },
+  {
+   "k": 6,
+   "j": 2,
+   "yj": 5,
+   "B": [
+    "square",
+    "ring",
+    "cross",
+    "circle",
+    "triangle",
+    "star",
+    "heart"
+   ],
+   "D": [
+    "ring",
+    "triangle",
+    "cross",
+    "circle",
+    "heart",
+    "star",
+    "square"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 5,
+    "SAME": 6,
+    "ORD@4": 6,
+    "ORD@9": 6,
+    "ORD@14": 6,
+    "ORD@19": 6,
+    "ORD@24": 6,
+    "ORD@29": 5,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 5,
+    "ORD_Q": 5
+   }
+  },
+  {
+   "k": 2,
+   "j": 6,
+   "yj": 4,
+   "B": [
+    "diamond",
+    "square",
+    "heart",
+    "star",
+    "triangle",
+    "cross",
+    "ring"
+   ],
+   "D": [
+    "triangle",
+    "square",
+    "cross",
+    "heart",
+    "ring",
+    "star",
+    "diamond"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 6,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 0,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 6,
+    "ORD@34": 6,
+    "ORD@39": 6,
+    "ORD@50": 6,
+    "ORD_Q": 6
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 7,
+   "B": [
+    "star",
+    "ring",
+    "triangle",
+    "diamond",
+    "ellipse",
+    "circle",
+    "heart"
+   ],
+   "D": [
+    "circle",
+    "ellipse",
+    "triangle",
+    "diamond",
+    "heart",
+    "ring",
+    "star"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 5,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 5,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 5,
+    "ORD_Q": 5
+   }
+  },
+  {
+   "k": 6,
+   "j": 2,
+   "yj": 4,
+   "B": [
+    "circle",
+    "ring",
+    "triangle",
+    "cross",
+    "diamond",
+    "star",
+    "square"
+   ],
+   "D": [
+    "star",
+    "cross",
+    "circle",
+    "ring",
+    "square",
+    "diamond",
+    "triangle"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 0,
+    "SAME": 5,
+    "ORD@4": 6,
+    "ORD@9": 6,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 0,
+    "ORD@34": 0,
+    "ORD@39": 0,
+    "ORD@50": 0,
+    "ORD_Q": 0
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 4,
+   "B": [
+    "diamond",
+    "square",
+    "ring",
+    "heart",
+    "triangle",
+    "star",
+    "cross"
+   ],
+   "D": [
+    "diamond",
+    "ring",
+    "cross",
+    "triangle",
+    "heart",
+    "square",
+    "star"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 5,
+    "SAME": 1,
+    "ORD@4": 1,
+    "ORD@9": 1,
+    "ORD@14": 1,
+    "ORD@19": 1,
+    "ORD@24": 1,
+    "ORD@29": 1,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 5,
+    "ORD_Q": 6
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 6,
+   "B": [
+    "square",
+    "triangle",
+    "heart",
+    "ring",
+    "circle",
+    "ellipse",
+    "diamond"
+   ],
+   "D": [
+    "diamond",
+    "heart",
+    "circle",
+    "triangle",
+    "ellipse",
+    "square",
+    "ring"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 5,
+    "SAME": 6,
+    "ORD@4": 6,
+    "ORD@9": 6,
+    "ORD@14": 6,
+    "ORD@19": 6,
+    "ORD@24": 6,
+    "ORD@29": 5,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 5,
+    "ORD_Q": 5
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 6,
+   "B": [
+    "diamond",
+    "cross",
+    "heart",
+    "ellipse",
+    "circle",
+    "triangle",
+    "star"
+   ],
+   "D": [
+    "star",
+    "cross",
+    "diamond",
+    "circle",
+    "triangle",
+    "heart",
+    "ellipse"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 4,
+    "SAME": 4,
+    "ORD@4": 4,
+    "ORD@9": 4,
+    "ORD@14": 4,
+    "ORD@19": 4,
+    "ORD@24": 4,
+    "ORD@29": 4,
+    "ORD@34": 4,
+    "ORD@39": 4,
+    "ORD@50": 4,
+    "ORD_Q": 4
+   }
+  },
+  {
+   "k": 6,
+   "j": 2,
+   "yj": 1,
+   "B": [
+    "triangle",
+    "cross",
+    "circle",
+    "heart",
+    "star",
+    "square",
+    "diamond"
+   ],
+   "D": [
+    "star",
+    "triangle",
+    "square",
+    "heart",
+    "cross",
+    "circle",
+    "diamond"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 0,
+    "SAME": 7,
+    "ORD@4": 7,
+    "ORD@9": 7,
+    "ORD@14": 7,
+    "ORD@19": 6,
+    "ORD@24": 7,
+    "ORD@29": 0,
+    "ORD@34": 0,
+    "ORD@39": 0,
+    "ORD@50": 0,
+    "ORD_Q": 0
+   }
+  },
+  {
+   "k": 2,
+   "j": 6,
+   "yj": 1,
+   "B": [
+    "circle",
+    "diamond",
+    "heart",
+    "cross",
+    "star",
+    "square",
+    "ellipse"
+   ],
+   "D": [
+    "ellipse",
+    "heart",
+    "star",
+    "square",
+    "diamond",
+    "circle",
+    "cross"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 7,
+    "SAME": 2,
+    "ORD@4": 2,
+    "ORD@9": 2,
+    "ORD@14": 2,
+    "ORD@19": 2,
+    "ORD@24": 2,
+    "ORD@29": 7,
+    "ORD@34": 6,
+    "ORD@39": 7,
+    "ORD@50": 7,
+    "ORD_Q": 7
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 7,
+   "B": [
+    "triangle",
+    "ring",
+    "circle",
+    "diamond",
+    "ellipse",
+    "cross",
+    "heart"
+   ],
+   "D": [
+    "diamond",
+    "cross",
+    "circle",
+    "ring",
+    "heart",
+    "ellipse",
+    "triangle"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 5,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 5,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 5,
+    "ORD_Q": 5
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 2,
+   "B": [
+    "diamond",
+    "cross",
+    "ring",
+    "triangle",
+    "heart",
+    "circle",
+    "square"
+   ],
+   "D": [
+    "triangle",
+    "heart",
+    "cross",
+    "circle",
+    "diamond",
+    "square",
+    "ring"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 0,
+    "SAME": 0,
+    "ORD@4": 0,
+    "ORD@9": 0,
+    "ORD@14": 0,
+    "ORD@19": 0,
+    "ORD@24": 0,
+    "ORD@29": 0,
+    "ORD@34": 0,
+    "ORD@39": 0,
+    "ORD@50": 0,
+    "ORD_Q": 0
+   }
+  },
+  {
+   "k": 6,
+   "j": 2,
+   "yj": 7,
+   "B": [
+    "triangle",
+    "cross",
+    "heart",
+    "ring",
+    "diamond",
+    "star",
+    "ellipse"
+   ],
+   "D": [
+    "ring",
+    "ellipse",
+    "triangle",
+    "heart",
+    "diamond",
+    "cross",
+    "star"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 5,
+    "SAME": 7,
+    "ORD@4": 7,
+    "ORD@9": 7,
+    "ORD@14": 7,
+    "ORD@19": 7,
+    "ORD@24": 5,
+    "ORD@29": 5,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 5,
+    "ORD_Q": 5
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 1,
+   "B": [
+    "circle",
+    "diamond",
+    "square",
+    "ring",
+    "cross",
+    "heart",
+    "triangle"
+   ],
+   "D": [
+    "triangle",
+    "cross",
+    "circle",
+    "square",
+    "diamond",
+    "ring",
+    "heart"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 2,
+    "SAME": 3,
+    "ORD@4": 3,
+    "ORD@9": 3,
+    "ORD@14": 3,
+    "ORD@19": 0,
+    "ORD@24": 0,
+    "ORD@29": 2,
+    "ORD@34": 0,
+    "ORD@39": 2,
+    "ORD@50": 2,
+    "ORD_Q": 2
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 7,
+   "B": [
+    "diamond",
+    "heart",
+    "ring",
+    "circle",
+    "star",
+    "ellipse",
+    "square"
+   ],
+   "D": [
+    "heart",
+    "ellipse",
+    "square",
+    "star",
+    "ring",
+    "circle",
+    "diamond"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 2,
+    "SAME": 4,
+    "ORD@4": 4,
+    "ORD@9": 4,
+    "ORD@14": 4,
+    "ORD@19": 6,
+    "ORD@24": 6,
+    "ORD@29": 4,
+    "ORD@34": 4,
+    "ORD@39": 4,
+    "ORD@50": 2,
+    "ORD_Q": 6
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 6,
+   "B": [
+    "star",
+    "ellipse",
+    "ring",
+    "circle",
+    "heart",
+    "diamond",
+    "triangle"
+   ],
+   "D": [
+    "circle",
+    "heart",
+    "star",
+    "ellipse",
+    "diamond",
+    "triangle",
+    "ring"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 5,
+    "SAME": 2,
+    "ORD@4": 2,
+    "ORD@9": 2,
+    "ORD@14": 2,
+    "ORD@19": 2,
+    "ORD@24": 2,
+    "ORD@29": 4,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 5,
+    "ORD_Q": 2
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 2,
+   "B": [
+    "cross",
+    "triangle",
+    "square",
+    "ring",
+    "heart",
+    "circle",
+    "ellipse"
+   ],
+   "D": [
+    "circle",
+    "cross",
+    "heart",
+    "ring",
+    "triangle",
+    "ellipse",
+    "square"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 5,
+    "SAME": 2,
+    "ORD@4": 2,
+    "ORD@9": 2,
+    "ORD@14": 2,
+    "ORD@19": 3,
+    "ORD@24": 3,
+    "ORD@29": 7,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 5,
+    "ORD_Q": 7
+   }
+  },
+  {
+   "k": 6,
+   "j": 2,
+   "yj": 7,
+   "B": [
+    "heart",
+    "circle",
+    "ellipse",
+    "ring",
+    "triangle",
+    "diamond",
+    "square"
+   ],
+   "D": [
+    "ellipse",
+    "square",
+    "triangle",
+    "circle",
+    "diamond",
+    "heart",
+    "ring"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 3,
+    "SAME": 6,
+    "ORD@4": 6,
+    "ORD@9": 6,
+    "ORD@14": 6,
+    "ORD@19": 6,
+    "ORD@24": 6,
+    "ORD@29": 3,
+    "ORD@34": 3,
+    "ORD@39": 3,
+    "ORD@50": 3,
+    "ORD_Q": 3
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 1,
+   "B": [
+    "diamond",
+    "triangle",
+    "star",
+    "cross",
+    "ellipse",
+    "heart",
+    "circle"
+   ],
+   "D": [
+    "triangle",
+    "heart",
+    "diamond",
+    "circle",
+    "ellipse",
+    "cross",
+    "star"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 2,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 5,
+    "ORD@34": 2,
+    "ORD@39": 5,
+    "ORD@50": 2,
+    "ORD_Q": 5
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 1,
+   "B": [
+    "ellipse",
+    "square",
+    "ring",
+    "star",
+    "heart",
+    "cross",
+    "triangle"
+   ],
+   "D": [
+    "star",
+    "square",
+    "ellipse",
+    "ring",
+    "triangle",
+    "cross",
+    "heart"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 1,
+    "SAME": 4,
+    "ORD@4": 4,
+    "ORD@9": 4,
+    "ORD@14": 4,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 1,
+    "ORD@34": 1,
+    "ORD@39": 1,
+    "ORD@50": 1,
+    "ORD_Q": 1
+   }
+  },
+  {
+   "k": 6,
+   "j": 2,
+   "yj": 3,
+   "B": [
+    "heart",
+    "cross",
+    "ellipse",
+    "diamond",
+    "square",
+    "triangle",
+    "star"
+   ],
+   "D": [
+    "diamond",
+    "ellipse",
+    "heart",
+    "square",
+    "star",
+    "triangle",
+    "cross"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 3,
+    "SAME": 6,
+    "ORD@4": 6,
+    "ORD@9": 6,
+    "ORD@14": 6,
+    "ORD@19": 6,
+    "ORD@24": 6,
+    "ORD@29": 3,
+    "ORD@34": 3,
+    "ORD@39": 3,
+    "ORD@50": 3,
+    "ORD_Q": 3
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 2,
+   "B": [
+    "diamond",
+    "ellipse",
+    "square",
+    "cross",
+    "triangle",
+    "heart",
+    "star"
+   ],
+   "D": [
+    "square",
+    "star",
+    "ellipse",
+    "heart",
+    "diamond",
+    "triangle",
+    "cross"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 2,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 2,
+    "ORD@34": 2,
+    "ORD@39": 2,
+    "ORD@50": 2,
+    "ORD_Q": 2
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 2,
+   "B": [
+    "heart",
+    "circle",
+    "ellipse",
+    "ring",
+    "triangle",
+    "cross",
+    "square"
+   ],
+   "D": [
+    "heart",
+    "cross",
+    "circle",
+    "ellipse",
+    "triangle",
+    "ring",
+    "square"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 3,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 3,
+    "ORD@29": 3,
+    "ORD@34": 3,
+    "ORD@39": 3,
+    "ORD@50": 3,
+    "ORD_Q": 3
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 4,
+   "B": [
+    "diamond",
+    "triangle",
+    "cross",
+    "square",
+    "ring",
+    "circle",
+    "ellipse"
+   ],
+   "D": [
+    "triangle",
+    "circle",
+    "square",
+    "diamond",
+    "ellipse",
+    "cross",
+    "ring"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 4,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 6,
+    "ORD@34": 6,
+    "ORD@39": 4,
+    "ORD@50": 4,
+    "ORD_Q": 4
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 4,
+   "B": [
+    "star",
+    "diamond",
+    "cross",
+    "ring",
+    "triangle",
+    "heart",
+    "circle"
+   ],
+   "D": [
+    "diamond",
+    "cross",
+    "ring",
+    "triangle",
+    "circle",
+    "heart",
+    "star"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 2,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 2,
+    "ORD@34": 2,
+    "ORD@39": 2,
+    "ORD@50": 2,
+    "ORD_Q": 2
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 7,
+   "B": [
+    "triangle",
+    "star",
+    "square",
+    "heart",
+    "circle",
+    "cross",
+    "ellipse"
+   ],
+   "D": [
+    "heart",
+    "cross",
+    "square",
+    "triangle",
+    "ellipse",
+    "circle",
+    "star"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 5,
+    "SAME": 4,
+    "ORD@4": 4,
+    "ORD@9": 4,
+    "ORD@14": 4,
+    "ORD@19": 4,
+    "ORD@24": 4,
+    "ORD@29": 3,
+    "ORD@34": 4,
+    "ORD@39": 4,
+    "ORD@50": 5,
+    "ORD_Q": 5
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 2,
+   "B": [
+    "triangle",
+    "circle",
+    "ellipse",
+    "heart",
+    "cross",
+    "ring",
+    "square"
+   ],
+   "D": [
+    "ellipse",
+    "square",
+    "triangle",
+    "heart",
+    "circle",
+    "ring",
+    "cross"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 3,
+    "SAME": 3,
+    "ORD@4": 3,
+    "ORD@9": 3,
+    "ORD@14": 3,
+    "ORD@19": 4,
+    "ORD@24": 4,
+    "ORD@29": 4,
+    "ORD@34": 4,
+    "ORD@39": 4,
+    "ORD@50": 3,
+    "ORD_Q": 3
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 7,
+   "B": [
+    "ellipse",
+    "cross",
+    "heart",
+    "circle",
+    "diamond",
+    "ring",
+    "square"
+   ],
+   "D": [
+    "circle",
+    "diamond",
+    "square",
+    "cross",
+    "heart",
+    "ring",
+    "ellipse"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 1,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 1,
+    "ORD@34": 1,
+    "ORD@39": 1,
+    "ORD@50": 1,
+    "ORD_Q": 1
+   }
+  },
+  {
+   "k": 2,
+   "j": 6,
+   "yj": 7,
+   "B": [
+    "circle",
+    "cross",
+    "ring",
+    "triangle",
+    "ellipse",
+    "heart",
+    "star"
+   ],
+   "D": [
+    "heart",
+    "triangle",
+    "ellipse",
+    "ring",
+    "cross",
+    "star",
+    "circle"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 6,
+    "SAME": 4,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 4,
+    "ORD@19": 5,
+    "ORD@24": 6,
+    "ORD@29": 6,
+    "ORD@34": 6,
+    "ORD@39": 6,
+    "ORD@50": 6,
+    "ORD_Q": 6
+   }
+  },
+  {
+   "k": 3,
+   "j": 5,
+   "yj": 1,
+   "B": [
+    "heart",
+    "circle",
+    "square",
+    "cross",
+    "ellipse",
+    "triangle",
+    "ring"
+   ],
+   "D": [
+    "cross",
+    "square",
+    "circle",
+    "ellipse",
+    "heart",
+    "triangle",
+    "ring"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 5,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 3,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 5,
+    "ORD_Q": 5
+   }
+  },
+  {
+   "k": 5,
+   "j": 3,
+   "yj": 2,
+   "B": [
+    "circle",
+    "star",
+    "ring",
+    "diamond",
+    "triangle",
+    "heart",
+    "square"
+   ],
+   "D": [
+    "circle",
+    "ring",
+    "star",
+    "diamond",
+    "heart",
+    "square",
+    "triangle"
+   ],
+   "donor_ok": 1,
+   "land": {
+    "NONE": 4,
+    "SAME": 5,
+    "ORD@4": 5,
+    "ORD@9": 5,
+    "ORD@14": 5,
+    "ORD@19": 5,
+    "ORD@24": 5,
+    "ORD@29": 5,
+    "ORD@34": 5,
+    "ORD@39": 5,
+    "ORD@50": 4,
+    "ORD_Q": 4
+   }
+  }
+ ]
+}

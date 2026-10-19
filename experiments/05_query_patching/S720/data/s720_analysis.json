@@ -1,0 +1,40 @@
+{
+ "sel_9b": {
+  "I0": false,
+  "selw": 0.058,
+  "noop": 0.992,
+  "n_fail": 85,
+  "P_fail": {
+   "PTR": 0.059,
+   "PTR_C": 0.071,
+   "PTR_M": 0.071,
+   "Q_ONLY": 0.576,
+   "G_ONLY": 0.047,
+   "QG": 0.6
+  },
+  "PTR_RESCUE": false,
+  "COND_CARRIES": true,
+  "MATCHER_SUFFICIENT": true,
+  "QK_ROUTE": true,
+  "GATE_ROUTE": false
+ },
+ "sel_4b": {
+  "I0": true,
+  "selw": 0.575,
+  "noop": 1.0,
+  "n_fail": 76,
+  "P_fail": {
+   "PTR": 0.421,
+   "PTR_C": 0.158,
+   "PTR_M": 0.526,
+   "Q_ONLY": 0.921,
+   "G_ONLY": 0.013,
+   "QG": 0.934
+  },
+  "PTR_RESCUE": false,
+  "COND_CARRIES": false,
+  "MATCHER_SUFFICIENT": true,
+  "QK_ROUTE": true,
+  "GATE_ROUTE": false
+ }
+}

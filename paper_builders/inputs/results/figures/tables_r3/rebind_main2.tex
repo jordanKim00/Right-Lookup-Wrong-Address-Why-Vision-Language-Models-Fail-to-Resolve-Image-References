@@ -1,0 +1,16 @@
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+ & VL-4B & VL-8B & 3.5-4B & 3.5-9B & 3.5-27B \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{The address must change ($k\neq4$)}} \\
+end-relative, unedited & 3 & 12 & 13 & 17 & 52 \\
+\quad + address & 72 & 77 & 69 & 59 & 2 \\
+\quad + frame & 0 & 0 & 0 & 0 & 0 \\
+\quad + both (\rthree) & 96 & 97 & 98 & 99 & 100 \\
+start-relative wording & 96 & 97 & 98 & 100 & 100 \\
+\addlinespace
+\multicolumn{6}{@{}l}{\textit{The address needs no change ($k=4$)}} \\
+end-relative, unedited & 93 & 97 & 100 & 83 & 53 \\
+\quad + frame & 97 & 97 & 100 & 100 & 97 \\
+\bottomrule
+\end{tabular}

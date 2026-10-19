@@ -1,0 +1,26 @@
+{
+ "tag": "a5dv_27b",
+ "base": "r327b",
+ "assembled": "rc_27b",
+ "choice": {
+  "detector": "margin:.5",
+  "binder": "proto:1.2",
+  "count": "last"
+ },
+ "v2": true,
+ "det_rule": "abs",
+ "det_param": null,
+ "anchor_scale": 1.0,
+ "ablate": null,
+ "prompt_mode": "none",
+ "rev_style": "end",
+ "sealed": false,
+ "fresh": false,
+ "stats": {
+  "inputs": 2400,
+  "sources": 7771,
+  "rebound": 2719,
+  "frame": 3207,
+  "frame_only": 488
+ }
+}

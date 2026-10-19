@@ -1,0 +1,14 @@
+{
+ "rb_27b": {
+  "3": {
+   "REBIND_REPAIRS": true,
+   "REREFLECT": true,
+   "ADDRESS_SPECIFIC": true
+  },
+  "8": {
+   "REBIND_REPAIRS": true,
+   "REREFLECT": true,
+   "ADDRESS_SPECIFIC": true
+  }
+ }
+}

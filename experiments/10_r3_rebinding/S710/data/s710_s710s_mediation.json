@@ -1,0 +1,116 @@
+{
+ "tag": "s710s",
+ "model": "/dev/shm/vlm_models/Qwen3.5-4B",
+ "matchers": {
+  "19": [
+   12
+  ],
+  "23": [
+   8,
+   9,
+   11
+  ],
+  "27": [
+   3
+  ]
+ },
+ "random": {
+  "19": [
+   10
+  ],
+  "23": [
+   0,
+   1,
+   10
+  ],
+  "27": [
+   6
+  ]
+ },
+ "rows": [
+  {
+   "N": 7,
+   "k": 3,
+   "j": 5,
+   "acted": true,
+   "land": {
+    "NATIVE": 3,
+    "R3": 5,
+    "R3_QBACK": 5,
+    "R3_GBACK": 5,
+    "R3_RBACK": 5,
+    "END_QR3": 5,
+    "END_GR3": 3,
+    "END_RR3": 5
+   }
+  },
+  {
+   "N": 7,
+   "k": 4,
+   "j": 4,
+   "acted": false,
+   "land": {
+    "NATIVE": 4,
+    "R3": 4
+   }
+  },
+  {
+   "N": 7,
+   "k": 5,
+   "j": 3,
+   "acted": true,
+   "land": {
+    "NATIVE": 5,
+    "R3": 3,
+    "R3_QBACK": 3,
+    "R3_GBACK": 3,
+    "R3_RBACK": 3,
+    "END_QR3": 5,
+    "END_GR3": 5,
+    "END_RR3": 5
+   }
+  },
+  {
+   "N": 7,
+   "k": 6,
+   "j": 2,
+   "acted": true,
+   "land": {
+    "NATIVE": 6,
+    "R3": 2,
+    "R3_QBACK": 2,
+    "R3_GBACK": 2,
+    "R3_RBACK": 2,
+    "END_QR3": 6,
+    "END_GR3": 6,
+    "END_RR3": 2
+   }
+  },
+  {
+   "N": 5,
+   "k": 3,
+   "j": 3,
+   "acted": false,
+   "land": {
+    "NATIVE": 3,
+    "R3": 3
+   }
+  },
+  {
+   "N": 5,
+   "k": 4,
+   "j": 2,
+   "acted": true,
+   "land": {
+    "NATIVE": 4,
+    "R3": 2,
+    "R3_QBACK": 2,
+    "R3_GBACK": 2,
+    "R3_RBACK": 2,
+    "END_QR3": 4,
+    "END_GR3": 4,
+    "END_RR3": 2
+   }
+  }
+ ]
+}

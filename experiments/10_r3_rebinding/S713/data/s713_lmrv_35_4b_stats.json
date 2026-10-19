@@ -1,0 +1,22 @@
+{
+ "tag": "lmrv_35_4b",
+ "base": "lm_35_4b",
+ "assembled": null,
+ "choice": null,
+ "v2": true,
+ "det_rule": "margin",
+ "det_param": 0.5,
+ "anchor_scale": 1.2,
+ "ablate": null,
+ "prompt_mode": "none",
+ "rev_style": "reverse",
+ "sealed": false,
+ "fresh": false,
+ "stats": {
+  "inputs": 1800,
+  "sources": 7863,
+  "rebound": 0,
+  "frame": 0,
+  "frame_only": 0
+ }
+}

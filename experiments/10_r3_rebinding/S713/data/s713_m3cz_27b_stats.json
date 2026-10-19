@@ -1,0 +1,15 @@
+{
+ "tag": "m3cz_27b",
+ "base": "r327b",
+ "v2": true,
+ "rev_style": "end",
+ "sealed": false,
+ "fresh": false,
+ "stats": {
+  "inputs": 400,
+  "sources": 1595,
+  "rebound": 596,
+  "frame": 596,
+  "frame_only": 0
+ }
+}

@@ -1,0 +1,44 @@
+[
+ {
+  "tag": "x5frn_ivl3_8b",
+  "split": "fresh",
+  "items": 319,
+  "base_acc": 0.18808777429467083,
+  "errors": 259,
+  "lure_share": 0.41312741312741313,
+  "chance": 0.3500643500643491,
+  "rescued_lure": 0.4953271028037383,
+  "rescued_other": 0.3684210526315789,
+  "errors_after": 177,
+  "lure_share_after": 0.3502824858757062,
+  "new_lure": 45
+ },
+ {
+  "tag": "x5fr_q25_7b",
+  "split": "fresh",
+  "items": 319,
+  "base_acc": 0.1316614420062696,
+  "errors": 277,
+  "lure_share": 0.7184115523465704,
+  "chance": 0.3534897713598061,
+  "rescued_lure": 0.592964824120603,
+  "rescued_other": 0.3076923076923077,
+  "errors_after": 161,
+  "lure_share_after": 0.37267080745341613,
+  "new_lure": 22
+ },
+ {
+  "tag": "x5frn_llov_7b",
+  "split": "fresh",
+  "items": 319,
+  "base_acc": 0.2821316614420063,
+  "errors": 229,
+  "lure_share": 0.4410480349344978,
+  "chance": 0.34716157205240145,
+  "rescued_lure": 0.32673267326732675,
+  "rescued_other": 0.265625,
+  "errors_after": 208,
+  "lure_share_after": 0.3701923076923077,
+  "new_lure": 44
+ }
+]

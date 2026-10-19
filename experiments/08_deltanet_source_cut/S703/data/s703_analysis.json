@@ -1,0 +1,52 @@
+{
+ "me_27b": {
+  "1": {
+   "FA_ALL": false,
+   "DN_ALL": false,
+   "FA_4347": false,
+   "means": {
+    "FA_ALL": 0.237,
+    "DN_ALL": 0.138,
+    "FA_4347": 0.2,
+    "ref": 0.5,
+    "unedited": 0.013
+   }
+  },
+  "2": {
+   "FA_ALL": true,
+   "DN_ALL": false,
+   "FA_4347": true,
+   "means": {
+    "FA_ALL": 0.75,
+    "DN_ALL": 0.062,
+    "FA_4347": 0.575,
+    "ref": 0.85,
+    "unedited": 0.062
+   }
+  },
+  "3": {
+   "FA_ALL": true,
+   "DN_ALL": false,
+   "FA_4347": true,
+   "means": {
+    "FA_ALL": 0.525,
+    "DN_ALL": 0.213,
+    "FA_4347": 0.487,
+    "ref": 0.675,
+    "unedited": 0.188
+   }
+  },
+  "kN": {
+   "FA_ALL": false,
+   "DN_ALL": false,
+   "FA_4347": false,
+   "means": {
+    "FA_ALL": 0.125,
+    "DN_ALL": 0.125,
+    "FA_4347": 0.138,
+    "ref": 0.787,
+    "unedited": 0.125
+   }
+  }
+ }
+}

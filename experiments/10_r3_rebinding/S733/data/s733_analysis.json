@@ -1,0 +1,231 @@
+{
+ "q25_7b": {
+  "out": {
+   "read": {
+    "final": "learned gate + count last",
+    "val": {
+     "R3-v1": 0.71,
+     "margin:.5 + proto:1.2 + max": 0.6433333333333333,
+     "learned gate + count last": 0.8333333333333334
+    }
+   },
+   "reader": {
+    "admit": true,
+    "new": {
+     "proc": 1.0,
+     "nat": 1.0,
+     "low": 1.0,
+     "all": 1.0
+    },
+    "old": {
+     "proc": 1.0,
+     "nat": 1.0,
+     "low": 1.0,
+     "all": 1.0
+    }
+   },
+   "later|mmiu_pos": {
+    "n": 500,
+    "original": 0.374,
+    "r3": 0.576,
+    "forward": 0.744,
+    "d": [
+     0.202,
+     0.148,
+     0.254
+    ],
+    "fwd_changed": 0.0
+   },
+   "dev|mmiu_pos": {
+    "n": 550,
+    "original": 0.32181818181818184,
+    "r3": 0.5563636363636364,
+    "forward": 0.6890909090909091,
+    "d": [
+     0.23454545454545456,
+     0.18,
+     0.2872727272727273
+    ],
+    "fwd_changed": 0.0
+   },
+   "dev|muir": {
+    "n": 350,
+    "original": 0.35714285714285715,
+    "r3": 0.62,
+    "forward": 0.6971428571428572,
+    "d": [
+     0.26285714285714284,
+     0.2,
+     0.32285714285714284
+    ],
+    "fwd_changed": 0.0
+   },
+   "v1dev|mmiu_pos": 0.5672727272727273,
+   "v1dev|muir": 0.6085714285714285,
+   "mech": {
+    "heads": 122,
+    "end_lit": 0.44302656141420205,
+    "end_tgt": 0.11924435053952039,
+    "checks": {
+     "QUERY_RESTORED": true,
+     "BEHAVIOR_RESTORED": true,
+     "TWO_WRITES": true
+    }
+   }
+  },
+  "checks": {
+   "XFAM_REPAIR": false,
+   "XFAM_LOCALITY": true,
+   "XFAM_MECH": true
+  }
+ },
+ "ivl3_8b": {
+  "out": {
+   "read": {
+    "final": "margin:.4 + proto:1.5 + last",
+    "val": {
+     "R3-v1": 0.59,
+     "margin:.5 + proto:1.2 + max": 0.62,
+     "margin:.4 + proto:1.5 + last": 0.64
+    }
+   },
+   "reader": {
+    "admit": false,
+    "new": {
+     "proc": 0.8333333333333334,
+     "nat": 0.8666666666666667,
+     "low": 0.5333333333333333,
+     "all": 0.7444444444444445
+    },
+    "old": {
+     "proc": 0.8666666666666667,
+     "nat": 0.2,
+     "low": 0.4,
+     "all": 0.4888888888888889
+    }
+   },
+   "later|mmiu_pos": {
+    "n": 500,
+    "original": 0.288,
+    "r3": 0.342,
+    "forward": 0.478,
+    "d": [
+     0.054,
+     0.004,
+     0.108
+    ],
+    "fwd_changed": 0.0
+   },
+   "dev|mmiu_pos": {
+    "n": 550,
+    "original": 0.2581818181818182,
+    "r3": 0.31636363636363635,
+    "forward": 0.5,
+    "d": [
+     0.05818181818181818,
+     0.005454545454545455,
+     0.11090909090909092
+    ],
+    "fwd_changed": 0.0
+   },
+   "dev|muir": {
+    "n": 350,
+    "original": 0.32,
+    "r3": 0.3171428571428571,
+    "forward": 0.4057142857142857,
+    "d": [
+     -0.002857142857142857,
+     -0.054285714285714284,
+     0.04857142857142857
+    ],
+    "fwd_changed": 0.0
+   },
+   "v1dev|mmiu_pos": 0.3327272727272727,
+   "v1dev|muir": 0.37142857142857144,
+   "mech": {
+    "heads": 30,
+    "end_lit": 0.30251541451240577,
+    "end_tgt": 0.13849343746357287,
+    "checks": {
+     "QUERY_RESTORED": true,
+     "BEHAVIOR_RESTORED": false,
+     "TWO_WRITES": true
+    }
+   }
+  },
+  "checks": {
+   "XFAM_REPAIR": false,
+   "XFAM_LOCALITY": true,
+   "XFAM_MECH": true
+  }
+ },
+ "llov_7b": {
+  "out": {
+   "read": {
+    "final": "learned gate + count last",
+    "val": {
+     "R3-v1": 0.6433333333333333,
+     "margin:.5 + proto:1.2 + max": 0.61,
+     "learned gate + count last": 0.6366666666666667
+    }
+   },
+   "reader": {
+    "admit": false,
+    "new": {
+     "proc": 0.8,
+     "nat": 0.5,
+     "low": 0.6333333333333333,
+     "all": 0.6444444444444445
+    },
+    "old": {
+     "proc": 0.9,
+     "nat": 0.2,
+     "low": 0.23333333333333334,
+     "all": 0.4444444444444444
+    }
+   },
+   "later|mmiu_pos": {
+    "n": 500,
+    "original": 0.3,
+    "r3": 0.316,
+    "forward": 0.438,
+    "d": [
+     0.016,
+     -0.034,
+     0.068
+    ],
+    "fwd_changed": 0.0
+   },
+   "dev|mmiu_pos": {
+    "n": 550,
+    "original": 0.2818181818181818,
+    "r3": 0.3109090909090909,
+    "forward": 0.3709090909090909,
+    "d": [
+     0.02909090909090909,
+     -0.02,
+     0.08
+    ],
+    "fwd_changed": 0.0
+   },
+   "dev|muir": {
+    "n": 350,
+    "original": 0.26,
+    "r3": 0.26,
+    "forward": 0.36,
+    "d": [
+     0.0,
+     -0.06,
+     0.06
+    ],
+    "fwd_changed": 0.0
+   },
+   "v1dev|mmiu_pos": 0.2909090909090909,
+   "v1dev|muir": 0.14285714285714285
+  },
+  "checks": {
+   "XFAM_REPAIR": false,
+   "XFAM_LOCALITY": true
+  }
+ }
+}

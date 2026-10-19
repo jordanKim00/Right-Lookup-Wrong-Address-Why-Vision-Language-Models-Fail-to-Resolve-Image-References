@@ -1,0 +1,15 @@
+{
+ "tag": "m3sl_27b",
+ "base": "r327b",
+ "v2": true,
+ "rev_style": "end",
+ "sealed": true,
+ "fresh": false,
+ "stats": {
+  "inputs": 3504,
+  "sources": 11600,
+  "rebound": 3464,
+  "frame": 4235,
+  "frame_only": 771
+ }
+}

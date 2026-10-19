@@ -1,0 +1,542 @@
+{
+ "L47|S3m0": {
+  "target": 3,
+  "contrast": 2.7382379777473833,
+  "halfmax": 1.05,
+  "multimodal": 0.01904761904761905,
+  "centre_bias": 0.02353336397768182,
+  "centre_spread_heads": 0.0748884389148867,
+  "sharp_on_target": 1.0,
+  "sharp_hist": [
+   0,
+   0,
+   420,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "L47|E5m0": {
+  "target": 3,
+  "contrast": 1.0736203691930608,
+  "halfmax": 2.619047619047619,
+  "multimodal": 0.45714285714285713,
+  "centre_bias": 1.725577975132065,
+  "centre_spread_heads": 0.8325324091621196,
+  "sharp_on_target": 0.04523809523809524,
+  "sharp_hist": [
+   6,
+   20,
+   19,
+   29,
+   269,
+   39,
+   38
+  ]
+ },
+ "L47|S4m0": {
+  "target": 4,
+  "contrast": 2.6051993320930684,
+  "halfmax": 1.061904761904762,
+  "multimodal": 0.03333333333333333,
+  "centre_bias": 0.026159292959366268,
+  "centre_spread_heads": 0.0805187333766709,
+  "sharp_on_target": 0.9952380952380953,
+  "sharp_hist": [
+   0,
+   0,
+   0,
+   418,
+   0,
+   0,
+   2
+  ]
+ },
+ "L47|E4m0": {
+  "target": 4,
+  "contrast": 1.0158042413063697,
+  "halfmax": 2.704761904761905,
+  "multimodal": 0.4166666666666667,
+  "centre_bias": 0.448176232077598,
+  "centre_spread_heads": 0.7183001087516001,
+  "sharp_on_target": 0.4642857142857143,
+  "sharp_hist": [
+   1,
+   15,
+   43,
+   195,
+   93,
+   36,
+   37
+  ]
+ },
+ "L47|S5m0": {
+  "target": 5,
+  "contrast": 2.6828210306090927,
+  "halfmax": 1.0642857142857143,
+  "multimodal": 0.047619047619047616,
+  "centre_bias": -0.003417012768107971,
+  "centre_spread_heads": 0.10464371731976159,
+  "sharp_on_target": 1.0,
+  "sharp_hist": [
+   0,
+   0,
+   0,
+   0,
+   420,
+   0,
+   0
+  ]
+ },
+ "L47|E3m0": {
+  "target": 5,
+  "contrast": 1.0721420224848766,
+  "halfmax": 2.5952380952380953,
+  "multimodal": 0.5023809523809524,
+  "centre_bias": -0.15325781764092217,
+  "centre_spread_heads": 0.7589691817975271,
+  "sharp_on_target": 0.2523809523809524,
+  "sharp_hist": [
+   0,
+   2,
+   118,
+   42,
+   106,
+   83,
+   69
+  ]
+ },
+ "L47|S6m0": {
+  "target": 6,
+  "contrast": 2.5645637820838543,
+  "halfmax": 1.0952380952380953,
+  "multimodal": 0.05476190476190476,
+  "centre_bias": -0.08293386675973063,
+  "centre_spread_heads": 0.1665590126361119,
+  "sharp_on_target": 0.9928571428571429,
+  "sharp_hist": [
+   0,
+   3,
+   0,
+   0,
+   0,
+   417,
+   0
+  ]
+ },
+ "L47|E2m0": {
+  "target": 6,
+  "contrast": 2.076232526349435,
+  "halfmax": 1.4642857142857142,
+  "multimodal": 0.01904761904761905,
+  "centre_bias": 0.04718300135851672,
+  "centre_spread_heads": 0.230470386770296,
+  "sharp_on_target": 0.7785714285714286,
+  "sharp_hist": [
+   0,
+   0,
+   0,
+   0,
+   31,
+   327,
+   62
+  ]
+ },
+ "L47|S2m0": {
+  "target": 2,
+  "contrast": 2.2586487822032852,
+  "halfmax": 1.1333333333333333,
+  "multimodal": 0.05,
+  "centre_bias": 0.09847702826297376,
+  "centre_spread_heads": 0.2418242580102171,
+  "sharp_on_target": 0.9904761904761905,
+  "sharp_hist": [
+   0,
+   416,
+   4,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "L47|E6m0": {
+  "target": 2,
+  "contrast": 0.8959488788902116,
+  "halfmax": 2.9119047619047618,
+  "multimodal": 0.6547619047619048,
+  "centre_bias": 2.7569571816851814,
+  "centre_spread_heads": 1.0832756702940123,
+  "sharp_on_target": 0.1880952380952381,
+  "sharp_hist": [
+   19,
+   79,
+   18,
+   16,
+   38,
+   147,
+   103
+  ]
+ },
+ "L51|S3m0": {
+  "target": 3,
+  "contrast": 2.573054111304841,
+  "halfmax": 1.25625,
+  "multimodal": 0.13125,
+  "centre_bias": 0.18900263367656045,
+  "centre_spread_heads": 0.44015844832112727,
+  "sharp_on_target": 0.9375,
+  "sharp_hist": [
+   3,
+   1,
+   450,
+   5,
+   4,
+   4,
+   13
+  ]
+ },
+ "L51|E5m0": {
+  "target": 3,
+  "contrast": 1.2742949503676453,
+  "halfmax": 2.310416666666667,
+  "multimodal": 0.3958333333333333,
+  "centre_bias": 0.21619239551454233,
+  "centre_spread_heads": 0.5847636436004386,
+  "sharp_on_target": 0.35833333333333334,
+  "sharp_hist": [
+   2,
+   160,
+   172,
+   116,
+   6,
+   20,
+   4
+  ]
+ },
+ "L51|S4m0": {
+  "target": 4,
+  "contrast": 2.6455565730537822,
+  "halfmax": 1.25625,
+  "multimodal": 0.12083333333333333,
+  "centre_bias": 0.12287735463773171,
+  "centre_spread_heads": 0.42529084378752624,
+  "sharp_on_target": 0.9354166666666667,
+  "sharp_hist": [
+   1,
+   3,
+   4,
+   449,
+   7,
+   5,
+   11
+  ]
+ },
+ "L51|E4m0": {
+  "target": 4,
+  "contrast": 1.248543092370097,
+  "halfmax": 2.2916666666666665,
+  "multimodal": 0.48541666666666666,
+  "centre_bias": -0.40888311776056746,
+  "centre_spread_heads": 0.64198273292825,
+  "sharp_on_target": 0.16875,
+  "sharp_hist": [
+   2,
+   114,
+   151,
+   81,
+   103,
+   23,
+   6
+  ]
+ },
+ "L51|S5m0": {
+  "target": 5,
+  "contrast": 2.967888810512757,
+  "halfmax": 1.1520833333333333,
+  "multimodal": 0.06666666666666667,
+  "centre_bias": -0.006021569958415954,
+  "centre_spread_heads": 0.2471464221951559,
+  "sharp_on_target": 0.96875,
+  "sharp_hist": [
+   2,
+   1,
+   2,
+   1,
+   465,
+   2,
+   7
+  ]
+ },
+ "L51|E3m0": {
+  "target": 5,
+  "contrast": 2.0908747075870107,
+  "halfmax": 1.5104166666666667,
+  "multimodal": 0.11458333333333333,
+  "centre_bias": -0.14735978708358063,
+  "centre_spread_heads": 0.2971885192492032,
+  "sharp_on_target": 0.6270833333333333,
+  "sharp_hist": [
+   0,
+   2,
+   0,
+   117,
+   301,
+   55,
+   5
+  ]
+ },
+ "L51|S6m0": {
+  "target": 6,
+  "contrast": 3.1164643195733674,
+  "halfmax": 1.1541666666666666,
+  "multimodal": 0.05,
+  "centre_bias": -0.08918967133158176,
+  "centre_spread_heads": 0.3932413614137993,
+  "sharp_on_target": 0.9354166666666667,
+  "sharp_hist": [
+   1,
+   1,
+   6,
+   4,
+   5,
+   449,
+   14
+  ]
+ },
+ "L51|E2m0": {
+  "target": 6,
+  "contrast": 2.4459916463419313,
+  "halfmax": 1.2708333333333333,
+  "multimodal": 0.03333333333333333,
+  "centre_bias": -0.1364365871472796,
+  "centre_spread_heads": 0.407780162012999,
+  "sharp_on_target": 0.8791666666666667,
+  "sharp_hist": [
+   1,
+   3,
+   2,
+   2,
+   29,
+   422,
+   21
+  ]
+ },
+ "L51|S2m0": {
+  "target": 2,
+  "contrast": 1.9839939746765096,
+  "halfmax": 1.46875,
+  "multimodal": 0.23333333333333334,
+  "centre_bias": 0.5001560366512467,
+  "centre_spread_heads": 0.7442277714127161,
+  "sharp_on_target": 0.875,
+  "sharp_hist": [
+   3,
+   420,
+   16,
+   3,
+   9,
+   12,
+   17
+  ]
+ },
+ "L51|E6m0": {
+  "target": 2,
+  "contrast": 1.2994714370353653,
+  "halfmax": 2.1479166666666667,
+  "multimodal": 0.4479166666666667,
+  "centre_bias": 1.5211162348685123,
+  "centre_spread_heads": 0.7399572548123453,
+  "sharp_on_target": 0.42083333333333334,
+  "sharp_hist": [
+   7,
+   202,
+   50,
+   42,
+   159,
+   16,
+   4
+  ]
+ },
+ "L55|S3m0": {
+  "target": 3,
+  "contrast": 1.486794833839398,
+  "halfmax": 1.7075757575757575,
+  "multimodal": 0.29393939393939394,
+  "centre_bias": 0.038946133893194346,
+  "centre_spread_heads": 0.4043664178065714,
+  "sharp_on_target": 0.8681818181818182,
+  "sharp_hist": [
+   44,
+   22,
+   573,
+   1,
+   2,
+   3,
+   15
+  ]
+ },
+ "L55|E5m0": {
+  "target": 3,
+  "contrast": 0.9535714968452649,
+  "halfmax": 2.8015151515151517,
+  "multimodal": 0.5712121212121212,
+  "centre_bias": 0.11013744415830135,
+  "centre_spread_heads": 0.654348422437994,
+  "sharp_on_target": 0.29848484848484846,
+  "sharp_hist": [
+   83,
+   160,
+   197,
+   159,
+   26,
+   28,
+   7
+  ]
+ },
+ "L55|S4m0": {
+  "target": 4,
+  "contrast": 1.3642649356522452,
+  "halfmax": 1.9757575757575758,
+  "multimodal": 0.3878787878787879,
+  "centre_bias": -0.21862208132431352,
+  "centre_spread_heads": 0.52442673632222,
+  "sharp_on_target": 0.8287878787878787,
+  "sharp_hist": [
+   37,
+   29,
+   24,
+   547,
+   8,
+   1,
+   14
+  ]
+ },
+ "L55|E4m0": {
+  "target": 4,
+  "contrast": 0.997318583112969,
+  "halfmax": 2.7075757575757575,
+  "multimodal": 0.6121212121212121,
+  "centre_bias": -0.4187123697336877,
+  "centre_spread_heads": 0.6551477513879103,
+  "sharp_on_target": 0.15757575757575756,
+  "sharp_hist": [
+   33,
+   144,
+   213,
+   104,
+   122,
+   35,
+   9
+  ]
+ },
+ "L55|S5m0": {
+  "target": 5,
+  "contrast": 1.5193558615434684,
+  "halfmax": 1.7227272727272727,
+  "multimodal": 0.353030303030303,
+  "centre_bias": -0.4879574953250451,
+  "centre_spread_heads": 0.6801193386541622,
+  "sharp_on_target": 0.8696969696969697,
+  "sharp_hist": [
+   41,
+   19,
+   15,
+   3,
+   574,
+   2,
+   6
+  ]
+ },
+ "L55|E3m0": {
+  "target": 5,
+  "contrast": 1.3944008829950278,
+  "halfmax": 2.0136363636363637,
+  "multimodal": 0.26515151515151514,
+  "centre_bias": -0.2738374451639496,
+  "centre_spread_heads": 0.5060694680881919,
+  "sharp_on_target": 0.5787878787878787,
+  "sharp_hist": [
+   3,
+   17,
+   21,
+   131,
+   382,
+   90,
+   16
+  ]
+ },
+ "L55|S6m0": {
+  "target": 6,
+  "contrast": 1.5374527130868965,
+  "halfmax": 1.8181818181818181,
+  "multimodal": 0.3378787878787879,
+  "centre_bias": -0.6910154380900074,
+  "centre_spread_heads": 0.8760065560452664,
+  "sharp_on_target": 0.8575757575757575,
+  "sharp_hist": [
+   35,
+   24,
+   7,
+   3,
+   8,
+   566,
+   17
+  ]
+ },
+ "L55|E2m0": {
+  "target": 6,
+  "contrast": 1.7641882085373337,
+  "halfmax": 1.637878787878788,
+  "multimodal": 0.12272727272727273,
+  "centre_bias": -0.28522377842571156,
+  "centre_spread_heads": 0.4073953149017008,
+  "sharp_on_target": 0.8212121212121212,
+  "sharp_hist": [
+   5,
+   2,
+   3,
+   0,
+   89,
+   542,
+   19
+  ]
+ },
+ "L55|S2m0": {
+  "target": 2,
+  "contrast": 1.1644254674765877,
+  "halfmax": 2.2924242424242425,
+  "multimodal": 0.403030303030303,
+  "centre_bias": 0.4674298205866643,
+  "centre_spread_heads": 0.5614472180614851,
+  "sharp_on_target": 0.7393939393939394,
+  "sharp_hist": [
+   112,
+   488,
+   19,
+   4,
+   4,
+   5,
+   28
+  ]
+ },
+ "L55|E6m0": {
+  "target": 2,
+  "contrast": 0.909434611095862,
+  "halfmax": 2.95,
+  "multimodal": 0.65,
+  "centre_bias": 1.3436614783652419,
+  "centre_spread_heads": 0.7588312524166564,
+  "sharp_on_target": 0.2787878787878788,
+  "sharp_hist": [
+   106,
+   184,
+   82,
+   78,
+   181,
+   20,
+   9
+  ]
+ }
+}

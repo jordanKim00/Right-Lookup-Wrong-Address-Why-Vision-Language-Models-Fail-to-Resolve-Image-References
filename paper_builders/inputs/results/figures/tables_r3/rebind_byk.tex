@@ -1,0 +1,40 @@
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+$k$ (target $8-k$) & 2 (6) & 3 (5) & 4 (4) & 5 (3) & 6 (2) \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{Qwen3-VL-4B}} \\
+start-relative & 97 & 93 & 97 & 97 & 97 \\
+end-relative & 10 (33) & 3 (80) & 93 & 0 (90) & 0 (87) \\
+\quad + address & 87 (0) & 90 (0) & 93 & 80 (3) & 33 (10) \\
+\quad + frame & 0 (97) & 0 (97) & 97 & 0 (93) & 0 (97) \\
+\quad + both & 97 & 93 & 97 & 97 & 97 \\
+\addlinespace
+\multicolumn{6}{@{}l}{\textit{Qwen3-VL-8B}} \\
+start-relative & 97 & 100 & 97 & 93 & 97 \\
+end-relative & 47 (20) & 0 (93) & 97 & 0 (97) & 0 (97) \\
+\quad + address & 97 (0) & 97 (0) & 97 & 83 (0) & 30 (43) \\
+\quad + frame & 0 (97) & 0 (93) & 97 & 0 (100) & 0 (97) \\
+\quad + both & 97 & 100 & 97 & 93 & 97 \\
+\addlinespace
+\multicolumn{6}{@{}l}{\textit{Qwen3.5-4B}} \\
+start-relative & 100 & 93 & 100 & 97 & 100 \\
+end-relative & 33 (10) & 20 (67) & 100 & 0 (90) & 0 (80) \\
+\quad + address & 93 (0) & 90 (0) & 100 & 77 (13) & 17 (37) \\
+\quad + frame & 0 (97) & 0 (100) & 100 & 0 (97) & 0 (100) \\
+\quad + both & 100 & 97 & 100 & 100 & 97 \\
+\addlinespace
+\multicolumn{6}{@{}l}{\textit{Qwen3.5-9B}} \\
+start-relative & 100 & 100 & 100 & 100 & 100 \\
+end-relative & 43 (0) & 13 (60) & 83 & 7 (83) & 3 (90) \\
+\quad + address & 87 (3) & 90 (3) & 83 & 60 (13) & 0 (47) \\
+\quad + frame & 0 (100) & 0 (100) & 100 & 0 (100) & 0 (97) \\
+\quad + both & 97 & 100 & 100 & 100 & 100 \\
+\addlinespace
+\multicolumn{6}{@{}l}{\textit{Qwen3.5-27B}} \\
+start-relative & 100 & 100 & 97 & 100 & 100 \\
+end-relative & 93 (0) & 57 (3) & 53 & 23 (3) & 33 (0) \\
+\quad + address & 3 (33) & 3 (20) & 53 & 3 (57) & 0 (93) \\
+\quad + frame & 0 (100) & 0 (100) & 97 & 0 (100) & 0 (100) \\
+\quad + both & 100 & 100 & 97 & 100 & 100 \\
+\bottomrule
+\end{tabular}

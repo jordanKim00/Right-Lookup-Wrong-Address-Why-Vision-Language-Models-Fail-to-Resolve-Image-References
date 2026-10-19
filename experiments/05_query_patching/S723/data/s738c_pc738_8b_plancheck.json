@@ -1,0 +1,29 @@
+{
+ "tag": "pc738_8b",
+ "model": "/dev/shm/vlm_models/Qwen3-VL-8B-Instruct",
+ "old": {
+  "read": {
+   "detector": "margin:.4",
+   "binder": "proto:1.5",
+   "count": "last"
+  },
+  "base": "lm_8b",
+  "reader": "none"
+ },
+ "new": {
+  "read": {
+   "detector": "margin:0.30",
+   "binder": "proto:1.3",
+   "count": "last"
+  },
+  "base": "lm_8b4",
+  "reader": "s729_8b"
+ },
+ "res": {
+  "S730": {
+   "n": 150,
+   "identical": 150,
+   "diff_examples": []
+  }
+ }
+}

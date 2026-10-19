@@ -1,0 +1,27 @@
+{
+ "dev_in_sample_calibration_15": 0.958984375,
+ "dev_level3_from_predicted_scores_15": 0.88671875,
+ "feats": [
+  "L51_row5",
+  "L51_row9",
+  "L55_row5",
+  "L55_row9",
+  "L59_row5",
+  "L59_row9",
+  "L63_row5",
+  "L63_row9"
+ ],
+ "n": 2535,
+ "nll": 1880.7214642209287,
+ "source": "S848 development data (results/r3/s848_s848_27b_stop.json), actual runs of E_EARLY, S_EARLY, BANDF, BANDE",
+ "w": [
+  1.1044371356579352,
+  0.6522868095318127,
+  -0.407892270603809,
+  0.08275902132230488,
+  0.7607899871476927,
+  1.6859438808580787,
+  -1.0792521354668345,
+  -1.346781281864143
+ ]
+}

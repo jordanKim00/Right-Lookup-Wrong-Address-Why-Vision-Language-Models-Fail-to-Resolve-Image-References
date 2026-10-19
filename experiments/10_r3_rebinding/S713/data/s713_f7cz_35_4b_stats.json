@@ -1,0 +1,26 @@
+{
+ "tag": "f7cz_35_4b",
+ "base": "lm_35_4b",
+ "assembled": "rc_35_4b",
+ "choice": {
+  "detector": "v1",
+  "binder": "v1_gate",
+  "count": "last"
+ },
+ "v2": true,
+ "det_rule": "abs",
+ "det_param": null,
+ "anchor_scale": 1.0,
+ "ablate": null,
+ "prompt_mode": "none",
+ "rev_style": "end",
+ "sealed": false,
+ "fresh": false,
+ "stats": {
+  "inputs": 400,
+  "sources": 2000,
+  "rebound": 465,
+  "frame": 664,
+  "frame_only": 199
+ }
+}
