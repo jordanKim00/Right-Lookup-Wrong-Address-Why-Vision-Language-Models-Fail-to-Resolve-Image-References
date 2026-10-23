@@ -123,3 +123,32 @@ the extra images contain.
   re-run as S856b.
 - Resident model workers reload the experiment modules before every job (`lib/w27b_worker.py`).
 - An invalid run in which a stale module made two arms identical is kept and labelled.
+
+## END circuit and intervention-response prediction (S859–S932)
+
+- **Address-part pins** (`lib/c_qpath*.py`, `QPathK`, edit `qsub` with `part="U"`). At the early full-attention readers 35, 39, 43 and 47 the
+  read-row query's component inside U (the span of the centred block-mean image keys, per head, post-RoPE) is replaced by that of a donor's
+  query (START(p)). Arms: `PIN` (p = the natural layer-47 anchor a), `PINm` / `PINp` (a − 1 / a + 1), `PINm2` / `PINp2` (a − 2 / a + 2),
+  `PINt` (the target t = N + 1 − k).
+- **Band replacement** (`cpatch`, components (layer, `mix` | `mlp`) for layers 46–49). The read-row outputs of the band's token mixers and
+  MLPs are set to those of a START run of the same scene in the same batch (`E_BANDR` with START(a), `PINtB` with START(t), `PINmB` /
+  `PINpB` with the pinned position's START run).
+- **Writer anatomy** (`lib/c_anat.py`, S859–S887). Exact decompositions of the band's attention heads, DeltaNet value heads and MLPs, each
+  contribution projected through the late layers' query map (input norm, query projection, query norm) onto their block scores.
+- **Late-read swaps** (`lib/c_headpatch.py`, `FAHeadPatchPinned`; `lib/c_routeswap.py`, `FARouteSwap`). The read-row outputs of the late
+  full-attention layers 51–63 are taken from another run, whole or restricted to key-position sets (images, menu names, the rest).
+- **Mass and gate transplants** (`lib/c_qpath_rm.py`, `QPathRM`). The image-versus-text attention mass and the output-gate pre-activations of
+  chosen heads are set to a donor's at a fixed address.
+- **R3 against the circuit** (`experiments/13_writer_end_circuit/S920/code/s920_r3circuit.py`). R3's writes applied per batch element, with
+  the late read outputs captured and compared with START(t) and the natural run.
+- **First-order response** (`experiments/14_intervention_response_prediction/S927/code/s927_lr.py`). Zero probes (requiring gradients) are
+  added to the read-row outputs of the early readers (mode T) or, with the band read-row outputs detached, to those of the band and of layers
+  35 / 39 / 43 (mode D). The menu logits are computed in float32 from the final hidden state. The transfer matrices `T[q]`, `Dp[q]` and
+  `BAND[q]` (every pinned position q, every menu word) are the probes' gradients times the exact local changes.
+- **Path quadrature** (`S928/code/s928_quad.py`; batched values `S928h/code/s928h_quad.py`; `S932/code/s932_pathq.py`). The intervention's
+  path is evaluated at e = 1/2: band outputs set to natural + e (START − END) and held; the joint path for pin + band; the real pin path
+  (U part of (1 − e) q_natural + e q_donor at every pinned reader). Rules: midpoint, quadratic and cubic Hermite.
+- **Circuit-restricted gradients** (`S929/code/s929_circ.py`). Values unchanged, only the backward flow cut: read rows only (other positions
+  detached at layers >= 35), and after the band only the late full-attention reads (DeltaNet mixers and MLPs at 50–63 detached).
+- **Text-only versions** (`experiments/15_text_only/S931/code/`). The same collector, predictor and analysis with word lists in the prompt
+  ("There are N words in a row: w1, ..., wN.") and the list-word positions as blocks.

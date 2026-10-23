@@ -10,4 +10,4 @@ Code: `code/s783_compare.py`, `code/s783_run.py`
 
 Shared modules: `lib/uni.py`
 
-Data: none released here
+Data: none of its own (see below)

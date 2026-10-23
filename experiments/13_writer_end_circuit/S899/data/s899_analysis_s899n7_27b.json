@@ -1,0 +1,183 @@
+{
+ "tag": "s899n7_27b",
+ "n_scenes": 48,
+ "I0": {
+  "t1": true,
+  "START": true,
+  "reference": true,
+  "coverage": true,
+  "all": true,
+  "t1_value": 1.0,
+  "START_acc": 0.9756944444444444,
+  "START_N_acc": 0.9791666666666666,
+  "reference_anchor": 1.0,
+  "coverage_value": 1.0
+ },
+ "N1": {
+  "drop": {
+   "est": 0.282641151307258,
+   "lo": 0.26438092102994104,
+   "hi": 0.30042063275204817
+  },
+  "verdict": "natural END runs show the self-address heads' anchor re-affirmation weakening"
+ },
+ "N2": {
+  "W_by_k": {
+   "k3": {
+    "est": 1.0723492439008424,
+    "lo": 0.49450286165811136,
+    "hi": 1.65308281754454
+   },
+   "k4": {
+    "est": 1.137682000382079,
+    "lo": 0.741431813381819,
+    "hi": 1.5299940409087056
+   },
+   "k5": {
+    "est": 1.6862535335951383,
+    "lo": 1.2714190945184483,
+    "hi": 2.088138614491456
+   }
+  },
+  "verdict": "the writer steps at every tested k (no k-gating among them)"
+ },
+ "A1": {
+  "predicted": {
+   "3": 6,
+   "4": 5,
+   "5": 5
+  },
+  "modal": {
+   "3": 5,
+   "4": 5,
+   "5": 5
+  },
+  "hits": 2,
+  "verdict": "partial"
+ },
+ "A2": {
+  "predicted_right": {
+   "3": true,
+   "4": true,
+   "5": false
+  },
+  "diff": {
+   "est": 0.3645833333333333,
+   "lo": 0.22916666666666666,
+   "hi": 0.49999999999999994
+  },
+  "verdict": "the anchor-plus-step rule predicts which cells fail"
+ },
+ "N3": {
+  "f_QM": {
+   "est": 0.47271889085470337,
+   "lo": 0.31505923943893543,
+   "hi": 0.6814778755444217
+  },
+  "verdict": "partial"
+ },
+ "descriptive": {
+  "k3": {
+   "n": 48,
+   "n_valid": 48,
+   "anchors": {
+    "5": 21,
+    "6": 15,
+    "3": 7,
+    "7": 5
+   },
+   "P_correct": 0.5,
+   "P_a_minus_1": 0.2916666666666667,
+   "P_a": 0.3541666666666667,
+   "W": 1.0723492439008424,
+   "F": 0.8028545520371863,
+   "f_QM": 0.4913758821165867,
+   "attention_drop": 0.2591314499665815
+  },
+  "k4": {
+   "n": 48,
+   "n_valid": 48,
+   "anchors": {
+    "5": 21,
+    "6": 6,
+    "4": 18,
+    "3": 2,
+    "7": 1
+   },
+   "P_correct": 0.4375,
+   "P_a_minus_1": 0.3333333333333333,
+   "P_a": 0.20833333333333334,
+   "W": 1.137682000382079,
+   "F": 0.7551074677871333,
+   "f_QM": 0.6623555258946126,
+   "attention_drop": 0.28811665296743744
+  },
+  "k5": {
+   "n": 48,
+   "n_valid": 48,
+   "anchors": {
+    "6": 10,
+    "5": 33,
+    "7": 1,
+    "3": 1,
+    "4": 1,
+    "2": 2
+   },
+   "P_correct": 0.10416666666666667,
+   "P_a_minus_1": 0.22916666666666666,
+   "P_a": 0.0625,
+   "W": 1.6862535335951383,
+   "F": 0.9930524566314286,
+   "f_QM": 0.3134373860456519,
+   "attention_drop": 0.30067535098775505
+  },
+  "identity_cell": {
+   "k": 4,
+   "n": 48,
+   "anchor_on_target": 0.375,
+   "P_correct_given_anchor_on_target": 0.3333333333333333,
+   "P_step_off_given_anchor_on_target": 0.2222222222222222,
+   "W_given_anchor_on_target": 0.5222822394635941
+  },
+  "F_early_frozen": {
+   "k3": {
+    "P_anchor_predicted": 0.375,
+    "P_anchor_is_k": 0.14583333333333334,
+    "P_answer_is_predicted_anchor_minus_1": 0.16666666666666666,
+    "P_answer_is_k_minus_1": 0.0,
+    "predicted_anchors": {
+     "6": 17,
+     "5": 17,
+     "3": 5,
+     "7": 6,
+     "4": 3
+    },
+    "R2": 0.7392197747737319
+   },
+   "k4": {
+    "P_anchor_predicted": 0.5416666666666666,
+    "P_anchor_is_k": 0.375,
+    "P_answer_is_predicted_anchor_minus_1": 0.25,
+    "P_answer_is_k_minus_1": 0.16666666666666666,
+    "predicted_anchors": {
+     "4": 36,
+     "5": 9,
+     "6": 2,
+     "7": 1
+    },
+    "R2": 0.6972590961232834
+   },
+   "k5": {
+    "P_anchor_predicted": 0.6875,
+    "P_anchor_is_k": 0.6875,
+    "P_answer_is_predicted_anchor_minus_1": 0.3125,
+    "P_answer_is_k_minus_1": 0.3125,
+    "predicted_anchors": {
+     "5": 48
+    },
+    "R2": 0.5730404456883254
+   }
+  },
+  "errors_landing_a_minus_1": 0.26595744680851063
+ }
+}

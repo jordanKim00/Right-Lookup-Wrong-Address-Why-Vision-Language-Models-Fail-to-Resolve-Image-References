@@ -10,4 +10,13 @@ Code: `code/s609_reader.py`, `code/s609_table.py`
 
 Shared modules: `lib/r3_proc.py`, `lib/r3ref.py`, `lib/s588c_reader.py`, `lib/s608_layout.py`, `lib/uni.py`
 
-Data: none released here
+Data: none of its own (see below)
+
+Its scripts and records are released with the experiments it was run with (the same notebook section):
+
+- `experiments/11_benchmarks/S582/data/s582_evalrepair_fresh_s609c_4b.json`
+- `experiments/11_benchmarks/S582/data/s582_evalrepair_fresh_s609c_8b.json`
+- `experiments/11_benchmarks/S582/data/s582_evalrepair_fresh_s619g_35_4b.json`
+- `experiments/11_benchmarks/S582/data/s582_evalrepair_fresh_s619g_35_9b.json`
+
+Notebook sections: §634, §654 (the notebook itself is not released).

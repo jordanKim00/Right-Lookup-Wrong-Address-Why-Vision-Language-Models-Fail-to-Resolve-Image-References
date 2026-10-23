@@ -38,7 +38,10 @@ def main(path):
     os.makedirs(JOBS, exist_ok=True)
     t0 = time.time()
     REAL = uni.Uni
-    pre = REAL(path, device="cuda:0", attn="sdpa", device_map="balanced")
+    dmp = os.environ.get("W27B_DEVICE_MAP")                                 # 10-21: optional explicit layer placement (JSON {module: card});
+    dmap = json.load(open(dmp)) if dmp else "balanced"                       # per-op results do not depend on the card (same model)
+    pre = REAL(path, device="cuda:0", attn="sdpa", device_map=dmap)
+    print(f"[w27b] device map {dmp or 'balanced'}", flush=True)
     base = hook_snapshot(pre.model)
     print(f"[w27b] loaded {path} in {time.time() - t0:.0f} s (hooks at load {sum(len(a) + len(b) for a, b in base.values())})", flush=True)
 

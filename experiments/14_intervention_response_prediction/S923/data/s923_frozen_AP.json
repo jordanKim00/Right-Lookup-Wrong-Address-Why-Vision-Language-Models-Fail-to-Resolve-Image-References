@@ -1,0 +1,133 @@
+{
+ "train_tags": [
+  "s913n7_27b",
+  "s913n8_27b"
+ ],
+ "n_train": 960,
+ "cells": {
+  "N7_k1": 64,
+  "N7_k2": 64,
+  "N7_k3": 64,
+  "N7_k4": 64,
+  "N7_k5": 64,
+  "N7_k6": 64,
+  "N7_k7": 64,
+  "N8_k1": 64,
+  "N8_k2": 64,
+  "N8_k3": 64,
+  "N8_k4": 64,
+  "N8_k5": 64,
+  "N8_k6": 64,
+  "N8_k7": 64,
+  "N8_k8": 64
+ },
+ "note": "S923 fit and freeze (registered in knowledge/DECISIONS.md before the S923 test data): the circuit-structured predictor AP - S913's\nstructured model M3 revised by two circuit findings, fitted on the S913 training runs only (N7 / N8, natural END(k) with E_BANDR):\n  (1) no argmax features: the late support and the writer's update depend on the early profile through e(b - 1 .. b + 3), the last-picture\n      and copy indicators only - no anchor indicator, no anchor-margin terms (the early reference is a graded preference; the argmax\n      indicator absorbed the anchor's support in natural data and froze it under sharpening, S914 post hoc);\n  (2) a two-temperature readout: answer logits = T_B,g * B^ + T_W,g * W^ per k group, T_B fitted on the writer-free runs' answers (x(E_BANDR)\n      from B^ alone), then T_W on the natural answers with T_B fixed (the writer's effect reaches the answer through other late routes than\n      the lookup support, S917 / S921; a single temperature mis-sized the writer-free readout, S914 post hoc).\nPredictions: natural softmax(T_B B^ + T_W W^); writer removal softmax(T_B B^); a sharpened address the same on the run's own profile.\nOriginal S913 doc follows.\nS913 fit and freeze (registered in knowledge/DECISIONS.md before the S914 test data; the advisor's design, 10-22).  Trains every predictor on\nthe S913 training runs only (natural END(k), N 7 and 8, every k; results/r3/s913_<tag>_collect.json) and writes the frozen parameters with a\nhash.  The test data (S914) are opened only by s914_analyze.py after this file's output is hashed in DECISIONS.\nPer END run: k, N, its natural L47 anchor a, the answer x; early profiles at L47 (and L43): e_mean[b] = the matcher-head mean block score\n(rows B1 / B4 / answer averaged) and e_head[h, b] for every head (rows averaged), centred over blocks only (magnitudes kept); late profiles at\nL51 (matcher-head mean, rows B1 / B4 / answer): zE (the natural run of phase B) and zB (E_BANDR, the writer-free run) -> B = zB - mean(zB),\nW = (zE - zB) - mean(zE - zB).  Positions outside 1..N are padded with min(profile) - 1.\nModels (k groups: k = 1, 2, 3, >= 4):\n  M0     behaviour prior: P(x - t | k group), t = N + 1 - k (add .5);\n  M1     argmax: P(x - a | k group) (add .5);\n  M2a    conditional logit over b with f(b) = [e(b-1), e(b), e(b+1), e(b+2), e(b+3), last, copy (b = k), anchor (b = a)] from e_mean, weights per k\n         group, L2 1e-3;\n  M2b    the same with every head's e_head(b), e_head(b+1) in place of the five mean terms, L2 1e-2;\n  M3     structured: ridge regressions (per k group, lambda 1) of B(b) and W(b) on f(b) plus the anchor's early margin m47 = e(a) - max_{i != a} e(i)\n         times 1(b = a) and 1(b = a - 1); late address P_late = softmax(T_late (B^ + W^)), answer P_ans = softmax(T_ans,g (B^ + W^)), where only the\n         temperatures are fitted (T_late to the natural late argmax, T_ans per k group to the answers);\n  M3noW  M3 without W^ (answer and late from B^ only, temperatures refitted);\n  *_L43  M2a and M3 with the L43 early profile (pre-band boundary).\nEvery distribution is over {other, 1..N} (other = an answer outside 1..N) mixed with 1% uniform.\nUsage: python3 s913_fit.py TRAIN_TAG_N7 TRAIN_TAG_N8",
+ "AP": {
+  "0": {
+   "B": [
+    -0.028018793425891954,
+    0.9082044280342969,
+    0.11635644471526738,
+    0.036179939849640734,
+    -0.0023268927743624497,
+    0.7034956043605974,
+    0.4778284463115966,
+    -0.14285395842716064
+   ],
+   "W": [
+    -0.23802885216589545,
+    -0.10864750306577688,
+    -0.3780233562685151,
+    -0.0765176470810012,
+    0.05889222508275865,
+    0.3608500607370847,
+    0.619603769568809,
+    -0.29217307978297746
+   ]
+  },
+  "1": {
+   "B": [
+    -0.2406712589496195,
+    0.8289348891885457,
+    -0.1013662983198663,
+    -0.020879429711488644,
+    -0.018527025909048898,
+    -0.4856744529716641,
+    -0.06679565136437307,
+    -0.16128341244246175
+   ],
+   "W": [
+    0.13376753904841623,
+    0.11753478265249157,
+    0.20119278374519287,
+    -0.0063247463609669525,
+    -0.09615512499089435,
+    -1.0650153055857754,
+    0.09054403306201106,
+    0.18327870923995432
+   ]
+  },
+  "2": {
+   "B": [
+    -0.2715298014684019,
+    0.8101336188885271,
+    -0.15095101666979127,
+    0.042081797334358316,
+    -0.05713889603424806,
+    -0.9798696134152295,
+    -0.27877156040689305,
+    -0.06782889614298394
+   ],
+   "W": [
+    0.6376539052109158,
+    -0.16591280862627097,
+    0.013458189041100752,
+    0.3671650955351785,
+    -0.15085445200897316,
+    -1.3551789083330599,
+    -0.46699911726032184,
+    0.68306505923491
+   ]
+  },
+  "3": {
+   "B": [
+    -0.22412859765465454,
+    0.7072674438501498,
+    -0.040826196360158905,
+    0.04326851511212017,
+    -0.024909021941310183,
+    -0.2050751857959488,
+    0.3450334512468805,
+    -0.09971606529524481
+   ],
+   "W": [
+    0.1474497524898488,
+    0.09217616429105857,
+    0.46333974014068874,
+    0.23042103151943,
+    0.08920712628515613,
+    1.0768814174749701,
+    -0.7490264918244727,
+    0.2538706852954293
+   ]
+  }
+ },
+ "AP_T": {
+  "0": {
+   "B": 3.216894531250005,
+   "W": 8.220605468750016
+  },
+  "1": {
+   "B": 3.3683593750000047,
+   "W": 2.386328125000003
+  },
+  "2": {
+   "B": 3.7609375000000056,
+   "W": 0.90234375
+  },
+  "3": {
+   "B": 3.9239257812500066,
+   "W": 3.722656250000006
+  }
+ }
+}

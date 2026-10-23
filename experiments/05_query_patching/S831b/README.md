@@ -10,4 +10,11 @@ Code: `code/s831b_anchor2.py`
 
 Shared modules: `lib/c_qpath_b.py`, `lib/pipe_run.py`, `lib/r3_proc.py`, `lib/uni.py`
 
-Data: none released here
+Data: none of its own (see below)
+
+Its scripts and records are released with the experiments it was run with (the same notebook section):
+
+- `experiments/05_query_patching/S831/code/s831_analyze.py`
+- `experiments/05_query_patching/S831b/code/s831b_anchor2.py`
+
+Notebook sections: §927 (the notebook itself is not released).

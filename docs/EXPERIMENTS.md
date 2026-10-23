@@ -30,7 +30,7 @@ One row per experiment. `Papers` lists the manuscript versions whose text names 
 | [S643](../experiments/01_behavior/S643/) | 1 | 18 | figure/table builders | S643: moved anchors in multi-image references -- pointer form (ordinal word vs cardinal offset) x anchor (start / end / an item). Procedural |
 | [S643b](../experiments/01_behavior/S643b/) | 0 | 0 | - |  |
 | [S648](../experiments/01_behavior/S648/) | 1 | 5 | R3 (Oct 6) | S648: question-form vs option-form end-relative references on the same procedural scenes. 27B composes end-relative references in question f |
-| [S660](../experiments/01_behavior/S660/) | 1 | 9 | - | S660: the two skills and their composition on the SAME scene (review W2, 2026-10-07). Procedural scenes as S643 (one-token shapes, N 5-7, re |
+| [S660](../experiments/01_behavior/S660/) | 1 | 10 | - | S660: the two skills and their composition on the SAME scene (review W2, 2026-10-07). Procedural scenes as S643 (one-token shapes, N 5-7, re |
 | [S661](../experiments/01_behavior/S661/) | 0 | 0 | - |  |
 | [S746](../experiments/01_behavior/S746/) | 4 | 5 | - | S746: does reasoning resolve end-relative references, and does the answer follow the address the reasoning states? (VisualSwap's Instruct-vs |
 | [S747](../experiments/01_behavior/S747/) | 4 | 1 | figure/table builders | S747a: the behavioural phenomenon in VisualSwap's model set without R³ (pre-registration in knowledge/DECISIONS.md before any S747 data; ana |
@@ -218,3 +218,93 @@ One row per experiment. `Papers` lists the manuscript versions whose text names 
 | [S832](../experiments/12_laws_and_predictions/S832/) | 2 | 3 | circuit v2, circuit v3, circuit v4, circuit v5, circuit v6, circuit v7, figure/table builders | S832 (pre-registered in knowledge/DECISIONS.md before any S832 data): does the two-component law FROZEN after S831 (research/ces/outputs/ s8 |
 | [S841](../experiments/12_laws_and_predictions/S841/) | 2 | 2 | circuit v3, circuit v4, circuit v5, circuit v6, circuit v7 | S841 (pre-registered in knowledge/DECISIONS.md before any S841 data): why does the late step move the identity reference? Hypothesis (sign): |
 | [S858](../experiments/12_laws_and_predictions/S858/) | 2 | 3 | circuit v5, circuit v6, circuit v7, figure/table builders | S858 (P3, user 10-18: scope frozen after S857; pre-registered in knowledge/DECISIONS.md before any S858 data). Prior predictions of what unp |
+
+## 13_writer_end_circuit
+
+| ID | code | data | papers | summary |
+|---|---:|---:|---|---|
+| [S859](../experiments/13_writer_end_circuit/S859/) | 2 | 2 | - | S859 (descriptive anatomy; registered in knowledge/DECISIONS.md before its data) - which heads of the writer band (27B: DeltaNet 46 / 48 / 4 |
+| [S860](../experiments/13_writer_end_circuit/S860/) | 2 | 3 | - | S860 (head-level causal test after S859; registered in knowledge/DECISIONS.md before its data) - which components of the writer suppress the |
+| [S861](../experiments/13_writer_end_circuit/S861/) | 2 | 2 | - | S861 (registered in knowledge/DECISIONS.md before its data; user review 10-20 - three parts, judged separately) - does the S860 circuit act  |
+| [S862](../experiments/13_writer_end_circuit/S862/) | 2 | 2 | - | S862 (registered in knowledge/DECISIONS.md before its data; user 10-20 'close the last chain and show that the identified algorithm predicts |
+| [S863](../experiments/13_writer_end_circuit/S863/) | 2 | 1 | - | S863 (registered in knowledge/DECISIONS.md before its data; the advisor's open gap 10-20 'where does k control the strength of leaving and p |
+| [S864](../experiments/13_writer_end_circuit/S864/) | 2 | 1 | - | S864 (registered in knowledge/DECISIONS.md before its data; the advisor's 'core generalisation' 10-20, S861-B redone with pins - S861-B was  |
+| [S865](../experiments/13_writer_end_circuit/S865/) | 2 | 2 | - | S865 (registered in knowledge/DECISIONS.md before its data; S862 post hoc: the band's END part and the pinned one-back are N-invariant (D4)  |
+| [S866](../experiments/13_writer_end_circuit/S866/) | 2 | 1 | - | S866 (registered in knowledge/DECISIONS.md before its data; user 10-21 'the complete algorithmic circuit of END is the top priority') - suff |
+| [S867](../experiments/13_writer_end_circuit/S867/) | 2 | 2 | - | S867 (registered in knowledge/DECISIONS.md before its data; the adversary's alternative 10-21: in S862's pinned END5 runs the landing moves  |
+| [S868](../experiments/13_writer_end_circuit/S868/) | 2 | 2 | - | S868 (registered in knowledge/DECISIONS.md before its data; user 10-21 'the complete algorithmic circuit of END'; the post hoc reading of S8 |
+| [S869](../experiments/13_writer_end_circuit/S869/) | 2 | 2 | - | S869 (registered in knowledge/DECISIONS.md before its data; advisor review 10-21 'compute why the same writer intervention flips some runs a |
+| [S869r](../experiments/13_writer_end_circuit/S869r/) | 2 | 2 | - | S869R (registered analysis of stored data; knowledge/DECISIONS.md S869R entry, rules fixed before this analysis was computed) - late readout |
+| [S870](../experiments/13_writer_end_circuit/S870/) | 2 | 2 | - | S870 (registered in knowledge/DECISIONS.md before its data; advisor review 10-21 (S870: the early route selection law) and the user's questi |
+| [S871](../experiments/13_writer_end_circuit/S871/) | 2 | 1 | - | S871 (registered in knowledge/DECISIONS.md before its data; advisor review 3, 10-21: 'can the pre-writer state predict each run's writer eff |
+| [S872](../experiments/13_writer_end_circuit/S872/) | 5 | 6 | - | S872 (registered in knowledge/DECISIONS.md before its data; advisor review 4, 10-21: an address Jacobian lens / writer-effect lens, after th |
+| [S873](../experiments/13_writer_end_circuit/S873/) | 2 | 2 | - | S873 (registered in knowledge/DECISIONS.md before its data; causal tests of S872's Jacobian lens - advisor review 4 'lens readouts must matc |
+| [S874](../experiments/13_writer_end_circuit/S874/) | 2 | 3 | - | S874 (exploratory, descriptive; knowledge/DECISIONS.md 10-21 14:0x plan item 'S874 = the original J-lens, AB vs AQ') - the vocabulary Jacobi |
+| [S875](../experiments/13_writer_end_circuit/S875/) | 2 | 2 | - | S875 (advisor review 2, H1-H3: the QK-OV-logit bridge; design note research/ces/outputs/writer_circuit_2026-10-20/main/s875_design_note.md)  |
+| [S877](../experiments/13_writer_end_circuit/S877/) | 2 | 2 | - | S877 (registered in knowledge/DECISIONS.md before its data; follows S873 A1 'the writer magnitude follows the context scene' and the post ho |
+| [S878](../experiments/13_writer_end_circuit/S878/) | 2 | 2 | - | S878 (registered in knowledge/DECISIONS.md before its data; advisor reviews 5 and 6, 10-21: the Query-Key crossed counterfactual) - is the s |
+| [S879](../experiments/13_writer_end_circuit/S879/) | 2 | 2 | - | S879 (registered in knowledge/DECISIONS.md before its data; advisor review 5 'boundary-route reinforcement': why N 5 END(3) is answered .88  |
+| [S880](../experiments/13_writer_end_circuit/S880/) | 2 | 2 | - | S880 (registered in knowledge/DECISIONS.md before its data; follows S873 A1 'the writer magnitude follows the context scene') - which pictur |
+| [S881](../experiments/13_writer_end_circuit/S881/) | 2 | 1 | - | S881 (registered in knowledge/DECISIONS.md before its data; S878 post hoc p20: the writer's late query update = a shared front-ward shift +  |
+| [S882](../experiments/13_writer_end_circuit/S882/) | 2 | 2 | - | S882 (registered in knowledge/DECISIONS.md before its data; post hoc synthesis of S872 arms and S878: the writer = h16's scene-constant fron |
+| [S883](../experiments/13_writer_end_circuit/S883/) | 2 | 1 | - | S883 (registered in knowledge/DECISIONS.md before its data; after S882: the anchor-checking FA47 heads carry much of the per-scene writer va |
+| [S884](../experiments/13_writer_end_circuit/S884/) | 2 | 2 | - | S884 (registered in knowledge/DECISIONS.md before its data; after S881 / S878 post hoc p21: the writer's late query change has the sign stru |
+| [S885](../experiments/13_writer_end_circuit/S885/) | 2 | 2 | - | S885 (registered in knowledge/DECISIONS.md before its data; the weights-and-states companion of S884): capture what the composition map need |
+| [S886](../experiments/13_writer_end_circuit/S886/) | 2 | 2 | - | S886 (registered in knowledge/DECISIONS.md before its data; after S881 / p21 (the writer's late query change carries predecessor content (+) |
+| [S887](../experiments/13_writer_end_circuit/S887/) | 2 | 2 | - | S887 (registered in knowledge/DECISIONS.md before its data; after S885: FA47's END part is the self-address heads reading less of the anchor |
+| [S888](../experiments/13_writer_end_circuit/S888/) | 2 | 2 | - | S888 (registered in knowledge/DECISIONS.md before its data; after S884 H4: four early FA lookups reading another picture's content at the an |
+| [S889](../experiments/13_writer_end_circuit/S889/) | 2 | 2 | - | S889 (registered in knowledge/DECISIONS.md before its data; after S886 C1 (FA47 writes the predecessor content of the writer's late query ch |
+| [S890](../experiments/13_writer_end_circuit/S890/) | 2 | 2 | - | S890 (registered in knowledge/DECISIONS.md before its data; after S887: MLP46's END write, read through FA47's read-row queries and gates, c |
+| [S891](../experiments/13_writer_end_circuit/S891/) | 2 | 2 | - | S891 (registered in knowledge/DECISIONS.md before its data; predictions frozen and hashed before the run): does the composition map built fr |
+| [S892](../experiments/13_writer_end_circuit/S892/) | 2 | 2 | - | S892 (registered in knowledge/DECISIONS.md before its data; natural-run validation of the pinned S883-S887 findings) - do the writer's mecha |
+| [S893](../experiments/13_writer_end_circuit/S893/) | 2 | 2 | - | S893 (registered in knowledge/DECISIONS.md before its data; after S888: redirecting the anchor's content at the read rows through FA and Del |
+| [S894](../experiments/13_writer_end_circuit/S894/) | 2 | 2 | - | S894 (registered in knowledge/DECISIONS.md before its data; predictions frozen and hashed before the run; after the post hoc finding that EN |
+| [S895](../experiments/13_writer_end_circuit/S895/) | 2 | 2 | - | S895 (registered in knowledge/DECISIONS.md before its data; after S887 (layer 46's outputs restore only a third of the self-address heads' a |
+| [S896](../experiments/13_writer_end_circuit/S896/) | 2 | 2 | - | S896 (registered in knowledge/DECISIONS.md before its data; after the decomposition T1(E) = T1(R) + [T1(E_BANDR) - T1(R)] + W ~ -2.99 + 1.70 |
+| [S897](../experiments/13_writer_end_circuit/S897/) | 2 | 2 | - | S897 (registered in knowledge/DECISIONS.md before its data; after S890: MLP46's path into FA47's queries and gates runs mainly through the 1 |
+| [S898](../experiments/13_writer_end_circuit/S898/) | 2 | 2 | - | S898 (registered in knowledge/DECISIONS.md before its data; after S895: information written into the read rows before layer 35 restores 70%  |
+| [S899](../experiments/13_writer_end_circuit/S899/) | 2 | 5 | - | S899 (registered in knowledge/DECISIONS.md before its data; S892's natural-run design extended to other N, centred on the middle identity ce |
+| [S900](../experiments/13_writer_end_circuit/S900/) | 2 | 2 | - | S900 (registered in knowledge/DECISIONS.md before its data) - two dissections in one pass. (A) h3 (S897: MLP46's path into FA47 runs through |
+| [S901](../experiments/13_writer_end_circuit/S901/) | 2 | 2 | - | S901 (registered in knowledge/DECISIONS.md before its data) - how the predecessor's context enters the anchor's representation. S889: the an |
+| [S902](../experiments/13_writer_end_circuit/S902/) | 1 | 1 | - | S902 analysis (rules fixed before the data; knowledge/DECISIONS.md S902 entry). Input results/r3/s899_<tag>_natural.json (exp/s899_natural_n |
+| [S903](../experiments/13_writer_end_circuit/S903/) | 2 | 2 | - | S903 (registered in knowledge/DECISIONS.md before its data) - which components of the frame-read band L27-34 write the read rows' END state? |
+| [S904](../experiments/13_writer_end_circuit/S904/) | 2 | 2 | - | S904 (registered in knowledge/DECISIONS.md before its data) - is the read rows' END state at layer 35 a scene-independent mode vector? S896: |
+| [S905](../experiments/13_writer_end_circuit/S905/) | 2 | 2 | - | S905 (registered in knowledge/DECISIONS.md before its data) - does the writer band move the address toward the end-relative target within th |
+| [S906](../experiments/13_writer_end_circuit/S906/) | 2 | 2 | - | S906 (registered in knowledge/DECISIONS.md before its data) - is the END mode vector the same for every ordinal? S904: at the layer-35 input |
+| [S907](../experiments/13_writer_end_circuit/S907/) | 2 | 0 | - | S907 (registered in knowledge/DECISIONS.md before its data) - can the frozen circuit-structured models predict every reference at an unseen  |
+| [S908](../experiments/13_writer_end_circuit/S908/) | 2 | 2 | - | S908 (registered in knowledge/DECISIONS.md before its data) - where are the frame word and the ordinal bound into the k-specific END(k) tran |
+| [S909](../experiments/13_writer_end_circuit/S909/) | 2 | 4 | - | S909 (registered in knowledge/DECISIONS.md before its data) - is the END(k) transform vector an end-relative offset? S906: at N8 the read ro |
+| [S910](../experiments/13_writer_end_circuit/S910/) | 2 | 2 | - | S910 (registered in knowledge/DECISIONS.md before its data; adversarial review 10-22, item D1) - pinned vs natural at the same anchor. S905: |
+| [S911](../experiments/13_writer_end_circuit/S911/) | 2 | 2 | - | S911 (registered in knowledge/DECISIONS.md before its data; adversarial review 10-22, item D2) - how far does the END(k) transform vector re |
+| [S912](../experiments/13_writer_end_circuit/S912/) | 2 | 4 | - | S912 (registered in knowledge/DECISIONS.md before its data; adversarial review 10-22, item D3) - which writer components carry the identity  |
+| [S915](../experiments/13_writer_end_circuit/S915/) | 2 | 4 | - | S915 collector (registered in knowledge/DECISIONS.md before the data; the advisor's sufficiency demand, 10-22) - is the early-address profil |
+| [S916](../experiments/13_writer_end_circuit/S916/) | 2 | 2 | - | S916 collector (registered in knowledge/DECISIONS.md before the data) - where does END(2)'s end-side answer come from when the read-row vect |
+| [S917](../experiments/13_writer_end_circuit/S917/) | 2 | 1 | - | S917 collector (registered in knowledge/DECISIONS.md before the data) - is the writer's effect on the answer transmitted through the late fu |
+| [S918](../experiments/13_writer_end_circuit/S918/) | 2 | 1 | - | S918 collector (registered in knowledge/DECISIONS.md before the data; advisor review 2, 10-22: address vs reading strength) - at a fixed ear |
+| [S919](../experiments/13_writer_end_circuit/S919/) | 2 | 1 | - | S919 collector (registered in knowledge/DECISIONS.md before the data) - S918 R3: with END's early query and reading strength given, the STAR |
+| [S920](../experiments/13_writer_end_circuit/S920/) | 2 | 2 | - | S920 collector (registered in knowledge/DECISIONS.md before the data; advisor reviews 2-3) - R³ against the END circuit on the same scenes:  |
+| [S921](../experiments/13_writer_end_circuit/S921/) | 2 | 2 | - | S921 collector (registered in knowledge/DECISIONS.md before the data; advisor review 3: S917 left the late menu / picture division open beca |
+| [S922](../experiments/13_writer_end_circuit/S922/) | 1 | 1 | - | S922 analysis = S920's rules on one replication set (registered in knowledge/DECISIONS.md S922 entry): results/r3/s920_<tag>_r3circuit.json  |
+
+## 14_intervention_response_prediction
+
+| ID | code | data | papers | summary |
+|---|---:|---:|---|---|
+| [S913](../experiments/14_intervention_response_prediction/S913/) | 4 | 7 | - | S913 / S914 data collector (registered in knowledge/DECISIONS.md before the data; the advisor's frozen-prediction design, 10-22) - does the  |
+| [S914](../experiments/14_intervention_response_prediction/S914/) | 1 | 1 | - | S914 analysis (rules fixed before the data; knowledge/DECISIONS.md S914 entry; the advisor's design, 10-22). Frozen predictors main/s913_fro |
+| [S923](../experiments/14_intervention_response_prediction/S923/) | 2 | 2 | - | S923 fit and freeze (registered in knowledge/DECISIONS.md before the S923 test data): the circuit-structured predictor AP - S913's structure |
+| [S924](../experiments/14_intervention_response_prediction/S924/) | 3 | 5 | - | S924 collector (registered in knowledge/DECISIONS.md before the data; user 10-23: keep going until intervention prediction clearly works) -  |
+| [S925](../experiments/14_intervention_response_prediction/S925/) | 0 | 0 | - |  |
+| [S926](../experiments/14_intervention_response_prediction/S926/) | 2 | 5 | - | S926 collector (registered in knowledge/DECISIONS.md before the data; user 10-23: keep going until intervention prediction clearly works) -  |
+| [S927](../experiments/14_intervention_response_prediction/S927/) | 2 | 4 | figure/table builders | S927 - parameter-free linear-response (LR) predictor of intervention outcomes from the model's own gradients (user 10-23: '모델 내부 그라디언트나 뭐 이것 |
+| [S928](../experiments/14_intervention_response_prediction/S928/) | 1 | 1 | - | S928 - path-integral (quadrature) extension of S927's linear response (user 10-23: '모델 내부 그라디언트 ... 수학적으로 우아하게'). For an intervention I with |
+| [S928h](../experiments/14_intervention_response_prediction/S928h/) | 1 | 4 | - | S928h - fast path of S928 for HERM only (no backward at the half state; all arms in one batched forward). Otherwise identical. S928 - path-i |
+| [S929](../experiments/14_intervention_response_prediction/S929/) | 2 | 4 | - | S929 - circuit-restricted linear response: does the identified circuit carry the model's first-order response to the interventions? Same com |
+| [S930](../experiments/14_intervention_response_prediction/S930/) | 1 | 1 | - | S930 analysis = S926's (exp/s926_analyze.py) with two execution fixes learned from S926 N7 (I0 failed on bf16 ties, 10-23 08:5x): (1) I0 nat |
+| [S932](../experiments/14_intervention_response_prediction/S932/) | 2 | 2 | - | S932dev - every intervention by the quadratic along its OWN path (user 10-23: elegant, model-internal): pins: the real pin path - at every p |
+
+## 15_text_only
+
+| ID | code | data | papers | summary |
+|---|---:|---:|---|---|
+| [S931](../experiments/15_text_only/S931/) | 4 | 4 | - | S931 text-only collector - S926's collector (all arms and sub-passes unchanged) on WORD LISTS instead of pictures (user 10-23: can the text- |

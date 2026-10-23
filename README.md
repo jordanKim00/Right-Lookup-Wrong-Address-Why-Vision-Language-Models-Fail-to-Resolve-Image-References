@@ -43,11 +43,14 @@ experiments/
   10_r3_rebinding/           R3: calibration, Read selection, the two writes and their mechanism tests
   11_benchmarks/             MMIU / MuirBench harness and per-item results
   12_laws_and_predictions/   answer laws and predictions fixed in advance, held-out source-cut predictions
+  13_writer_end_circuit/     the END circuit of 27B: frame read, early lookup, the END-conditioned rewrite (46–49), late reads, R3 against it
+  14_intervention_response_prediction/  fitted profile predictors and the parameter-free intervention-response prediction
+  15_text_only/              the same instruments on text-only word lists
     S<ID>/
       README.md       what the experiment asks, its code, data and shared modules
       code/           exact copies of the scripts that ran
       data/           result tables as JSON (registered analyses and per-scene records)
-analysis/posthoc/     post hoc analyses (labelled as such in the manuscript)
+analysis/posthoc/     post hoc analyses (labelled as such in the manuscript); writer_circuit/ holds those of S913–S932 and the frozen predictors
 calibration/          R3 calibration tensors and index readers, exported to JSON
 paper_builders/       figure, table and number-check scripts of every manuscript version, with the small files they read
 manifests/            files.json (original path, released path, SHA-256), omitted.json (activation captures not released)
@@ -71,6 +74,14 @@ category and to the manuscript versions that use it.
 | Predictions fixed in advance hold in held-out input configurations | S858 |
 | Both writes are needed, and the rebound reference reads the picture at its address | S786/S794, S787, S791, S793, S783a, S740, S833 |
 | Benchmarks | S582 harness, final runs `f7*` (four smaller models) and `c8*` (27B) |
+| The END state is read into the read rows at layers 27–34 and re-enters them from the frame-word and menu rows | S896, S898, S903, S906, S909, S916 |
+| The early lookup (35–47) forms a graded preference over the images; swapping it between END runs moves the answer as predicted | S913, S915 |
+| The END-conditioned rewrite in layers 46–49 (mostly the MLP of layer 46) moves the address, also when it was already right | S859–S887, S912, S915, S918, S919 |
+| In output swaps the rewrite moves with the late full-attention read outputs (55–63), more with the menu-name reads than the image reads | S917, S921 |
+| The first-order intervention response is carried within the read rows (97%); the late full-attention reads alone carry 55–60%, the late DeltaNet mixers and MLPs the rest | S929 |
+| R3 against the circuit: address write alone = the natural END(target) question, frame write alone = START(k), both = START(target) | S920, S922, S923 |
+| Parameter-free intervention-response prediction on fresh scenes, including intervention types never run before | S926, S927, S930 (S928, S932 development) |
+| Text-only word lists: analogous END-conditioned distortions, captured by the same intervention-response framework | S931 |
 
 ## Methods in one paragraph each
 
@@ -93,6 +104,14 @@ Details, hooks and code pointers are in `docs/INTERVENTIONS.md`.
   - the chunked gated delta rule runs in three segments, so the rows after the images start from the state before them;
   - the convolution windows are spliced across the boundary.
   A finite decay is not used, because it leaks through the in-chunk cumulative sum.
+
+- **Intervention-response prediction** (`experiments/14_intervention_response_prediction/`). For a natural run, the change of the
+  menu logits under an intervention is predicted from the model's own gradients at the circuit's sites times the intervention's exact local
+  change there (the pinned attention recomputed from the natural inputs; the replaced band outputs), with the gradients taken with replaced
+  outputs held fixed. Band replacement crosses a curved region, so its part is integrated along its own path with one more evaluation at the
+  half-replaced band (a quadratic Hermite rule). Nothing is fitted to any outcome; the method uses the model's gradients and partial
+  interventions, never the full intervention being predicted. The transfer matrices it produces (pin the address to q, read the change of
+  every answer) show the k-specific step of the END circuit directly.
 
 ## Readout
 

@@ -89,7 +89,7 @@
   {
    "id": "S660",
    "code": 1,
-   "data": 9,
+   "data": 10,
    "summary": "S660: the two skills and their composition on the SAME scene (review W2, 2026-10-07). Procedural scenes as S643 (one-token shapes, N 5-7, re"
   },
   {
@@ -935,6 +935,462 @@
    "code": 2,
    "data": 4,
    "summary": "S855 (Gap 2, second stage; pre-registered in knowledge/DECISIONS.md before any S855 data). Does the actual-count dependence of the late look"
+  }
+ ],
+ "13_writer_end_circuit": [
+  {
+   "id": "S859",
+   "code": 2,
+   "data": 2,
+   "summary": "S859 (descriptive anatomy; registered in knowledge/DECISIONS.md before its data) - which heads of the writer band (27B: DeltaNet 46 / 48 / 4"
+  },
+  {
+   "id": "S860",
+   "code": 2,
+   "data": 3,
+   "summary": "S860 (head-level causal test after S859; registered in knowledge/DECISIONS.md before its data) - which components of the writer suppress the"
+  },
+  {
+   "id": "S861",
+   "code": 2,
+   "data": 2,
+   "summary": "S861 (registered in knowledge/DECISIONS.md before its data; user review 10-20 - three parts, judged separately) - does the S860 circuit act "
+  },
+  {
+   "id": "S862",
+   "code": 2,
+   "data": 2,
+   "summary": "S862 (registered in knowledge/DECISIONS.md before its data; user 10-20 'close the last chain and show that the identified algorithm predicts"
+  },
+  {
+   "id": "S863",
+   "code": 2,
+   "data": 1,
+   "summary": "S863 (registered in knowledge/DECISIONS.md before its data; the advisor's open gap 10-20 'where does k control the strength of leaving and p"
+  },
+  {
+   "id": "S864",
+   "code": 2,
+   "data": 1,
+   "summary": "S864 (registered in knowledge/DECISIONS.md before its data; the advisor's 'core generalisation' 10-20, S861-B redone with pins - S861-B was "
+  },
+  {
+   "id": "S865",
+   "code": 2,
+   "data": 2,
+   "summary": "S865 (registered in knowledge/DECISIONS.md before its data; S862 post hoc: the band's END part and the pinned one-back are N-invariant (D4) "
+  },
+  {
+   "id": "S866",
+   "code": 2,
+   "data": 1,
+   "summary": "S866 (registered in knowledge/DECISIONS.md before its data; user 10-21 'the complete algorithmic circuit of END is the top priority') - suff"
+  },
+  {
+   "id": "S867",
+   "code": 2,
+   "data": 2,
+   "summary": "S867 (registered in knowledge/DECISIONS.md before its data; the adversary's alternative 10-21: in S862's pinned END5 runs the landing moves "
+  },
+  {
+   "id": "S868",
+   "code": 2,
+   "data": 2,
+   "summary": "S868 (registered in knowledge/DECISIONS.md before its data; user 10-21 'the complete algorithmic circuit of END'; the post hoc reading of S8"
+  },
+  {
+   "id": "S869",
+   "code": 2,
+   "data": 2,
+   "summary": "S869 (registered in knowledge/DECISIONS.md before its data; advisor review 10-21 'compute why the same writer intervention flips some runs a"
+  },
+  {
+   "id": "S869r",
+   "code": 2,
+   "data": 2,
+   "summary": "S869R (registered analysis of stored data; knowledge/DECISIONS.md S869R entry, rules fixed before this analysis was computed) - late readout"
+  },
+  {
+   "id": "S870",
+   "code": 2,
+   "data": 2,
+   "summary": "S870 (registered in knowledge/DECISIONS.md before its data; advisor review 10-21 (S870: the early route selection law) and the user's questi"
+  },
+  {
+   "id": "S871",
+   "code": 2,
+   "data": 1,
+   "summary": "S871 (registered in knowledge/DECISIONS.md before its data; advisor review 3, 10-21: 'can the pre-writer state predict each run's writer eff"
+  },
+  {
+   "id": "S872",
+   "code": 5,
+   "data": 6,
+   "summary": "S872 (registered in knowledge/DECISIONS.md before its data; advisor review 4, 10-21: an address Jacobian lens / writer-effect lens, after th"
+  },
+  {
+   "id": "S873",
+   "code": 2,
+   "data": 2,
+   "summary": "S873 (registered in knowledge/DECISIONS.md before its data; causal tests of S872's Jacobian lens - advisor review 4 'lens readouts must matc"
+  },
+  {
+   "id": "S874",
+   "code": 2,
+   "data": 3,
+   "summary": "S874 (exploratory, descriptive; knowledge/DECISIONS.md 10-21 14:0x plan item 'S874 = the original J-lens, AB vs AQ') - the vocabulary Jacobi"
+  },
+  {
+   "id": "S875",
+   "code": 2,
+   "data": 2,
+   "summary": "S875 (advisor review 2, H1-H3: the QK-OV-logit bridge; design note research/ces/outputs/writer_circuit_2026-10-20/main/s875_design_note.md) "
+  },
+  {
+   "id": "S877",
+   "code": 2,
+   "data": 2,
+   "summary": "S877 (registered in knowledge/DECISIONS.md before its data; follows S873 A1 'the writer magnitude follows the context scene' and the post ho"
+  },
+  {
+   "id": "S878",
+   "code": 2,
+   "data": 2,
+   "summary": "S878 (registered in knowledge/DECISIONS.md before its data; advisor reviews 5 and 6, 10-21: the Query-Key crossed counterfactual) - is the s"
+  },
+  {
+   "id": "S879",
+   "code": 2,
+   "data": 2,
+   "summary": "S879 (registered in knowledge/DECISIONS.md before its data; advisor review 5 'boundary-route reinforcement': why N 5 END(3) is answered .88 "
+  },
+  {
+   "id": "S880",
+   "code": 2,
+   "data": 2,
+   "summary": "S880 (registered in knowledge/DECISIONS.md before its data; follows S873 A1 'the writer magnitude follows the context scene') - which pictur"
+  },
+  {
+   "id": "S881",
+   "code": 2,
+   "data": 1,
+   "summary": "S881 (registered in knowledge/DECISIONS.md before its data; S878 post hoc p20: the writer's late query update = a shared front-ward shift + "
+  },
+  {
+   "id": "S882",
+   "code": 2,
+   "data": 2,
+   "summary": "S882 (registered in knowledge/DECISIONS.md before its data; post hoc synthesis of S872 arms and S878: the writer = h16's scene-constant fron"
+  },
+  {
+   "id": "S883",
+   "code": 2,
+   "data": 1,
+   "summary": "S883 (registered in knowledge/DECISIONS.md before its data; after S882: the anchor-checking FA47 heads carry much of the per-scene writer va"
+  },
+  {
+   "id": "S884",
+   "code": 2,
+   "data": 2,
+   "summary": "S884 (registered in knowledge/DECISIONS.md before its data; after S881 / S878 post hoc p21: the writer's late query change has the sign stru"
+  },
+  {
+   "id": "S885",
+   "code": 2,
+   "data": 2,
+   "summary": "S885 (registered in knowledge/DECISIONS.md before its data; the weights-and-states companion of S884): capture what the composition map need"
+  },
+  {
+   "id": "S886",
+   "code": 2,
+   "data": 2,
+   "summary": "S886 (registered in knowledge/DECISIONS.md before its data; after S881 / p21 (the writer's late query change carries predecessor content (+)"
+  },
+  {
+   "id": "S887",
+   "code": 2,
+   "data": 2,
+   "summary": "S887 (registered in knowledge/DECISIONS.md before its data; after S885: FA47's END part is the self-address heads reading less of the anchor"
+  },
+  {
+   "id": "S888",
+   "code": 2,
+   "data": 2,
+   "summary": "S888 (registered in knowledge/DECISIONS.md before its data; after S884 H4: four early FA lookups reading another picture's content at the an"
+  },
+  {
+   "id": "S889",
+   "code": 2,
+   "data": 2,
+   "summary": "S889 (registered in knowledge/DECISIONS.md before its data; after S886 C1 (FA47 writes the predecessor content of the writer's late query ch"
+  },
+  {
+   "id": "S890",
+   "code": 2,
+   "data": 2,
+   "summary": "S890 (registered in knowledge/DECISIONS.md before its data; after S887: MLP46's END write, read through FA47's read-row queries and gates, c"
+  },
+  {
+   "id": "S891",
+   "code": 2,
+   "data": 2,
+   "summary": "S891 (registered in knowledge/DECISIONS.md before its data; predictions frozen and hashed before the run): does the composition map built fr"
+  },
+  {
+   "id": "S892",
+   "code": 2,
+   "data": 2,
+   "summary": "S892 (registered in knowledge/DECISIONS.md before its data; natural-run validation of the pinned S883-S887 findings) - do the writer's mecha"
+  },
+  {
+   "id": "S893",
+   "code": 2,
+   "data": 2,
+   "summary": "S893 (registered in knowledge/DECISIONS.md before its data; after S888: redirecting the anchor's content at the read rows through FA and Del"
+  },
+  {
+   "id": "S894",
+   "code": 2,
+   "data": 2,
+   "summary": "S894 (registered in knowledge/DECISIONS.md before its data; predictions frozen and hashed before the run; after the post hoc finding that EN"
+  },
+  {
+   "id": "S895",
+   "code": 2,
+   "data": 2,
+   "summary": "S895 (registered in knowledge/DECISIONS.md before its data; after S887 (layer 46's outputs restore only a third of the self-address heads' a"
+  },
+  {
+   "id": "S896",
+   "code": 2,
+   "data": 2,
+   "summary": "S896 (registered in knowledge/DECISIONS.md before its data; after the decomposition T1(E) = T1(R) + [T1(E_BANDR) - T1(R)] + W ~ -2.99 + 1.70"
+  },
+  {
+   "id": "S897",
+   "code": 2,
+   "data": 2,
+   "summary": "S897 (registered in knowledge/DECISIONS.md before its data; after S890: MLP46's path into FA47's queries and gates runs mainly through the 1"
+  },
+  {
+   "id": "S898",
+   "code": 2,
+   "data": 2,
+   "summary": "S898 (registered in knowledge/DECISIONS.md before its data; after S895: information written into the read rows before layer 35 restores 70% "
+  },
+  {
+   "id": "S899",
+   "code": 2,
+   "data": 5,
+   "summary": "S899 (registered in knowledge/DECISIONS.md before its data; S892's natural-run design extended to other N, centred on the middle identity ce"
+  },
+  {
+   "id": "S900",
+   "code": 2,
+   "data": 2,
+   "summary": "S900 (registered in knowledge/DECISIONS.md before its data) - two dissections in one pass. (A) h3 (S897: MLP46's path into FA47 runs through"
+  },
+  {
+   "id": "S901",
+   "code": 2,
+   "data": 2,
+   "summary": "S901 (registered in knowledge/DECISIONS.md before its data) - how the predecessor's context enters the anchor's representation. S889: the an"
+  },
+  {
+   "id": "S902",
+   "code": 1,
+   "data": 1,
+   "summary": "S902 analysis (rules fixed before the data; knowledge/DECISIONS.md S902 entry). Input results/r3/s899_<tag>_natural.json (exp/s899_natural_n"
+  },
+  {
+   "id": "S903",
+   "code": 2,
+   "data": 2,
+   "summary": "S903 (registered in knowledge/DECISIONS.md before its data) - which components of the frame-read band L27-34 write the read rows' END state?"
+  },
+  {
+   "id": "S904",
+   "code": 2,
+   "data": 2,
+   "summary": "S904 (registered in knowledge/DECISIONS.md before its data) - is the read rows' END state at layer 35 a scene-independent mode vector? S896:"
+  },
+  {
+   "id": "S905",
+   "code": 2,
+   "data": 2,
+   "summary": "S905 (registered in knowledge/DECISIONS.md before its data) - does the writer band move the address toward the end-relative target within th"
+  },
+  {
+   "id": "S906",
+   "code": 2,
+   "data": 2,
+   "summary": "S906 (registered in knowledge/DECISIONS.md before its data) - is the END mode vector the same for every ordinal? S904: at the layer-35 input"
+  },
+  {
+   "id": "S907",
+   "code": 2,
+   "data": 0,
+   "summary": "S907 (registered in knowledge/DECISIONS.md before its data) - can the frozen circuit-structured models predict every reference at an unseen "
+  },
+  {
+   "id": "S908",
+   "code": 2,
+   "data": 2,
+   "summary": "S908 (registered in knowledge/DECISIONS.md before its data) - where are the frame word and the ordinal bound into the k-specific END(k) tran"
+  },
+  {
+   "id": "S909",
+   "code": 2,
+   "data": 4,
+   "summary": "S909 (registered in knowledge/DECISIONS.md before its data) - is the END(k) transform vector an end-relative offset? S906: at N8 the read ro"
+  },
+  {
+   "id": "S910",
+   "code": 2,
+   "data": 2,
+   "summary": "S910 (registered in knowledge/DECISIONS.md before its data; adversarial review 10-22, item D1) - pinned vs natural at the same anchor. S905:"
+  },
+  {
+   "id": "S911",
+   "code": 2,
+   "data": 2,
+   "summary": "S911 (registered in knowledge/DECISIONS.md before its data; adversarial review 10-22, item D2) - how far does the END(k) transform vector re"
+  },
+  {
+   "id": "S912",
+   "code": 2,
+   "data": 4,
+   "summary": "S912 (registered in knowledge/DECISIONS.md before its data; adversarial review 10-22, item D3) - which writer components carry the identity "
+  },
+  {
+   "id": "S915",
+   "code": 2,
+   "data": 4,
+   "summary": "S915 collector (registered in knowledge/DECISIONS.md before the data; the advisor's sufficiency demand, 10-22) - is the early-address profil"
+  },
+  {
+   "id": "S916",
+   "code": 2,
+   "data": 2,
+   "summary": "S916 collector (registered in knowledge/DECISIONS.md before the data) - where does END(2)'s end-side answer come from when the read-row vect"
+  },
+  {
+   "id": "S917",
+   "code": 2,
+   "data": 1,
+   "summary": "S917 collector (registered in knowledge/DECISIONS.md before the data) - is the writer's effect on the answer transmitted through the late fu"
+  },
+  {
+   "id": "S918",
+   "code": 2,
+   "data": 1,
+   "summary": "S918 collector (registered in knowledge/DECISIONS.md before the data; advisor review 2, 10-22: address vs reading strength) - at a fixed ear"
+  },
+  {
+   "id": "S919",
+   "code": 2,
+   "data": 1,
+   "summary": "S919 collector (registered in knowledge/DECISIONS.md before the data) - S918 R3: with END's early query and reading strength given, the STAR"
+  },
+  {
+   "id": "S920",
+   "code": 2,
+   "data": 2,
+   "summary": "S920 collector (registered in knowledge/DECISIONS.md before the data; advisor reviews 2-3) - R\u00b3 against the END circuit on the same scenes: "
+  },
+  {
+   "id": "S921",
+   "code": 2,
+   "data": 2,
+   "summary": "S921 collector (registered in knowledge/DECISIONS.md before the data; advisor review 3: S917 left the late menu / picture division open beca"
+  },
+  {
+   "id": "S922",
+   "code": 1,
+   "data": 1,
+   "summary": "S922 analysis = S920's rules on one replication set (registered in knowledge/DECISIONS.md S922 entry): results/r3/s920_<tag>_r3circuit.json "
+  }
+ ],
+ "14_intervention_response_prediction": [
+  {
+   "id": "S913",
+   "code": 4,
+   "data": 7,
+   "summary": "S913 / S914 data collector (registered in knowledge/DECISIONS.md before the data; the advisor's frozen-prediction design, 10-22) - does the "
+  },
+  {
+   "id": "S914",
+   "code": 1,
+   "data": 1,
+   "summary": "S914 analysis (rules fixed before the data; knowledge/DECISIONS.md S914 entry; the advisor's design, 10-22). Frozen predictors main/s913_fro"
+  },
+  {
+   "id": "S923",
+   "code": 2,
+   "data": 2,
+   "summary": "S923 fit and freeze (registered in knowledge/DECISIONS.md before the S923 test data): the circuit-structured predictor AP - S913's structure"
+  },
+  {
+   "id": "S924",
+   "code": 3,
+   "data": 5,
+   "summary": "S924 collector (registered in knowledge/DECISIONS.md before the data; user 10-23: keep going until intervention prediction clearly works) - "
+  },
+  {
+   "id": "S925",
+   "code": 0,
+   "data": 0,
+   "summary": ""
+  },
+  {
+   "id": "S926",
+   "code": 2,
+   "data": 5,
+   "summary": "S926 collector (registered in knowledge/DECISIONS.md before the data; user 10-23: keep going until intervention prediction clearly works) - "
+  },
+  {
+   "id": "S927",
+   "code": 2,
+   "data": 4,
+   "summary": "S927 - parameter-free linear-response (LR) predictor of intervention outcomes from the model's own gradients (user 10-23: '\ubaa8\ub378 \ub0b4\ubd80 \uadf8\ub77c\ub514\uc5b8\ud2b8\ub098 \ubb50 \uc774\uac83"
+  },
+  {
+   "id": "S928",
+   "code": 1,
+   "data": 1,
+   "summary": "S928 - path-integral (quadrature) extension of S927's linear response (user 10-23: '\ubaa8\ub378 \ub0b4\ubd80 \uadf8\ub77c\ub514\uc5b8\ud2b8 ... \uc218\ud559\uc801\uc73c\ub85c \uc6b0\uc544\ud558\uac8c'). For an intervention I with"
+  },
+  {
+   "id": "S928h",
+   "code": 1,
+   "data": 4,
+   "summary": "S928h - fast path of S928 for HERM only (no backward at the half state; all arms in one batched forward). Otherwise identical. S928 - path-i"
+  },
+  {
+   "id": "S929",
+   "code": 2,
+   "data": 4,
+   "summary": "S929 - circuit-restricted linear response: does the identified circuit carry the model's first-order response to the interventions? Same com"
+  },
+  {
+   "id": "S930",
+   "code": 1,
+   "data": 1,
+   "summary": "S930 analysis = S926's (exp/s926_analyze.py) with two execution fixes learned from S926 N7 (I0 failed on bf16 ties, 10-23 08:5x): (1) I0 nat"
+  },
+  {
+   "id": "S932",
+   "code": 2,
+   "data": 2,
+   "summary": "S932dev - every intervention by the quadratic along its OWN path (user 10-23: elegant, model-internal): pins: the real pin path - at every p"
+  }
+ ],
+ "15_text_only": [
+  {
+   "id": "S931",
+   "code": 4,
+   "data": 4,
+   "summary": "S931 text-only collector - S926's collector (all arms and sub-passes unchanged) on WORD LISTS instead of pictures (user 10-23: can the text-"
   }
  ]
 }

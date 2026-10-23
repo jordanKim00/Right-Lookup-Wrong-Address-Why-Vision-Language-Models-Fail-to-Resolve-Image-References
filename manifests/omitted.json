@@ -1,5 +1,152 @@
 [
  {
+  "src": "results/r3/s863_s863_27b_klocus.json",
+  "dst": "experiments/13_writer_end_circuit/S863/data/s863_s863_27b_klocus.json",
+  "bytes": 205814055,
+  "sha256": "8a4c41899fc759757bab01d3eb61b76cff7cd0c1ebefb01c1672b9501779ee08",
+  "reason": "> 20.0 MB after slimming",
+  "dropped_keys": [
+   "qk",
+   "subpass",
+   "zl"
+  ]
+ },
+ {
+  "src": "results/r3/s864_s864_27b_opident.json",
+  "dst": "experiments/13_writer_end_circuit/S864/data/s864_s864_27b_opident.json",
+  "bytes": 172320665,
+  "sha256": "f17dfe600ad3c9f2a24152fc6d4809adbacf33cc698a832b7168ac44bab81d2f",
+  "reason": "> 20.0 MB after slimming",
+  "dropped_keys": [
+   "qk",
+   "zl"
+  ]
+ },
+ {
+  "src": "results/r3/s866_s866_27b_suff.json",
+  "dst": "experiments/13_writer_end_circuit/S866/data/s866_s866_27b_suff.json",
+  "bytes": 178442564,
+  "sha256": "1b8c119931e69c041f552cf8c209505a0c4da49d156c3e5cf58f2026d7ca3efc",
+  "reason": "> 20.0 MB after slimming",
+  "dropped_keys": [
+   "qk",
+   "zl"
+  ]
+ },
+ {
+  "src": "results/r3/s871_s871_27b_writer.json",
+  "dst": "experiments/13_writer_end_circuit/S871/data/s871_s871_27b_writer.json",
+  "bytes": 185122546,
+  "sha256": "b352478167192b774da12cfb5d21059f904ad262a7338b5ae627958c8dd0086c",
+  "reason": "> 20.0 MB after slimming",
+  "dropped_keys": [
+   "qk",
+   "zl"
+  ]
+ },
+ {
+  "src": "results/r3/s881_s881_27b_anchorrm.json",
+  "dst": "experiments/13_writer_end_circuit/S881/data/s881_s881_27b_anchorrm.json",
+  "bytes": 73109134,
+  "sha256": "4d623d2f0976259dbc5190cae341c8e696bf512a2eec3bb71dec1d158efb635f",
+  "reason": "> 20.0 MB after slimming",
+  "dropped_keys": [
+   "zl"
+  ]
+ },
+ {
+  "src": "results/r3/s883_s883_27b_readgate.json",
+  "dst": "experiments/13_writer_end_circuit/S883/data/s883_s883_27b_readgate.json",
+  "bytes": 100213930,
+  "sha256": "1593040cd49fa549981f7ec0b003ece7490bd35a5ee9f1a8face014652734b17",
+  "reason": "> 20.0 MB after slimming",
+  "dropped_keys": [
+   "zl"
+  ]
+ },
+ {
+  "src": "results/r3/s915_s915A_27b_cross.json",
+  "dst": "experiments/13_writer_end_circuit/S915/data/s915_s915A_27b_cross.json",
+  "bytes": 329291383,
+  "sha256": "1a5015cdb05c1fba6de93a1604f42e75b7f81041d82d47237e90fb20da133187",
+  "reason": "> 20.0 MB after slimming",
+  "dropped_keys": [
+   "qk43h",
+   "qk47h"
+  ]
+ },
+ {
+  "src": "results/r3/s915_s915B_27b_cross.json",
+  "dst": "experiments/13_writer_end_circuit/S915/data/s915_s915B_27b_cross.json",
+  "bytes": 198148983,
+  "sha256": "73b70c56e21858c0587e809f19932affda8fb584d7a8d0c9e68b249d2c3b3cc0",
+  "reason": "> 20.0 MB after slimming",
+  "dropped_keys": [
+   "qk43h",
+   "qk47h"
+  ]
+ },
+ {
+  "src": "results/r3/s917_s917_27b_lateroute.json",
+  "dst": "experiments/13_writer_end_circuit/S917/data/s917_s917_27b_lateroute.json",
+  "bytes": 27528342,
+  "sha256": "f7bc9c012c0a0c43680af5e25f8175b0131474da325cea34e130cf7773f673bc",
+  "reason": "> 20.0 MB after slimming",
+  "dropped_keys": []
+ },
+ {
+  "src": "results/r3/s918_s918_27b_reading.json",
+  "dst": "experiments/13_writer_end_circuit/S918/data/s918_s918_27b_reading.json",
+  "bytes": 144753750,
+  "sha256": "768352c00a0a159df55c9f438a511959f9ed4952163a656cb5a1a4d59f647d49",
+  "reason": "> 20.0 MB after slimming",
+  "dropped_keys": [
+   "qk43h",
+   "qk47h"
+  ]
+ },
+ {
+  "src": "results/r3/s919_s919_27b_bandstate.json",
+  "dst": "experiments/13_writer_end_circuit/S919/data/s919_s919_27b_bandstate.json",
+  "bytes": 138555668,
+  "sha256": "5b16d33a6dd213e519e823788a65c3f69df398b48482a05453bc54c74761bfce",
+  "reason": "> 20.0 MB after slimming",
+  "dropped_keys": [
+   "qk43h",
+   "qk47h"
+  ]
+ },
+ {
+  "src": "results/r3/s920_s920B_27b_r3circuit.json",
+  "dst": "experiments/13_writer_end_circuit/S920/data/s920_s920B_27b_r3circuit.json",
+  "bytes": 48069487,
+  "sha256": "df0624892ebca842155b74ff16905f253df2d7d791170d1cdb6c6e7014b2f8fb",
+  "reason": "> 20.0 MB after slimming",
+  "dropped_keys": [
+   "qk47h"
+  ]
+ },
+ {
+  "src": "results/r3/s920_s922_27b_r3circuit.json",
+  "dst": "experiments/13_writer_end_circuit/S920/data/s920_s922_27b_r3circuit.json",
+  "bytes": 49553933,
+  "sha256": "060f2ae386f5740a5229b5c1f84ac4e693ea9547198f2a03a39ae51a4be82709",
+  "reason": "> 20.0 MB after slimming",
+  "dropped_keys": [
+   "qk47h"
+  ]
+ },
+ {
+  "src": "results/r3/s920_s923B_27b_r3circuit.json",
+  "dst": "experiments/13_writer_end_circuit/S920/data/s920_s923B_27b_r3circuit.json",
+  "bytes": 48299392,
+  "sha256": "9e857963fe7444af9136b3e277dbd1c3c618a133cf908a1572818f56b851c02b",
+  "reason": "> 20.0 MB after slimming",
+  "dropped_keys": [
+   "qk47h"
+  ]
+ },
+ {
   "src": "results/r3/s705a_smoke705a_qkanatomy.npz",
   "bytes": 36699272,
   "sha256": "53f8b1466d5339377cb5a0630f72780fbc40685d083add342ed21f6ec497760c",
@@ -1071,6 +1218,66 @@
   "src": "results/r3/s858_s858smoke_27b_pred.npz",
   "bytes": 7353573,
   "sha256": "8fd250cc272494f71290c78e8f04cd4b292b510c83809ca9ba630de454db4fbd",
+  "reason": "activation capture (.npz), not released"
+ },
+ {
+  "src": "results/r3/s859_s859_27b_anat.npz",
+  "bytes": 4416400039,
+  "sha256": "30385257c5b4f20a938186383d5361846ae3eee023f47d370f9d2446af017604",
+  "reason": "activation capture (.npz), not released"
+ },
+ {
+  "src": "results/r3/s859_s859smoke_27b_anat.npz",
+  "bytes": 94142984,
+  "sha256": "a373f9e633c737bbf12f8ee3237c6336ebf5efd21e0095dbdd509d536c511bda",
+  "reason": "activation capture (.npz), not released"
+ },
+ {
+  "src": "results/r3/s859_s859smoke3_27b_anat.npz",
+  "bytes": 183985220,
+  "sha256": "6717a61f73fbe6fa2372b6adc11e355a2a75c5f4b7b4e20c40bbd165db2c1fac",
+  "reason": "activation capture (.npz), not released"
+ },
+ {
+  "src": "results/r3/s859_s859smoke2_27b_anat.npz",
+  "bytes": 130831261,
+  "sha256": "925ba9f5ab79cd37986dbab3a2d291f5ed7c90fc8d2a4de3891612a1cffbca7c",
+  "reason": "activation capture (.npz), not released"
+ },
+ {
+  "src": "results/r3/s871_s871smoke_27b_hpre.npz",
+  "bytes": 5693396,
+  "sha256": "f55bf0b73246169dd396009ba77286a3725e02b5dc58b80f46093648a7627816",
+  "reason": "activation capture (.npz), not released"
+ },
+ {
+  "src": "results/r3/s871_s871_27b_hpre.npz",
+  "bytes": 91120171,
+  "sha256": "3e41587d72cc4c110097319b012a76f91a7040db94a28d120bd12d4136edc0f3",
+  "reason": "activation capture (.npz), not released"
+ },
+ {
+  "src": "results/r3/s874_s874smoke_27b_lens.npz",
+  "bytes": 2905692,
+  "sha256": "2c2248262b8577ac1dad27ace950687c1d2caa61190234895b212bda57d4aece",
+  "reason": "activation capture (.npz), not released"
+ },
+ {
+  "src": "results/r3/s874_s874smoke_27b_rows.npz",
+  "bytes": 44156830,
+  "sha256": "dd9bc90dc97800f01251c44804b46906976c217f380b03e114ebdb27d304dbe0",
+  "reason": "activation capture (.npz), not released"
+ },
+ {
+  "src": "results/r3/s874_s874_27b_lens.npz",
+  "bytes": 34860252,
+  "sha256": "2388816fa1226109e5a516085dc32d56dd6b80a3ee36c87b1567ede149ec1177",
+  "reason": "activation capture (.npz), not released"
+ },
+ {
+  "src": "results/r3/s874_s874_27b_rows.npz",
+  "bytes": 44156830,
+  "sha256": "49a910d50615a82dc72b0b8a81297d957c90b374995a10344fe67e70d8989338",
   "reason": "activation capture (.npz), not released"
  }
 ]

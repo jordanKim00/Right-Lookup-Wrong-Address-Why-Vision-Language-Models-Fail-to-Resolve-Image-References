@@ -10,4 +10,13 @@ Code: `code/s731_wcal.py`
 
 Shared modules: `lib/r3_build.py`, `lib/r3_build_md.py`, `lib/uni.py`
 
-Data: none released here
+Data: none of its own (see below)
+
+Its scripts and records are released with the experiments it was run with (the same notebook section):
+
+- `experiments/10_r3_rebinding/S730/code/s730_analyze.py`
+- `experiments/10_r3_rebinding/S730/code/s730_stagewise.py`
+- `experiments/10_r3_rebinding/S730/data/s730_stw_27b_stagewise.json`
+- `experiments/10_r3_rebinding/S730/data/s730_stw_35_4b_stagewise.json`
+
+Notebook sections: §758, §767 (the notebook itself is not released).

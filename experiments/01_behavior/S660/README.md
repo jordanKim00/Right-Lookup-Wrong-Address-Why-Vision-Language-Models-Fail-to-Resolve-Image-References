@@ -12,4 +12,4 @@ Code: `code/s660_samescene.py`
 
 Shared modules: `lib/r3_proc.py`, `lib/uni.py`
 
-Data: `data/s660_s784ss_35_4b_samescene.json`, `data/s660_s784ss_35_9b_samescene.json`, `data/s660_s784ss_4b_samescene.json`, `data/s660_s784ss_8b_samescene.json`, `data/s660_ss2_4b_samescene.json`, `data/s660_ss_35_4b_samescene.json`, `data/s660_ss_35_9b_samescene.json`, `data/s660_ss_4b_samescene.json`, `data/s660_ss_8b_samescene.json`
+Data: `data/s660_s784ss_27b_samescene.json`, `data/s660_s784ss_35_4b_samescene.json`, `data/s660_s784ss_35_9b_samescene.json`, `data/s660_s784ss_4b_samescene.json`, `data/s660_s784ss_8b_samescene.json`, `data/s660_ss2_4b_samescene.json`, `data/s660_ss_35_4b_samescene.json`, `data/s660_ss_35_9b_samescene.json`, `data/s660_ss_4b_samescene.json`, `data/s660_ss_8b_samescene.json`
